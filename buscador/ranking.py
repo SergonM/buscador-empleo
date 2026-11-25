@@ -8,7 +8,7 @@ from .texto import encontradas, normalizar
 def puntuar(o, perfil, hoy=None):
     hoy = hoy or date.today()
     titulo = normalizar(o["titulo"])
-    desc = normalizar(o["descripcion"])
+    desc = normalizar(o.get("descripcion", ""))
     puntos, razones = 0, []
 
     # Área (lo más importante): título pesa más que descripción.
@@ -39,12 +39,15 @@ def puntuar(o, perfil, hoy=None):
         razones.append("remoto" + (" desde Colombia" if "colombia" in paises else ""))
     elif "colombia" in paises:
         puntos += 8
-        razones.append(o["modalidad"].lower() + " en Bogotá")
+        donde = "Bogotá" if "bogota" in normalizar(o.get("ubicacion", "")) else "Colombia"
+        razones.append(o["modalidad"].lower() + " en " + donde)
 
     # Bonus por experiencia previa y palabras clave
     extras = []
     for palabra, frase in perfil["bonus"]["palabras"].items():
-        if encontradas(desc, [palabra]) or encontradas(titulo, [palabra]):
+        en_titulo = encontradas(titulo, [palabra])
+        # Compliance cuenta solo si está en el cargo (en la descripción aparece en casi todas).
+        if en_titulo or (palabra not in ("compliance", "cumplimiento") and encontradas(desc, [palabra])):
             if frase not in extras:
                 extras.append(frase)
     puntos += min(len(extras), 3) * 4

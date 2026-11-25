@@ -80,6 +80,12 @@ class Pruebas(unittest.TestCase):
         b = li({"site": "indeed", "id": "6", "title": "Analista de operaciones- Tarjetas de credito", "company": "QNT", "location": "Bogotá", "job_url": "u"})
         self.assertEqual(len(deduplicar([a, b])), 1)
 
+    def test_oferta_conservada_sin_descripcion(self):
+        o = self.o("Data Analyst Junior")
+        o.pop("descripcion")
+        self.assertIsNone(motivo_descarte(o, PERFIL))
+        puntuar(o, PERFIL)
+
     def test_remotos_zona(self):
         from buscador.fuentes.remotos import _zona_ok
         self.assertTrue(_zona_ok("LATAM"))

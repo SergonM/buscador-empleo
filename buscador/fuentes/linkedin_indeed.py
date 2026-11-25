@@ -83,13 +83,15 @@ def buscar(cfg):
     ]
     for sitio, extra in sitios:
         fallos = 0
-        for termino in cfg["busquedas"]:
+        terminos = cfg["busquedas"] if sitio == "indeed" else cfg.get("busquedas_linkedin", cfg["busquedas"])
+        for termino in terminos:
             if fallos >= 2:  # si el sitio nos está bloqueando, no insistir
                 print(f"  [jobspy] {sitio}: demasiados errores, se salta el resto")
                 break
             try:
                 df = scrape_jobs(
-                    site_name=[sitio], search_term=termino, results_wanted=cfg.get("resultados", 25),
+                    site_name=[sitio], search_term=termino,
+                    results_wanted=cfg.get("resultados", 25) if sitio == "indeed" else cfg.get("resultados_linkedin", 20),
                     hours_old=cfg.get("horas", 24), description_format="plain", verbose=0, **extra,
                 )
                 errores = (getattr(df, "attrs", {}) or {}).get("errors") or {}
@@ -107,5 +109,5 @@ def buscar(cfg):
             except Exception as e:  # noqa: BLE001
                 fallos += 1
                 print(f"  [jobspy] {sitio} '{termino}' falló: {e}", file=sys.stderr)
-            time.sleep(cfg.get("pausa", 6))
+            time.sleep(cfg.get("pausa", 6) if sitio == "indeed" else cfg.get("pausa_linkedin", 25))
     return list(ofertas.values()), muestra

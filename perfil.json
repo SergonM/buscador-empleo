@@ -259,7 +259,16 @@
     "resultados": 25,
     "pausa": 6,
     "ciudad": "Bogotá",
-    "pais": "Colombia"
+    "pais": "Colombia",
+    "busquedas_linkedin": [
+      "data analyst junior",
+      "analista de datos",
+      "ciberseguridad junior",
+      "compliance analyst",
+      "product analyst"
+    ],
+    "resultados_linkedin": 20,
+    "pausa_linkedin": 25
   },
   "himalayas": [
     "data analyst",

@@ -7,7 +7,7 @@ from .texto import anios_experiencia, contiene, encontradas, normalizar
 def motivo_descarte(o, perfil):
     """Devuelve un texto con el motivo si la oferta se descarta, o None si pasa."""
     titulo = normalizar(o["titulo"])
-    desc = normalizar(o["descripcion"])
+    desc = normalizar(o.get("descripcion", ""))
     es_junior_titulo = bool(encontradas(titulo, perfil["junior_titulo"]))
 
     # 1. Senior por título
