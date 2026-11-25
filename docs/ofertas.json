@@ -1,17 +1,17 @@
 {
  "resumen": {
-  "actualizado": "2026-11-25T07:13+00:00",
+  "actualizado": "2026-11-25T07:17+00:00",
   "fecha": "2026-11-25",
-  "revisadas": 739,
+  "revisadas": 723,
   "mostradas": 54,
   "nuevas": 54,
   "descartes": {
-   "título senior": 214,
-   "ubicación": 179,
+   "título senior": 211,
+   "ubicación": 176,
    "nivel Senior": 101,
    "rol no buscado": 54,
    "pide 3 años de experiencia": 49,
-   "fuera de las áreas buscadas": 36,
+   "fuera de las áreas buscadas": 32,
    "pide 5 años de experiencia": 17,
    "pide 4 años de experiencia": 11,
    "nivel Experto": 2,
@@ -26,7 +26,7 @@
   ],
   "por_fuente": {
    "GetOnBoard": 620,
-   "LinkedIn + Indeed": 110,
+   "LinkedIn + Indeed": 94,
    "Remotive": 8,
    "Himalayas": 1
   }
@@ -56,6 +56,33 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · híbrido en Bogotá · pide python, sql, power bi",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "gob-infosec-analyst-i-lemontech-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Infosec Analyst I",
+   "empresa": "LemonTech",
+   "url": "https://www.getonbrd.com/jobs/infosec-analyst-i-lemontech-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-13",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "Cybersecurity",
+   "idioma": "lang_not_specified",
+   "salario": "",
+   "puntaje": 72,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · junior · remoto · pide iso 27001, controles, politicas",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -218,33 +245,6 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide excel, procesos, requerimientos",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "gob-infosec-analyst-i-lemontech-remote",
-   "fuente": "GetOnBoard",
-   "titulo": "Infosec Analyst I",
-   "empresa": "LemonTech",
-   "url": "https://www.getonbrd.com/jobs/infosec-analyst-i-lemontech-remote",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Remote"
-   ],
-   "ubicacion": "Remote",
-   "fecha": "2026-11-13",
-   "seniority_id": 2,
-   "seniority": "Junior",
-   "categoria": "Cybersecurity",
-   "idioma": "lang_not_specified",
-   "salario": "",
-   "puntaje": 60,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · junior · remoto · pide metricas",
    "visto": "2026-11-25",
    "nueva": true
   },
