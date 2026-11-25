@@ -135,8 +135,10 @@
     "palabras": {
       "compliance": "experiencia en Compliance (J&J)",
       "cumplimiento": "experiencia en Compliance (J&J)",
-      "salud": "sector salud como en J&J",
-      "health": "sector salud como en J&J",
+      "healthcare": "sector salud como en J&J",
+      "sector salud": "sector salud como en J&J",
+      "life sciences": "sector salud como en J&J",
+      "dispositivos medicos": "sector salud como en J&J",
       "pharma": "sector farma como en J&J",
       "farmaceutica": "sector farma como en J&J",
       "fintech": "fintech",

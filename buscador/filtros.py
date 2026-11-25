@@ -63,8 +63,20 @@ def ubicacion_ok(o, perfil):
     return contiene(texto, perfil["ciudad"]) or not encontradas(texto, otras)
 
 
+GENERICAS = {"analista", "analyst", "consultor", "consultant"}
+
+
 def areas_en_titulo(titulo_norm, perfil):
-    return [a for a, cfg in perfil["areas"].items() if encontradas(titulo_norm, cfg["titulo"])]
+    """Áreas cuyo vocabulario aparece en el cargo. 'Analista' a secas solo cuenta como
+    Negocio / Producto si el cargo no es claramente de otra área."""
+    especificas, genericas = [], []
+    for a, cfg in perfil["areas"].items():
+        hits = encontradas(titulo_norm, cfg["titulo"])
+        if any(h not in GENERICAS for h in hits):
+            especificas.append(a)
+        elif hits:
+            genericas.append(a)
+    return especificas or genericas
 
 
 def deduplicar(ofertas):
