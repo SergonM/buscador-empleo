@@ -13,6 +13,10 @@ def motivo_descarte(o, perfil):
     if malas and not es_junior_titulo:
         return f"título senior ({malas[0]})"
 
+    otras = encontradas(titulo, perfil.get("excluir_otros_titulo", []))
+    if otras:
+        return f"rol no buscado ({otras[0]})"
+
     # 2. Senior por nivel declarado en la fuente
     sid = o.get("seniority_id")
     if sid is not None and sid >= 4:
