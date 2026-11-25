@@ -1,4 +1,6 @@
 """Filtros: descarta senior, experiencia alta, ubicación fuera de Colombia/LATAM y ofertas sin relación."""
+import re
+
 from .texto import anios_experiencia, contiene, encontradas, normalizar
 
 
@@ -51,8 +53,13 @@ def ubicacion_ok(o, perfil):
     # Híbrido o presencial: Colombia y, si menciona ciudad, que sea Bogotá.
     if not en_colombia:
         return False
-    texto = normalizar(o.get("ubicacion", "") + " " + o.get("descripcion", ""))
-    otras = ["medellin", "cali", "barranquilla", "bucaramanga", "cartagena", "pereira"]
+    otras = perfil.get("ciudades_otras", [])
+    ubic = normalizar(o.get("ubicacion", "") + " " + o.get("titulo", ""))
+    if contiene(ubic, perfil["ciudad"]):
+        return True
+    if encontradas(ubic, otras):
+        return False
+    texto = normalizar(o.get("descripcion", ""))
     return contiene(texto, perfil["ciudad"]) or not encontradas(texto, otras)
 
 
@@ -64,9 +71,19 @@ def deduplicar(ofertas):
     """Quita duplicados por id y por (título, empresa) normalizados."""
     vistos, salida = set(), []
     for o in ofertas:
-        clave = (normalizar(o["titulo"]), normalizar(o["empresa"]))
+        clave = (_clave(o["titulo"]), _clave(o["empresa"], empresa=True))
         if o["id"] in vistos or clave in vistos:
             continue
         vistos.update([o["id"], clave])
         salida.append(o)
     return salida
+
+
+_SUFIJOS = re.compile(r"\b(s ?a ?s|s ?a|ltda|inc|llc|ltd|corp|colombia|group|grupo)\b")
+
+
+def _clave(texto, empresa=False):
+    t = re.sub(r"[^a-z0-9 ]", " ", normalizar(texto))
+    if empresa:
+        t = _SUFIJOS.sub(" ", t)
+    return " ".join(t.split())

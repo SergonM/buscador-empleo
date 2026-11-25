@@ -35,7 +35,8 @@ def _a_oferta(r):
     fuente = "LinkedIn" if site == "linkedin" else "Indeed" if site == "indeed" else site.title()
     ubic = str(_v(r.get("location")) or "")
     desc = str(_v(r.get("description")) or "")
-    remoto = bool(_v(r.get("is_remote")))
+    titulo = str(_v(r.get("title")) or "")
+    remoto = bool(_v(r.get("is_remote"))) or bool(re.search(r"\b(remote|remoto|teletrabajo)\b", titulo, re.I))
     if remoto:
         modalidad, rm = "Remoto", "fully_remote"
     elif _HIBRIDO.search(desc) or _HIBRIDO.search(ubic):

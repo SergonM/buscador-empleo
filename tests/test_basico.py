@@ -72,6 +72,13 @@ class Pruebas(unittest.TestCase):
         med = li({"site": "indeed", "id": "in-2", "title": "Data Analyst", "company": "X", "location": "Medellín, Antioquia",
                   "job_url": "https://co.indeed.com/viewjob?jk=2", "description": ""})
         self.assertIn("ubicación", motivo_descarte(med, PERFIL))
+        arm = li({"site": "linkedin", "id": "3", "title": "Risk Data Analyst", "company": "T", "location": "Armenia, Quindío, Colombia", "job_url": "u"})
+        self.assertIn("ubicación", motivo_descarte(arm, PERFIL))
+        rem = li({"site": "linkedin", "id": "4", "title": "Data Analyst - Remote Work", "company": "B", "location": "Colombia", "job_url": "u"})
+        self.assertEqual(rem["modalidad"], "Remoto")
+        a = li({"site": "indeed", "id": "5", "title": "ANALISTA DE OPERACIONES (TARJETAS DE CRÉDITO)", "company": "Qnt SAS", "location": "Bogotá", "job_url": "u"})
+        b = li({"site": "indeed", "id": "6", "title": "Analista de operaciones- Tarjetas de credito", "company": "QNT", "location": "Bogotá", "job_url": "u"})
+        self.assertEqual(len(deduplicar([a, b])), 1)
 
     def test_remotos_zona(self):
         from buscador.fuentes.remotos import _zona_ok

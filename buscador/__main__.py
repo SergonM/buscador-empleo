@@ -69,7 +69,8 @@ def main():
         ofertas.append(puntuar(o, perfil, hoy))
 
     limite = (hoy - timedelta(days=perfil["dias_mostrar"])).isoformat()
-    ofertas += [o for o in conservar if o.get("visto", "") >= limite]
+    # Se vuelven a filtrar por si cambió perfil.json.
+    ofertas += [o for o in conservar if o.get("visto", "") >= limite and not motivo_descarte(o, perfil)]
     ofertas = deduplicar(ofertas)
     ofertas = [o for o in ofertas if not o["fecha"] or o["fecha"] >= limite]
     for o in ofertas:
