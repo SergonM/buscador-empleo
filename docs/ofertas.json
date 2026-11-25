@@ -1,17 +1,17 @@
 {
  "resumen": {
-  "actualizado": "2026-11-25T07:08+00:00",
+  "actualizado": "2026-11-25T07:13+00:00",
   "fecha": "2026-11-25",
-  "revisadas": 747,
+  "revisadas": 739,
   "mostradas": 54,
   "nuevas": 54,
   "descartes": {
    "título senior": 214,
-   "ubicación": 180,
+   "ubicación": 179,
    "nivel Senior": 101,
-   "rol no buscado": 55,
+   "rol no buscado": 54,
    "pide 3 años de experiencia": 49,
-   "fuera de las áreas buscadas": 38,
+   "fuera de las áreas buscadas": 36,
    "pide 5 años de experiencia": 17,
    "pide 4 años de experiencia": 11,
    "nivel Experto": 2,
@@ -26,7 +26,7 @@
   ],
   "por_fuente": {
    "GetOnBoard": 620,
-   "LinkedIn + Indeed": 118,
+   "LinkedIn + Indeed": 110,
    "Remotive": 8,
    "Himalayas": 1
   }
@@ -51,12 +51,11 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
-   "puntaje": 77,
+   "puntaje": 72,
    "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
+    "Datos / ML"
    ],
-   "por_que": "Datos / ML + Negocio / Producto · híbrido en Bogotá · pide python, sql, power bi",
+   "por_que": "Datos / ML · híbrido en Bogotá · pide python, sql, power bi",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -196,33 +195,6 @@
    "nueva": true
   },
   {
-   "id": "indeed-in-9337048bda513f9a",
-   "fuente": "Indeed",
-   "titulo": "Quality Assurance Analyst",
-   "empresa": "Reckitt",
-   "url": "https://co.indeed.com/viewjob?jk=9337048bda513f9a",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, CUN, Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 63,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders, excel · sector salud como en J&J",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
    "id": "indeed-in-f8f32fc46a8dae4c",
    "fuente": "Indeed",
    "titulo": "ANALISTA DE OPERACIONES (TARJETAS DE CRÉDITO)",
@@ -246,61 +218,6 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide excel, procesos, requerimientos",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "gob-conversational-ai-qa-specialist-evolution-collect-llc-remote",
-   "fuente": "GetOnBoard",
-   "titulo": "Conversational AI QA Specialist",
-   "empresa": "Evolution Collect LLC",
-   "url": "https://www.getonbrd.com/jobs/conversational-ai-qa-specialist-evolution-collect-llc-remote",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Remote"
-   ],
-   "ubicacion": "Remote",
-   "fecha": "2026-11-03",
-   "seniority_id": 2,
-   "seniority": "Junior",
-   "categoria": "SysAdmin / DevOps / QA",
-   "idioma": "en",
-   "salario": "USD 2.900–3.200",
-   "puntaje": 61,
-   "areas": [
-    "Datos / ML"
-   ],
-   "por_que": "Datos / ML · junior · remoto · sector salud como en J&J",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494397002",
-   "fuente": "LinkedIn",
-   "titulo": "Data Analyst (Spark & SQL) - Remote Work",
-   "empresa": "BairesDev",
-   "url": "https://www.linkedin.com/jobs/view/4494397002",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 60,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · remoto desde Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -332,38 +249,11 @@
    "nueva": true
   },
   {
-   "id": "indeed-in-5bba6a49c92dbaf0",
+   "id": "indeed-in-9337048bda513f9a",
    "fuente": "Indeed",
-   "titulo": "Financial Analyst",
-   "empresa": "Sanofi",
-   "url": "https://co.indeed.com/viewjob?jk=5bba6a49c92dbaf0",
-   "modalidad": "Híbrido",
-   "remoto": false,
-   "remote_modality": "hybrid",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, CUN, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 59,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · híbrido en Bogotá · pide stakeholders, excel · sector salud como en J&J",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "indeed-in-fcebe3a87e969e5f",
-   "fuente": "Indeed",
-   "titulo": "Research Analyst",
-   "empresa": "NielsenIQ",
-   "url": "https://co.indeed.com/viewjob?jk=fcebe3a87e969e5f",
+   "titulo": "Quality Assurance Analyst",
+   "empresa": "Reckitt",
+   "url": "https://co.indeed.com/viewjob?jk=9337048bda513f9a",
    "modalidad": "Presencial o híbrido",
    "remoto": false,
    "remote_modality": "no_remote",
@@ -377,11 +267,38 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
-   "puntaje": 56,
+   "puntaje": 59,
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide excel · sector salud como en J&J",
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders, excel · sector farma como en J&J",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "gob-conversational-ai-qa-specialist-evolution-collect-llc-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Conversational AI QA Specialist",
+   "empresa": "Evolution Collect LLC",
+   "url": "https://www.getonbrd.com/jobs/conversational-ai-qa-specialist-evolution-collect-llc-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-03",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "SysAdmin / DevOps / QA",
+   "idioma": "en",
+   "salario": "USD 2.900–3.200",
+   "puntaje": 57,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · junior · remoto",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -414,58 +331,29 @@
    "nueva": true
   },
   {
-   "id": "linkedin-li-4494394192",
-   "fuente": "LinkedIn",
-   "titulo": "Data Analyst - Remote Work",
-   "empresa": "BairesDev",
-   "url": "https://www.linkedin.com/jobs/view/4494394192",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
+   "id": "indeed-in-5bba6a49c92dbaf0",
+   "fuente": "Indeed",
+   "titulo": "Financial Analyst",
+   "empresa": "Sanofi",
+   "url": "https://co.indeed.com/viewjob?jk=5bba6a49c92dbaf0",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
    "paises": [
     "Colombia"
    ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-24",
+   "ubicacion": "Bogotá, CUN, Colombia",
+   "fecha": "2026-11-25",
    "seniority_id": null,
    "seniority": "",
    "categoria": "",
    "idioma": "",
    "salario": "",
-   "puntaje": 56,
+   "puntaje": 55,
    "areas": [
-    "Datos / ML",
     "Negocio / Producto"
    ],
-   "por_que": "Datos / ML + Negocio / Producto · remoto desde Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494393032",
-   "fuente": "LinkedIn",
-   "titulo": "Cyber Security Analyst - Remote Work",
-   "empresa": "BairesDev",
-   "url": "https://www.linkedin.com/jobs/view/4494393032",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 56,
-   "areas": [
-    "Negocio / Producto",
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Negocio / Producto + Ciberseguridad / GRC · remoto desde Colombia",
+   "por_que": "Negocio / Producto · híbrido en Bogotá · pide stakeholders, excel",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -497,210 +385,14 @@
    "nueva": true
   },
   {
-   "id": "linkedin-li-4494489577",
+   "id": "linkedin-li-4494397002",
    "fuente": "LinkedIn",
-   "titulo": "Analista De Datos De Producción",
-   "empresa": "Asesoramos TyS Services S.A.S",
-   "url": "https://www.linkedin.com/jobs/view/4494489577",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494456155",
-   "fuente": "LinkedIn",
-   "titulo": "Analista de ciberseguridad - Red Team & Cyber Defense",
-   "empresa": "S&T TECNOLOGY SAS",
-   "url": "https://www.linkedin.com/jobs/view/4494456155",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Negocio / Producto",
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Negocio / Producto + Ciberseguridad / GRC · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494483572",
-   "fuente": "LinkedIn",
-   "titulo": "Cyber Security Analyst",
-   "empresa": "KazzForce",
-   "url": "https://www.linkedin.com/jobs/view/4494483572",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Negocio / Producto",
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Negocio / Producto + Ciberseguridad / GRC · presencial o híbrido en Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494471162",
-   "fuente": "LinkedIn",
-   "titulo": "Analista de Auditoría de TI",
-   "empresa": "Helm Holdings International, Inc.",
-   "url": "https://www.linkedin.com/jobs/view/4494471162",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Negocio / Producto",
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Negocio / Producto + Ciberseguridad / GRC · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494496269",
-   "fuente": "LinkedIn",
-   "titulo": "Analista RAS / Auditoría Interna / Control Interno / Bogotá",
-   "empresa": "BDO en Colombia",
-   "url": "https://www.linkedin.com/jobs/view/4494496269",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Negocio / Producto",
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Negocio / Producto + Ciberseguridad / GRC · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4470229513",
-   "fuente": "LinkedIn",
-   "titulo": "DATA ANALYST",
-   "empresa": "Agencia de Seguros Falabella",
-   "url": "https://www.linkedin.com/jobs/view/4470229513",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4492987877",
-   "fuente": "LinkedIn",
-   "titulo": "Marketing Data Analyst",
-   "empresa": "Crisil",
-   "url": "https://www.linkedin.com/jobs/view/4492987877",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, Capital District, Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494195611",
-   "fuente": "LinkedIn",
-   "titulo": "Data Analyst",
-   "empresa": "CBTW",
-   "url": "https://www.linkedin.com/jobs/view/4494195611",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
+   "titulo": "Data Analyst (Spark & SQL) - Remote Work",
+   "empresa": "BairesDev",
+   "url": "https://www.linkedin.com/jobs/view/4494397002",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
    "paises": [
     "Colombia"
    ],
@@ -711,96 +403,11 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
-   "puntaje": 54,
+   "puntaje": 55,
    "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
+    "Datos / ML"
    ],
-   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494395170",
-   "fuente": "LinkedIn",
-   "titulo": "Data Analyst",
-   "empresa": "AgileEngine",
-   "url": "https://www.linkedin.com/jobs/view/4494395170",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494151617",
-   "fuente": "LinkedIn",
-   "titulo": "Data Services Import Analyst",
-   "empresa": "Cloudbeds",
-   "url": "https://www.linkedin.com/jobs/view/4494151617",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4489899487",
-   "fuente": "LinkedIn",
-   "titulo": "Cybersecurity Consultant – Vulnerability Management (Colombia)",
-   "empresa": "ClearPath",
-   "url": "https://www.linkedin.com/jobs/view/4489899487",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 54,
-   "areas": [
-    "Negocio / Producto",
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Negocio / Producto + Ciberseguridad / GRC · presencial o híbrido en Colombia",
+   "por_que": "Datos / ML · remoto desde Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -829,33 +436,6 @@
     "Negocio / Producto"
    ],
    "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "indeed-in-722204e6880ea79e",
-   "fuente": "Indeed",
-   "titulo": "Analista de Operaciones",
-   "empresa": "Gravity Corp SAS",
-   "url": "https://co.indeed.com/viewjob?jk=722204e6880ea79e",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, CUN, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "COP 2.605.000–2.605.000",
-   "puntaje": 53,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · sector salud como en J&J",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -914,6 +494,33 @@
    "nueva": true
   },
   {
+   "id": "indeed-in-fcebe3a87e969e5f",
+   "fuente": "Indeed",
+   "titulo": "Research Analyst",
+   "empresa": "NielsenIQ",
+   "url": "https://co.indeed.com/viewjob?jk=fcebe3a87e969e5f",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, CUN, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 52,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide excel",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494601161",
    "fuente": "LinkedIn",
    "titulo": "Analista de Campañas y Contactabilidad / Remoto",
@@ -937,6 +544,168 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494394192",
+   "fuente": "LinkedIn",
+   "titulo": "Data Analyst - Remote Work",
+   "empresa": "BairesDev",
+   "url": "https://www.linkedin.com/jobs/view/4494394192",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494393032",
+   "fuente": "LinkedIn",
+   "titulo": "Cyber Security Analyst - Remote Work",
+   "empresa": "BairesDev",
+   "url": "https://www.linkedin.com/jobs/view/4494393032",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 51,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "indeed-in-722204e6880ea79e",
+   "fuente": "Indeed",
+   "titulo": "Analista de Operaciones",
+   "empresa": "Gravity Corp SAS",
+   "url": "https://co.indeed.com/viewjob?jk=722204e6880ea79e",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, CUN, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "COP 2.605.000–2.605.000",
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494489577",
+   "fuente": "LinkedIn",
+   "titulo": "Analista De Datos De Producción",
+   "empresa": "Asesoramos TyS Services S.A.S",
+   "url": "https://www.linkedin.com/jobs/view/4494489577",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494456155",
+   "fuente": "LinkedIn",
+   "titulo": "Analista de ciberseguridad - Red Team & Cyber Defense",
+   "empresa": "S&T TECNOLOGY SAS",
+   "url": "https://www.linkedin.com/jobs/view/4494456155",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494483572",
+   "fuente": "LinkedIn",
+   "titulo": "Cyber Security Analyst",
+   "empresa": "KazzForce",
+   "url": "https://www.linkedin.com/jobs/view/4494483572",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -995,6 +764,33 @@
    "nueva": true
   },
   {
+   "id": "linkedin-li-4494471162",
+   "fuente": "LinkedIn",
+   "titulo": "Analista de Auditoría de TI",
+   "empresa": "Helm Holdings International, Inc.",
+   "url": "https://www.linkedin.com/jobs/view/4494471162",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494482811",
    "fuente": "LinkedIn",
    "titulo": "Analista de Asuntos Regulatorios",
@@ -1018,6 +814,33 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494496269",
+   "fuente": "LinkedIn",
+   "titulo": "Analista RAS / Auditoría Interna / Control Interno / Bogotá",
+   "empresa": "BDO en Colombia",
+   "url": "https://www.linkedin.com/jobs/view/4494496269",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1103,6 +926,60 @@
    "nueva": true
   },
   {
+   "id": "linkedin-li-4470229513",
+   "fuente": "LinkedIn",
+   "titulo": "DATA ANALYST",
+   "empresa": "Agencia de Seguros Falabella",
+   "url": "https://www.linkedin.com/jobs/view/4470229513",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494395170",
+   "fuente": "LinkedIn",
+   "titulo": "Data Analyst",
+   "empresa": "AgileEngine",
+   "url": "https://www.linkedin.com/jobs/view/4494395170",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494145818",
    "fuente": "LinkedIn",
    "titulo": "Analista de inteligencia de Negocio",
@@ -1126,6 +1003,87 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494195611",
+   "fuente": "LinkedIn",
+   "titulo": "Data Analyst",
+   "empresa": "CBTW",
+   "url": "https://www.linkedin.com/jobs/view/4494195611",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494151617",
+   "fuente": "LinkedIn",
+   "titulo": "Data Services Import Analyst",
+   "empresa": "Cloudbeds",
+   "url": "https://www.linkedin.com/jobs/view/4494151617",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4492987877",
+   "fuente": "LinkedIn",
+   "titulo": "Marketing Data Analyst",
+   "empresa": "Crisil",
+   "url": "https://www.linkedin.com/jobs/view/4492987877",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, Capital District, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1157,65 +1115,11 @@
    "nueva": true
   },
   {
-   "id": "linkedin-li-4494165647",
+   "id": "linkedin-li-4489899487",
    "fuente": "LinkedIn",
-   "titulo": "Analista Administrativo (CARE)",
-   "empresa": "IFX Networks",
-   "url": "https://www.linkedin.com/jobs/view/4494165647",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 49,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494199878",
-   "fuente": "LinkedIn",
-   "titulo": "RESEARCH ANALYST",
-   "empresa": "Sancho BBDO",
-   "url": "https://www.linkedin.com/jobs/view/4494199878",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-24",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "puntaje": 49,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494186110",
-   "fuente": "LinkedIn",
-   "titulo": "Email Retention Analyst",
-   "empresa": "Ejam Inc",
-   "url": "https://www.linkedin.com/jobs/view/4494186110",
+   "titulo": "Cybersecurity Consultant – Vulnerability Management (Colombia)",
+   "empresa": "ClearPath",
+   "url": "https://www.linkedin.com/jobs/view/4489899487",
    "modalidad": "Presencial o híbrido",
    "remoto": false,
    "remote_modality": "no_remote",
@@ -1231,9 +1135,9 @@
    "salario": "",
    "puntaje": 49,
    "areas": [
-    "Negocio / Producto"
+    "Ciberseguridad / GRC"
    ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Colombia",
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1373,6 +1277,33 @@
    "nueva": true
   },
   {
+   "id": "linkedin-li-4494199878",
+   "fuente": "LinkedIn",
+   "titulo": "RESEARCH ANALYST",
+   "empresa": "Sancho BBDO",
+   "url": "https://www.linkedin.com/jobs/view/4494199878",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494737145",
    "fuente": "LinkedIn",
    "titulo": "IT Business Analyst (Temporary 6 months)",
@@ -1396,6 +1327,60 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494165647",
+   "fuente": "LinkedIn",
+   "titulo": "Analista Administrativo (CARE)",
+   "empresa": "IFX Networks",
+   "url": "https://www.linkedin.com/jobs/view/4494165647",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494186110",
+   "fuente": "LinkedIn",
+   "titulo": "Email Retention Analyst",
+   "empresa": "Ejam Inc",
+   "url": "https://www.linkedin.com/jobs/view/4494186110",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
