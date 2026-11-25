@@ -1,0 +1,52 @@
+{
+  "_nota": "Edita este archivo para ajustar la búsqueda. Las palabras se comparan sin tildes y en minúsculas.",
+  "busquedas": [
+    "analista", "analyst", "datos", "data", "business intelligence", "bi",
+    "producto", "product", "negocio", "business",
+    "ciberseguridad", "cybersecurity", "seguridad de la informacion", "security",
+    "compliance", "cumplimiento", "grc", "riesgo", "risk", "auditoria", "soc",
+    "machine learning", "inteligencia artificial", "ia", "data science", "cientifico de datos",
+    "junior", "trainee", "practicante"
+  ],
+  "areas": {
+    "Datos / ML": {
+      "titulo": ["data", "datos", "machine learning", "ml", "ia", "ai", "inteligencia artificial",
+                 "cientifico", "scientist", "analytics", "bi", "business intelligence", "mlops"],
+      "texto": ["python", "sql", "pandas", "scikit", "tensorflow", "pytorch", "power bi", "tableau",
+                "estadistica", "modelos", "etl", "spark", "looker"]
+    },
+    "Negocio / Producto": {
+      "titulo": ["analista", "analyst", "producto", "product", "negocio", "business", "operaciones",
+                 "operations", "strategy", "estrategia", "consultor", "consultant", "pmo", "procesos"],
+      "texto": ["kpi", "stakeholders", "excel", "roadmap", "okr", "procesos", "requerimientos",
+                "user stories", "scrum", "agile", "metricas"]
+    },
+    "Ciberseguridad / GRC": {
+      "titulo": ["seguridad", "security", "ciberseguridad", "cybersecurity", "soc", "grc", "compliance",
+                 "cumplimiento", "riesgo", "risk", "auditor", "auditoria", "privacidad", "privacy", "iam"],
+      "texto": ["iso 27001", "nist", "sox", "gdpr", "habeas data", "pci", "siem", "controles",
+                "politicas", "vulnerabilidades", "incidentes", "sarlaft", "auditoria", "regulatorio"]
+    }
+  },
+  "bonus": {
+    "palabras": {
+      "compliance": "experiencia en Compliance (J&J)",
+      "cumplimiento": "experiencia en Compliance (J&J)",
+      "salud": "sector salud como en J&J",
+      "health": "sector salud como en J&J",
+      "pharma": "sector farma como en J&J",
+      "farmaceut": "sector farma como en J&J",
+      "fintech": "fintech",
+      "python": "pide Python",
+      "sql": "pide SQL"
+    }
+  },
+  "junior_titulo": ["junior", "jr", "trainee", "practicante", "pasante", "intern", "aprendiz", "entry", "graduate", "recien egresado"],
+  "excluir_titulo": ["senior", "sr", "semi senior", "semisenior", "ssr", "lead", "lider", "principal",
+                      "head", "manager", "director", "directora", "staff", "arquitecto", "architect",
+                      "gerente", "jefe", "jefa", "vp", "chief", "coordinador", "coordinadora", "expert", "experto"],
+  "max_anios_experiencia": 2,
+  "paises_ok": ["colombia", "latam", "latin america", "america latina", "latinoamerica", "remote", "remoto", "south america", "americas"],
+  "ciudad": "bogota",
+  "dias_mostrar": 30
+}

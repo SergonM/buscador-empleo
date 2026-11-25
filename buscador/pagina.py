@@ -1,0 +1,93 @@
+"""Genera docs/index.html: página estática pensada para celular."""
+import json
+
+PLANTILLA = r"""<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e">
+<title>Mis ofertas de empleo</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#14171a;--mut:#5b6470;--line:#e3e6ea;--acc:#0f766e;--acc-bg:#e6f4f2;--new:#b45309;--new-bg:#fdf1e3}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1114;--card:#171b20;--tx:#e8ebee;--mut:#9aa3ad;--line:#2a3038;--acc:#2dd4bf;--acc-bg:#11302c;--new:#fbbf24;--new-bg:#3a2a0d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+header{position:sticky;top:0;z-index:2;background:var(--bg);padding:14px 16px 8px;border-bottom:1px solid var(--line)}
+h1{font-size:20px;margin:0 0 2px}
+.sub{color:var(--mut);font-size:13px}
+.tabs,.chips{display:flex;gap:8px;overflow-x:auto;padding-top:10px;scrollbar-width:none}
+.tabs::-webkit-scrollbar,.chips::-webkit-scrollbar{display:none}
+button.t,button.c{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--tx);border-radius:999px;padding:7px 13px;font:inherit;font-size:14px}
+button.t[aria-pressed=true],button.c[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+input{width:100%;margin-top:10px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--tx);font:inherit}
+main{padding:12px 16px 40px;max-width:720px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.top{display:flex;gap:10px;align-items:flex-start}
+.score{flex:0 0 auto;min-width:44px;text-align:center;font-weight:700;font-size:15px;color:var(--acc);background:var(--acc-bg);border-radius:10px;padding:6px 4px}
+.score small{display:block;font-weight:500;font-size:10px;color:var(--mut)}
+h2{font-size:16px;margin:0;line-height:1.3}
+.emp{color:var(--mut);font-size:14px;margin-top:2px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 8px;font-size:12.5px}
+.meta span{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--mut)}
+.meta .nv{background:var(--new-bg);color:var(--new);border-color:transparent;font-weight:600}
+.why{font-size:14px;margin:0 0 12px}
+a.ver{display:block;text-align:center;background:var(--acc);color:#fff;text-decoration:none;border-radius:10px;padding:10px;font-weight:600}
+.vacio{color:var(--mut);text-align:center;padding:40px 10px}
+footer{color:var(--mut);font-size:12px;text-align:center;padding:0 16px 30px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Ofertas para Sergio</h1>
+  <div class="sub" id="sub"></div>
+  <div class="tabs" role="group" aria-label="Vista">
+    <button class="t" data-v="nuevas" aria-pressed="true">Nuevas hoy</button>
+    <button class="t" data-v="todas" aria-pressed="false">Todas</button>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Área"></div>
+  <input id="q" type="search" placeholder="Buscar cargo o empresa" autocomplete="off">
+</header>
+<main id="lista"></main>
+<footer id="pie"></footer>
+<script>
+const DATOS = __DATOS__;
+const R = DATOS.resumen, O = DATOS.ofertas;
+const AREAS = ["Datos / ML","Negocio / Producto","Ciberseguridad / GRC"];
+let vista = R.nuevas ? "nuevas" : "todas", area = "", q = "";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = d => { if(!d) return ""; const [y,m,dd]=d.split("-"); return `${+dd} ${["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"][m-1]}`; };
+const act = new Date(R.actualizado);
+$("#sub").textContent = `${R.nuevas} nuevas · ${R.mostradas} en total · actualizado ${act.toLocaleString("es-CO",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})}`;
+$("#pie").textContent = `Fuente: ${R.fuentes.join(", ")} · ${R.revisadas} ofertas revisadas, ${R.revisadas - R.mostradas} descartadas (senior, ubicación o fuera de tus áreas).`;
+$("#chips").innerHTML = [["","Todas las áreas"],...AREAS.map(a=>[a,a])].map(([v,l]) => `<button class="c" data-a="${esc(v)}" aria-pressed="${v===area}">${esc(l)}</button>`).join("");
+function pintar(){
+  document.querySelectorAll("button.t").forEach(b => b.setAttribute("aria-pressed", b.dataset.v===vista));
+  document.querySelectorAll("button.c").forEach(b => b.setAttribute("aria-pressed", b.dataset.a===area));
+  const qq = q.toLowerCase();
+  const l = O.filter(o => (vista==="todas" || o.nueva) && (!area || o.areas.includes(area)) && (!qq || (o.titulo+" "+o.empresa).toLowerCase().includes(qq)));
+  $("#lista").innerHTML = l.length ? l.map(o => `
+  <article class="card">
+    <div class="top"><div class="score">${o.puntaje}<small>encaje</small></div>
+      <div><h2>${esc(o.titulo)}</h2><div class="emp">${esc(o.empresa)}</div></div></div>
+    <div class="meta">${o.nueva?'<span class="nv">Nueva</span>':""}<span>${esc(o.modalidad)}</span>${o.fecha?`<span>${fmt(o.fecha)}</span>`:""}${o.seniority?`<span>${esc(o.seniority)}</span>`:""}${o.salario?`<span>${esc(o.salario)}</span>`:""}</div>
+    <p class="why">${esc(o.por_que)}</p>
+    <a class="ver" href="${esc(o.url)}" target="_blank" rel="noopener">Ver oferta en ${esc(o.fuente)}</a>
+  </article>`).join("") : `<div class="vacio">${vista==="nuevas"?"Hoy no hay ofertas nuevas con estos filtros. Mira la pestaña “Todas”.":"No hay ofertas con estos filtros."}</div>`;
+}
+document.querySelector(".tabs").onclick = e => { const b=e.target.closest("button"); if(b){vista=b.dataset.v; pintar();} };
+$("#chips").onclick = e => { const b=e.target.closest("button"); if(b){area=b.dataset.a; pintar();} };
+$("#q").oninput = e => { q=e.target.value; pintar(); };
+pintar();
+</script>
+</body>
+</html>
+"""
+
+
+def generar(ofertas, resumen):
+    datos = json.dumps({"resumen": resumen, "ofertas": ofertas}, ensure_ascii=False)
+    datos = datos.replace("</", "<\\/")  # evita cerrar el <script> por accidente
+    return PLANTILLA.replace("__DATOS__", datos)
