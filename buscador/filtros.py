@@ -17,7 +17,7 @@ def motivo_descarte(o, perfil):
     sid = o.get("seniority_id")
     if sid is not None and sid >= 4:
         return f"nivel {o.get('seniority')}"
-    if sid == 3 and not es_junior_titulo:
+    if sid == 3 and not es_junior_titulo and not perfil.get("incluir_semi_senior"):
         return "nivel Semi Senior"
 
     # 3. Años de experiencia pedidos

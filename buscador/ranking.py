@@ -28,6 +28,9 @@ def puntuar(o, perfil, hoy=None):
     elif o.get("seniority_id") in (1, 2):
         puntos += 12
         razones.append(o["seniority"].lower())
+    elif o.get("seniority_id") == 3:
+        puntos -= 8
+        razones.append("semi senior sin pedir más de 2 años (vale intentar)")
 
     # Modalidad y ubicación
     paises = normalizar(" ".join(o.get("paises") or []))
@@ -41,7 +44,7 @@ def puntuar(o, perfil, hoy=None):
     # Bonus por experiencia previa y palabras clave
     extras = []
     for palabra, frase in perfil["bonus"]["palabras"].items():
-        if palabra in desc or palabra in titulo:
+        if encontradas(desc, [palabra]) or encontradas(titulo, [palabra]):
             if frase not in extras:
                 extras.append(frase)
     puntos += min(len(extras), 3) * 4

@@ -42,6 +42,7 @@ class Pruebas(unittest.TestCase):
     def test_descarta(self):
         self.assertIn("senior", motivo_descarte(self.o("Senior Data Engineer"), PERFIL))
         self.assertIn("nivel", motivo_descarte(self.o("Data Analyst", sen=4), PERFIL))
+        self.assertIsNone(motivo_descarte(self.o("Data Analyst", sen=3), PERFIL))
         self.assertIn("años", motivo_descarte(self.o("Data Analyst", desc="5 años de experiencia"), PERFIL))
         self.assertIn("ubicación", motivo_descarte(self.o("Analista de datos", rm="no_remote", paises=["Chile"]), PERFIL))
         self.assertIn("ubicación", motivo_descarte(self.o("Analista de datos", rm="hybrid", paises=["Colombia"], desc="Sede Medellín"), PERFIL))

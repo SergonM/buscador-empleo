@@ -35,7 +35,7 @@
       "salud": "sector salud como en J&J",
       "health": "sector salud como en J&J",
       "pharma": "sector farma como en J&J",
-      "farmaceut": "sector farma como en J&J",
+      "farmaceutica": "sector farma como en J&J",
       "fintech": "fintech",
       "python": "pide Python",
       "sql": "pide SQL"
@@ -46,6 +46,7 @@
                       "head", "manager", "director", "directora", "staff", "arquitecto", "architect",
                       "gerente", "jefe", "jefa", "vp", "chief", "coordinador", "coordinadora", "expert", "experto"],
   "max_anios_experiencia": 2,
+  "incluir_semi_senior": true,
   "paises_ok": ["colombia", "latam", "latin america", "america latina", "latinoamerica", "remote", "remoto", "south america", "americas"],
   "ciudad": "bogota",
   "dias_mostrar": 30
