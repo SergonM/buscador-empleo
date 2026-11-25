@@ -1,6 +1,133 @@
 {
  "getonboard": [
   {
+   "id": "business-analyst-junior-apside-santiago-110f",
+   "type": "job",
+   "attributes": {
+    "title": "Business Analyst Junior",
+    "description_headline": "¿Qué requisitos básicos debe tener?",
+    "description": "<p>Buscamos un Business Analyst Junior con hasta 2 años de experiencia en análisis funcional y apoyo a equipos de desarrollo de software. Buscamos un perfil analítico, ordenado y con alta capacidad de comunicación, orientado a la calidad y al cumplimiento de compromisos.</p><h3><h3><strong>Requisitos técnicos excluyentes:</strong></h3></h3><ul><li>Experiencia inicial o conocimientos sólidos en análisis de requerimientos de software.</li><li>Capacidad para levantar, documentar y validar requerimientos con stakeholders.</li><li>Conocimiento en elaboración de casos de uso, historias de usuario y documentación funcional.</li><li>Experiencia básica en generación de planes de prueba y apoyo en pruebas funcionales.</li><li>Manejo de herramientas de gestión de tareas y proyectos como JIRA.</li><li>Conocimientos básicos de SQL para consultas y análisis de datos.</li><li>Comprensión general del ciclo de vida del desarrollo de software (SDLC).</li><li>Experiencia o conocimientos en trabajo con equipos ágiles (Scrum / Kanban).</li></ul>",
+    "projects": "<p>Con más de 10 años de experiencia en el mercado y un crecimiento constante, nos destacamos por centrarnos en el desarrollo profesional de nuestros talentos. Trabajamos en proyectos variados, abarcando sectores como seguros, retail, banca, gobierno e innovación pública.<br>Nuestro equipo está compuesto por profesionales altamente calificados en la industria, con una amplia experiencia y apasionados por la tecnología. Fomentamos una relación con profesionales autónomos que valoran la excelencia técnica y la búsqueda constante de conocimiento.<br>¡Somos una empresa <strong>100% remota</strong>, con personas en diferentes países de América Latina!</p><p><strong>¿Que ofrecemos?<br></strong>Te ofrecemos formar parte de un equipo con un <strong>muy buen ambiente de trabajo</strong>, multicultural, con personas que valoran la autonomia, el trabajo en equipo y el respeto mutuo.<strong><br></strong><br>Contamos con excelentes beneficios para nuestros Apsiders: Salud, Bienestar, Educación y diferentes bonos que se ajustan a las necesidades de nuestros talentos.</p>",
+    "functions_headline": "¿Qué funciones concretas desarrollarás?",
+    "functions": "<p>Al ser parte del equipo, el Business Analyst Junior será responsable de:</p><ul><li>Participar activamente en la gestión de la relación con los distintos stakeholders, colaborando en el cumplimiento de los tiempos de respuesta definidos por la gerencia y los acuerdos de nivel de servicio (SLA).</li><li>Levantar, analizar y documentar requerimientos funcionales, apoyando la correcta comprensión de las necesidades del negocio por parte del equipo de desarrollo.</li><li>Elaborar casos de uso, historias de usuario y documentación funcional que contribuyan a la calidad del producto y del proceso de desarrollo.</li><li>Diseñar planes de prueba y colaborar en los procesos de pruebas de aceptación y validación dentro de la célula o equipo de trabajo.</li><li>Dar seguimiento a los indicadores y métricas de desarrollo de software definidos por la gerencia, apoyando su cumplimiento y mejora continua.</li><li>Realizar consultas y análisis de información mediante SQL, asegurando la trazabilidad de los datos asociados a procesos de Venta y Post Venta.</li><li>Asegurar el uso adecuado y la correcta actualización de las herramientas de gestión de tareas y requerimientos, especialmente JIRA.</li><li>Colaborar con los distintos roles del equipo (QA, desarrollo, liderazgo) para garantizar entregables alineados a los objetivos del proyecto.</li></ul>",
+    "benefits_headline": "Condiciones",
+    "benefits": "",
+    "desirable_headline": "¿Qué te daría un plus +++?",
+    "desirable": "<ul><li>Experiencia previa en proyectos de software en contextos.</li><li>Conocimientos básicos de métricas de desarrollo de software.</li><li>Buen manejo de documentación funcional y diagramas simples (BPMN, UML básico).</li><li>Habilidades de comunicación escrita y verbal con perfiles técnicos y de negocio.</li></ul>",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "es",
+    "category_name": "Product, Innovation & Agile",
+    "perks": [
+     "internal_talks",
+     "life_insurance",
+     "health_coverage",
+     "computer_repairs",
+     "dental_insurance",
+     "education_stipend",
+     "personal_coaching",
+     "conference_stipend"
+    ],
+    "min_salary": 900,
+    "max_salary": 1200,
+    "published_at": 1795634918,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 4,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 2,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 64,
+       "type": "tag"
+      },
+      {
+       "id": 305,
+       "type": "tag"
+      },
+      {
+       "id": 1766,
+       "type": "tag"
+      },
+      {
+       "id": 37564,
+       "type": "tag"
+      },
+      {
+       "id": 37164,
+       "type": "tag"
+      },
+      {
+       "id": 37284,
+       "type": "tag"
+      },
+      {
+       "id": 34,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "apside",
+      "type": "company",
+      "attributes": {
+       "name": "Apside",
+       "description": "Valoramos profundamente el profesionalismo y compromiso en nuestro equipo, el que cuenta con amplia experiencia en el desarrollo de proyectos,  una fuerte orientación al cliente y un alto nivel técnico. ",
+       "long_description": "",
+       "projects": "<p>Con más de 10 años de experiencia en el mercado y un crecimiento constante, nos destacamos por centrarnos en el desarrollo profesional de nuestros talentos. Trabajamos en proyectos variados, abarcando sectores como seguros, retail, banca, gobierno e innovación pública.<br>Nuestro equipo está compuesto por profesionales altamente calificados en la industria, con una amplia experiencia y apasionados por la tecnología. Fomentamos una relación con profesionales autónomos que valoran la excelencia técnica y la búsqueda constante de conocimiento.<br>¡Somos una empresa <strong>100% remota</strong>, con personas en diferentes países de América Latina!<br><br></p><p><strong>¿Que ofrecemos?<br></strong>Te ofrecemos formar parte de un equipo con un <strong>muy buen ambiente de trabajo</strong>, multicultural, con personas que valoran la autonomia, el trabajo en equipo y el respeto mutuo.<strong><br></strong><br>Contamos con excelentes beneficios para nuestros Apsiders: Salud, Bienestar, Educación y diferentes bonos que se ajustan a las necesidades de nuestros talentos.<br><br></p>",
+       "benefits": "",
+       "web": "http://www.apside.cl",
+       "twitter": "apsidecl",
+       "github": "",
+       "facebook": "apsidecl",
+       "angellist": "",
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 22,
+        "max": 32
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/5190/isotipo_1024x1024.png"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/business-analyst-junior-apside-santiago-110f"
+   }
+  },
+  {
    "id": "technical-product-analyst-sector-electrico-galilei-remote",
    "type": "job",
    "attributes": {
@@ -30,7 +157,7 @@
      "min": null,
      "max": null
     },
-    "applications_count": 14,
+    "applications_count": 20,
     "location_regions": {
      "data": []
     },
@@ -147,7 +274,7 @@
      "min": null,
      "max": null
     },
-    "applications_count": 135,
+    "applications_count": 149,
     "location_regions": {
      "data": []
     },
@@ -222,136 +349,45 @@
    "links": {
     "public_url": "https://www.getonbrd.com/jobs/analista-qa-direccion-chilecompra-santiago-2e31"
    }
-  },
-  {
-   "id": "analista-de-canales-digitales-bice-vida-santiago",
-   "type": "job",
-   "attributes": {
-    "title": "Analista de Canales Digitales",
-    "description_headline": "¿Qué necesitamos? 😎",
-    "description": "<ul><li>Formación en <strong>Ingeniería Industrial o carrera afín</strong>, con entre <strong>0 y 2 años de experiencia profesional</strong>. También consideraremos recién titulados con prácticas o experiencias relevantes.</li><li><strong>Alta capacidad analítica y de resolución de problemas</strong>, pudiendo estructurar situaciones con información incompleta o poco ordenada y respaldar conclusiones con datos.</li><li><strong>Alta capacidad de aprendizaje y adaptación</strong>, con motivación por desenvolverse en ambientes dinámicos, desafiantes y con problemas que no siempre tienen una respuesta evidente.</li><li><strong>Interés genuino por el mundo digital, la tecnología y la innovación</strong>, con curiosidad por investigar, aprender y mantenerse al día en nuevas tendencias y soluciones.</li><li><strong>Autonomía, iniciativa y buena comunicación</strong>, con capacidad para trabajar con distintas personas, profundizar en los problemas y movilizar iniciativas para que avancen.</li></ul>",
-    "projects": "<div>En <strong>BICE VIDA</strong> somos líderes en el rubro de las aseguradoras en Chile y trabajamos para satisfacer las necesidades de <strong>seguridad, prosperidad y protección</strong> de nuestros clientes. Estamos viviendo un proceso profundo de <strong>transformación digital</strong>, explorando nuevas formas de hacer negocio, diseñar experiencias de alto impacto y responder a un entorno cada vez más exigente y cambiante.</div><div><em>Esta oferta se enmarca en la </em><strong><em>Ley 21.015</em></strong><em>, que incentiva la inclusión laboral de personas en situación de discapacidad. Las personas interesadas contarán con el apoyo de la Compañía para realizar un proceso inclusivo y en igualdad de condiciones. BICE Vida se compromete a resguardar la información proporcionada de manera voluntaria.</em></div>",
-    "functions_headline": "¿Qué buscamos?",
-    "functions": "<p>En <strong>BICE Vida estamos buscando un/a Analista de Canales Digitales</strong> para sumarse a nuestra <strong>Tribu de Canales Digitales</strong>, equipo que impulsa la evolución de nuestros principales canales: Sucursal Virtual, App y Sitio Público.</p><p>En este rol tendrás la oportunidad de trabajar junto a equipos de producto, negocio y tecnología, participando en iniciativas que buscan mejorar la experiencia de nuestros clientes y potenciar nuestros canales digitales.</p><p>Buscamos una persona con <strong>alta capacidad analítica, curiosidad e iniciativa</strong>, apasionada por el mundo digital y la tecnología, que disfrute investigar tendencias, identificar oportunidades y transformar análisis en soluciones concretas.</p><p>Es una excelente oportunidad para desarrollarte en el mundo de producto digital, participando desde la identificación de oportunidades hasta la implementación y medición de resultados.</p><h2>¿Qué harás?</h2><ul><li><strong>Analizar nuestros canales digitales</strong> para identificar problemas y oportunidades a partir de datos, comportamiento de clientes, feedback e información de negocio, preparando análisis y síntesis ejecutivas que apoyen la toma de decisiones.</li><li><strong>Investigar tendencias, innovaciones, proveedores y soluciones de mercado</strong>, realizando benchmarks y evaluando alternativas para nuestros desafíos.</li><li><strong>Evaluar iniciativas y oportunidades</strong> considerando impacto esperado, valor, costos, esfuerzo y dependencias, aportando información para su priorización y posterior medición de resultados.</li><li><strong>Apoyar y/o liderar iniciativas de Canales Digitales</strong>, tomando responsabilidad sobre iniciativas concretas, coordinando con distintas áreas e identificando avances, riesgos, bloqueos y próximos pasos.</li><li>Trabajar junto a nuestros <strong>equipos de producto, negocio y tecnología, entre otros</strong>, apoyando el análisis y definición de soluciones durante las distintas etapas de una iniciativa.</li></ul>",
-    "benefits_headline": "¿Cómo es trabajar en BICE Vida? 🤔",
-    "benefits": "<ul><li>Contamos con la mejor cobertura de la industria y te brindamos un seguro complementario de salud, dental y vida, y además un seguro catastrófico (Para ti y tus cargas legales).</li><li>🏅Bonos en UF dependiendo de la estación del año y del tiempo que lleves en nuestra Compañía. 🎁</li><li>Salida anticipada los días viernes, hasta las 14:00 hrs, lo que te permitirá balancear tu vida personal y laboral. 🙌</li><li>Dress code semi-formal, porque privilegiamos la comodidad. 👟</li><li>Almuerzo gratis.</li><li>Contamos con capacitaciones constantes, para impulsar y empoderar equipos diversos con foco en buscar mejores resultados. Puedes venir en bicicleta y la cuidamos por ti. Tenemos bicicleteros en casa matriz. 🚲</li></ul>",
-    "desirable_headline": "Opcionales",
-    "desirable": "",
-    "remote": false,
-    "remote_modality": "hybrid",
-    "remote_zone": null,
-    "countries": [
-     "Chile"
-    ],
-    "lang": "lang_not_specified",
-    "category_name": "Product, Innovation & Agile",
-    "perks": [
-     "accessible",
-     "life_insurance",
-     "meals_provided",
-     "remote_partial",
-     "bicycle_parking",
-     "dental_insurance",
-     "computer_provided",
-     "education_stipend"
-    ],
-    "min_salary": null,
-    "max_salary": null,
-    "published_at": 1795093758,
-    "response_time_in_days": {
-     "min": null,
-     "max": null
-    },
-    "applications_count": 163,
-    "location_regions": {
-     "data": []
-    },
-    "location_tenants": {
-     "data": []
-    },
-    "location_cities": {
-     "data": [
-      {
-       "id": 1,
-       "type": "location_city"
-      }
-     ]
-    },
-    "modality": {
-     "data": {
-      "id": 1,
-      "type": "modality"
-     }
-    },
-    "seniority": {
-     "data": {
-      "id": 3,
-      "type": "seniority"
-     }
-    },
-    "tags": {
-     "data": [
-      {
-       "id": 56,
-       "type": "tag"
-      },
-      {
-       "id": 5753,
-       "type": "tag"
-      },
-      {
-       "id": 61685,
-       "type": "tag"
-      },
-      {
-       "id": 1244,
-       "type": "tag"
-      },
-      {
-       "id": 45459,
-       "type": "tag"
-      },
-      {
-       "id": 37164,
-       "type": "tag"
-      },
-      {
-       "id": 1198,
-       "type": "tag"
-      }
-     ]
-    },
-    "company": {
-     "data": {
-      "id": "bice-vida",
-      "type": "company",
-      "attributes": {
-       "name": "BICE VIDA",
-       "description": "Líderes en el negocio de las aseguradoras en Chile, somos una empresa enfocada en satisfacer las necesidades de seguridad, prosperidad y protección de nuestros clientes. ",
-       "long_description": "<div>Con más de 30 años de historia, somos unos de los líderes del rubro de las aseguradoras y queremos seguir siendo una de las Compañías referentes en el mercado. </div><div>Hemos construido un gran equipo de trabajo y excelente clima laboral, que nos permite seguir enfocándonos en potenciar nuestra colaboración, flexibilidad, excelencia y calidad de nuestros servicios dentro y fuera de la Compañía, a través de procesos de mejoras continua, apoyados de tecnologías vanguardistas y con el mejor equipo de trabajo. </div>",
-       "projects": "<div>En <strong>BICE VIDA</strong> somos líderes en el rubro de las aseguradoras en Chile y trabajamos para satisfacer las necesidades de <strong>seguridad, prosperidad y protección</strong> de nuestros clientes. Estamos viviendo un proceso profundo de <strong>transformación digital</strong>, explorando nuevas formas de hacer negocio, diseñar experiencias de alto impacto y responder a un entorno cada vez más exigente y cambiante.</div><div><em>Esta oferta se enmarca en la </em><strong><em>Ley 21.015</em></strong><em>, que incentiva la inclusión laboral de personas en situación de discapacidad. Las personas interesadas contarán con el apoyo de la Compañía para realizar un proceso inclusivo y en igualdad de condiciones. BICE Vida se compromete a resguardar la información proporcionada de manera voluntaria.</em></div>",
-       "benefits": "<ul><li>Contamos con la mejor cobertura de la industria y te brindamos un seguro complementario de salud, dental y vida, y además un seguro catastrófico (Para ti y tus cargas legales).</li><li>🏅Bonos en UF dependiendo de la estación del año y del tiempo que lleves en nuestra Compañía. 🎁</li><li>Salida anticipada los días viernes, hasta las 14:00 hrs, lo que te permitirá balancear tu vida personal y laboral. 🙌</li><li>Dress code semi-formal, porque privilegiamos la comodidad. 👟</li><li>Almuerzo gratis.</li><li>Contamos con capacitaciones constantes, para impulsar y empoderar equipos diversos con foco en buscar mejores resultados. Puedes venir en bicicleta y la cuidamos por ti. Tenemos bicicleteros en casa matriz. 🚲</li></ul>",
-       "web": "http://www.bicevida.cl",
-       "twitter": "",
-       "github": "",
-       "facebook": "",
-       "angellist": "",
-       "country": "CL",
-       "response_time_in_days": {
-        "min": 11,
-        "max": 25
-       },
-       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/7178/bice_vida_logo.jpeg"
-      }
-     }
-    }
-   },
-   "links": {
-    "public_url": "https://www.getonbrd.com/jobs/analista-de-canales-digitales-bice-vida-santiago"
-   }
   }
  ],
  "linkedin_indeed": [
+  {
+   "id": "in-737bc4e5a000f33d",
+   "site": "indeed",
+   "job_url": "https://co.indeed.com/viewjob?jk=737bc4e5a000f33d",
+   "job_url_direct": "nan",
+   "title": "Analista de Soporte L3 (Ingeniería de Soporte)",
+   "company": "INNOVASOFT COLOMBIA SAS",
+   "location": "Bogotá, CUN, Colombia",
+   "date_posted": "2026-11-25",
+   "job_type": "fulltime",
+   "salary_source": "direct_data",
+   "interval": "monthly",
+   "min_amount": "2500000.0",
+   "max_amount": "2800000.0",
+   "currency": "COP",
+   "is_remote": "False",
+   "job_level": "None",
+   "job_function": "None",
+   "listing_type": "None",
+   "emails": "nan",
+   "description": "Buscamos Analista de Soporte L3, responsable de resolver incidencias críticas y de alta severidad que requieren intervención profunda en el código fuente, las bases de datos y la infraestructura de nu",
+   "company_industry": "None",
+   "company_url": "https://co.indeed.com/cmp/Innovasoft-Colombia-SAS-1",
+   "company_logo": "nan",
+   "company_url_direct": "nan",
+   "company_addresses": "nan",
+   "company_num_employees": "nan",
+   "company_revenue": "nan",
+   "company_description": "nan",
+   "skills": "None",
+   "experience_range": "None",
+   "company_rating": "nan",
+   "company_reviews_count": "nan",
+   "vacancy_count": "None",
+   "work_from_home_type": "None"
+  },
   {
    "id": "in-722204e6880ea79e",
    "site": "indeed",
@@ -371,10 +407,10 @@
    "job_level": "None",
    "job_function": "None",
    "listing_type": "None",
-   "emails": "None",
+   "emails": "nan",
    "description": "ANALISTA DE OPERACIONES Objetivo del Cargo Gestionar y ejecutar integralmente las actividades operativas diarias, incluyendo atención directa a clientes y groomers, programación de servicios, control ",
-   "company_industry": "nan",
-   "company_url": "https://co.indeed.com/cmp/Gravity-Corp-SAS",
+   "company_industry": "None",
+   "company_url": "nan",
    "company_logo": "nan",
    "company_url_direct": "nan",
    "company_addresses": "nan",
@@ -389,64 +425,28 @@
    "work_from_home_type": "None"
   },
   {
-   "id": "in-62cf1fa659dfb61a",
+   "id": "in-71425528321d90d5",
    "site": "indeed",
-   "job_url": "https://co.indeed.com/viewjob?jk=62cf1fa659dfb61a",
-   "job_url_direct": "https://bbva.wd3.myworkdayjobs.com/en-US/BBVA/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/MANAGER-I---RELATIONSHIP-MODELS----EXPERIENCIA-UNICA-Y-FRANQUICIAS---BANCA-MINORISTA_JR00121039-1",
-   "title": "MANAGER I - RELATIONSHIP MODELS - EXPERIENCIA UNICA Y FRANQUICIAS - BANCA MINORISTA",
-   "company": "BBVA",
+   "job_url": "https://co.indeed.com/viewjob?jk=71425528321d90d5",
+   "job_url_direct": "nan",
+   "title": "Coordinador(a) de Soporte",
+   "company": "INNOVASOFT COLOMBIA SAS",
    "location": "Bogotá, CUN, Colombia",
    "date_posted": "2026-11-25",
    "job_type": "fulltime",
-   "salary_source": "nan",
-   "interval": "nan",
-   "min_amount": "nan",
-   "max_amount": "nan",
-   "currency": "nan",
-   "is_remote": "False",
-   "job_level": "None",
-   "job_function": "None",
-   "listing_type": "None",
-   "emails": "None",
-   "description": "¿Quieres desarrollar tu carrera profesional? BBVA es una empresa global con más de 160 años de historia que opera en más de 25 países en los que damos servicio a más de 80 millones de clientes. Somos ",
-   "company_industry": "nan",
-   "company_url": "https://co.indeed.com/cmp/Bbva",
-   "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/49efbf9b3036df2c9bab67bd60aed232",
-   "company_url_direct": "http://www.bbva.com",
-   "company_addresses": "Madrid",
-   "company_num_employees": "10,000+",
-   "company_revenue": "$1B to $5B (USD)",
-   "company_description": "",
-   "skills": "None",
-   "experience_range": "None",
-   "company_rating": "4.1",
-   "company_reviews_count": "7856.0",
-   "vacancy_count": "None",
-   "work_from_home_type": "None"
-  },
-  {
-   "id": "in-d503aff9ee2537e3",
-   "site": "indeed",
-   "job_url": "https://co.indeed.com/viewjob?jk=d503aff9ee2537e3",
-   "job_url_direct": "nan",
-   "title": "Analista de Reclutamiento",
-   "company": "Info.reclutamiento",
-   "location": "Bogotá, CUN, Colombia",
-   "date_posted": "2026-11-24",
-   "job_type": "fulltime",
    "salary_source": "direct_data",
    "interval": "monthly",
-   "min_amount": "2100000.0",
-   "max_amount": "2100000.0",
+   "min_amount": "3000000.0",
+   "max_amount": "3500000.0",
    "currency": "COP",
    "is_remote": "False",
    "job_level": "None",
    "job_function": "None",
    "listing_type": "None",
-   "emails": "None",
-   "description": "¿Cuál será tu misión? Será responsable de gestionar integralmente procesos de reclutamiento masivo, realizando la publicación de vacantes en diferentes fuentes de empleo, búsqueda y atracción de candi",
-   "company_industry": "nan",
-   "company_url": "nan",
+   "emails": "nan",
+   "description": "Buscamos Coordinador(a) de Soporte al Cliente, responsable de liderar el equipo de soporte técnico de la Dirección de Tecnología y de garantizar la resolución de incidencias en los niveles L1, L2 y L3",
+   "company_industry": "None",
+   "company_url": "https://co.indeed.com/cmp/Innovasoft-Colombia-SAS-1",
    "company_logo": "nan",
    "company_url_direct": "nan",
    "company_addresses": "nan",
@@ -461,28 +461,28 @@
    "work_from_home_type": "None"
   },
   {
-   "id": "in-f8f32fc46a8dae4c",
+   "id": "in-6a5e6142befa501c",
    "site": "indeed",
-   "job_url": "https://co.indeed.com/viewjob?jk=f8f32fc46a8dae4c",
+   "job_url": "https://co.indeed.com/viewjob?jk=6a5e6142befa501c",
    "job_url_direct": "nan",
-   "title": "ANALISTA DE OPERACIONES (TARJETAS DE CRÉDITO)",
-   "company": "Qnt SAS",
-   "location": "Bogotá, CUN, Colombia",
-   "date_posted": "2026-11-24",
-   "job_type": "fulltime",
+   "title": "Analista Prevención Y Control De Fraudes",
+   "company": "Browser Travel Solutions",
+   "location": "Suba, CUN, Colombia",
+   "date_posted": "2026-11-25",
+   "job_type": "nan",
    "salary_source": "direct_data",
    "interval": "monthly",
-   "min_amount": "nan",
-   "max_amount": "2150000.0",
+   "min_amount": "2000000.0",
+   "max_amount": "2300000.0",
    "currency": "COP",
    "is_remote": "False",
    "job_level": "None",
    "job_function": "None",
    "listing_type": "None",
-   "emails": "None",
-   "description": "Perfil requerido : Bachiller, técnico o tecnólogo en carreras administrativas, financieras o afines, con experiencia en trabajo operativo, administrativo, control y seguimiento de requerimientos, pref",
-   "company_industry": "nan",
-   "company_url": "nan",
+   "emails": "recruitment@browsertravelsolutions.com",
+   "description": "¡El talento que buscamos podría ser el tuyo! ¿Te apasiona investigar, analizar información y detectar posibles riesgos? En Browser Travel Solutions tenemos una oportunidad para ti: Analista de Prevenc",
+   "company_industry": "None",
+   "company_url": "https://co.indeed.com/cmp/Browser-Travel-Solutions-1",
    "company_logo": "nan",
    "company_url_direct": "nan",
    "company_addresses": "nan",
@@ -499,6 +499,20 @@
  ],
  "remotive": [
   {
+   "id": "2091179",
+   "url": "https://remotive.com/remote-jobs/software-development/wordpress-theme-plugin-developer-2091179",
+   "title": "WordPress Theme & Plugin Developer",
+   "company_name": "Steward Web Development",
+   "company_logo": "https://remotive.com/job/2091179/logo",
+   "category": "Software Development",
+   "tags": "['fullstack', 'wordpress', 'OOP', 'themes']",
+   "job_type": "contract",
+   "publication_date": "2026-11-24T10:31:32",
+   "candidate_required_location": "Americas, LATAM, Canada, USA timezones",
+   "salary": "$57K - $67K",
+   "description": "<p style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-sn"
+  },
+  {
    "id": "2091177",
    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091177",
    "title": "Content Reviewer - United States",
@@ -512,67 +526,52 @@
    "salary": "$14/hour",
    "description": "<p style=\"--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-sn",
    "company_logo_url": "https://remotive.com/job/2091177/logo"
-  },
-  {
-   "id": "2069746",
-   "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-   "title": "Tech Lead Full-Stack Rails Engineer",
-   "company_name": "Mitre Media",
-   "company_logo": "https://remotive.com/job/2069746/logo",
-   "category": "Software Development",
-   "tags": "['api', 'CSS', 'docker', 'elasticsearch', 'fullstack', 'html', 'javascript', 'kubernetes', 'postgresql', 'react', 'ror', 'ruby/rails', 'AI/ML', 'CAD', 'advertising', 'Redis', 'ES6', 'web applications'",
-   "job_type": "full_time",
-   "publication_date": "2026-11-14T20:33:53",
-   "candidate_required_location": "USA, Canada, USA timezones",
-   "salary": "$170k - $200k",
-   "description": "<p class=\"h1\" dir=\"ltr\" style=\"line-height: 1.38; background-color: #ffffff; margin-top: 24pt; margin-bottom: 0pt; padding: 0pt 0pt 6pt 0pt;\"><span style=\"color: #000000; font-weight: bold; white-spac",
-   "company_logo_url": "https://remotive.com/job/2069746/logo"
   }
  ],
  "himalayas": [
   {
-   "title": "Grupo QuintoAndar| Growth Intelligence Specialist",
-   "excerpt": "Sobre o Grupo QuintoAndar Somos o Grupo QuintoAndar, o maior ecossistema imobiliário da América Latina.",
-   "companyName": "QuintoAndar",
-   "companySlug": "grupoquintoandar",
-   "companyLogo": "",
+   "title": "Service Forecast Analyst",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people.",
+   "companyName": "Motorola Solutions",
+   "companySlug": "motorola-solutions",
+   "companyLogo": "https://cdn-images.himalayas.app/wrwjjejxt406bwtydu0acmhx0lhh",
    "employmentType": "Full Time",
-   "minSalary": "None",
-   "maxSalary": "None",
+   "minSalary": "68000",
+   "maxSalary": "73000",
    "salaryPeriod": "annual",
    "seniority": "['Mid-level']",
-   "currency": "None",
-   "locationRestrictions": "['Brazil']",
-   "timezoneRestrictions": "[-5, -4, -3, -2]",
-   "categories": "['Growth-Intelligence-Specialist', 'Growth-Analyst', 'Business-Intelligence-Analyst', 'Data-Analyst', 'Marketing-Analyst']",
-   "parentCategories": "['Data Science', 'Marketing']",
-   "description": "<h3><strong>Sobre o Grupo <a href=\"https://himalayas.app/companies/grupoquintoandar\">QuintoAndar</a></strong></h3><p>Somos o Grupo <a href=\"https://himalayas.app/companies/grupoquintoandar\">QuintoAnda",
-   "pubDate": "1795587221",
-   "expiryDate": "1800771220",
-   "applicationLink": "https://himalayas.app/companies/grupoquintoandar/jobs/grupo-quintoandar-growth-intelligence-specialist?utm_source=api",
-   "guid": "https://himalayas.app/companies/grupoquintoandar/jobs/grupo-quintoandar-growth-intelligence-specialist"
+   "currency": "USD",
+   "locationRestrictions": "['United States']",
+   "timezoneRestrictions": "[-10, -9, -8, -7, -6, -5, 14]",
+   "categories": "['Forecasting-Analyst', 'Business-Analyst', 'Financial-Analyst', 'Planning-Analyst', 'Sales-Analyst']",
+   "parentCategories": "['Data Science', 'Finance', 'Sales']",
+   "description": "<h3><b>Company Overview</b></h3><p>At <a href=\"https://himalayas.app/companies/motorola-solutions\">Motorola Solutions</a>, we believe that everything starts with our people. We’re a global close-knit ",
+   "pubDate": "1795624031",
+   "expiryDate": "1800806262",
+   "applicationLink": "https://himalayas.app/companies/motorola-solutions/jobs/service-forecast-analyst?utm_source=api",
+   "guid": "https://himalayas.app/companies/motorola-solutions/jobs/service-forecast-analyst"
   },
   {
-   "title": "Persuasion UK | Senior Analyst (Part time)",
-   "excerpt": "Persuasion UK produces in depth research, focusing on public and elite opinion, normally releasing a project length piece of work every few months and continually producing shorter, more reactive piec",
-   "companyName": "Climate Dialogue Japan",
-   "companySlug": "climate-dialogue-japan",
-   "companyLogo": "https://cdn-images.himalayas.app/0ete61ub8vdvkza6plbx2mz7kawx",
-   "employmentType": "Part Time",
+   "title": "Analytics Reporting Intern",
+   "excerpt": "Who We Are: Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology.",
+   "companyName": "Power Digital Marketing",
+   "companySlug": "power-digital-marketing",
+   "companyLogo": "https://cdn-images.himalayas.app/bhkymn9m38zbb5mc33jk9bc450xp",
+   "employmentType": "Intern",
    "minSalary": "None",
    "maxSalary": "None",
    "salaryPeriod": "annual",
-   "seniority": "['Senior']",
-   "currency": "USD",
-   "locationRestrictions": "['United Kingdom']",
-   "timezoneRestrictions": "[0]",
-   "categories": "['Research-Analyst', 'Quantitative-Research-Analyst', 'Political-Analyst', 'Market-Research-Analyst', 'Data-Analyst']",
+   "seniority": "['Entry-level']",
+   "currency": "None",
+   "locationRestrictions": "['Colombia']",
+   "timezoneRestrictions": "[-5]",
+   "categories": "['Reporting-Analyst', 'Data-Analytics-Intern', 'Marketing-Data-Analyst', 'Business-Intelligence-Analyst']",
    "parentCategories": "['Marketing', 'Data Science']",
-   "description": "<div>Persuasion UK produces in depth research, focusing on public and elite opinion, normally releasing a project length piece of work every few months and continually producing shorter, more reactive",
-   "pubDate": "1795586063",
-   "expiryDate": "1800770062",
-   "applicationLink": "https://himalayas.app/companies/climate-dialogue-japan/jobs/persuasion-uk-senior-analyst-part-time?utm_source=api",
-   "guid": "https://himalayas.app/companies/climate-dialogue-japan/jobs/persuasion-uk-senior-analyst-part-time"
+   "description": "<div class=\"content-intro\">\n<h3>Who We Are:</h3>\n<p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging b",
+   "pubDate": "1795621901",
+   "expiryDate": "1800805901",
+   "applicationLink": "https://himalayas.app/companies/power-digital-marketing/jobs/analytics-reporting-intern?utm_source=api",
+   "guid": "https://himalayas.app/companies/power-digital-marketing/jobs/analytics-reporting-intern"
   }
  ]
 }
