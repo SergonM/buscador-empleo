@@ -1,0 +1,105 @@
+{
+ "resumen": {
+  "actualizado": "2026-11-25T06:39+00:00",
+  "fecha": "2026-11-25",
+  "revisadas": 620,
+  "mostradas": 3,
+  "nuevas": 3,
+  "descartes": {
+   "nivel Semi Senior": 246,
+   "título senior": 189,
+   "nivel Senior": 105,
+   "ubicación": 49,
+   "pide 3 años de experiencia": 11,
+   "fuera de las áreas buscadas": 5,
+   "nivel Experto": 2,
+   "pide 20 años de experiencia": 1
+  },
+  "fuentes": [
+   "GetOnBoard"
+  ]
+ },
+ "ofertas": [
+  {
+   "id": "gob-product-owner-contractor-enviame-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Product Owner Junior",
+   "empresa": "Enviame",
+   "url": "https://www.getonbrd.com/jobs/product-owner-contractor-enviame-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-06",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "Product, Innovation & Agile",
+   "idioma": "lang_not_specified",
+   "salario": "",
+   "puntaje": 69,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · remoto · pide stakeholders, requerimientos, scrum",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "gob-conversational-ai-qa-specialist-evolution-collect-llc-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Conversational AI QA Specialist",
+   "empresa": "Evolution Collect LLC",
+   "url": "https://www.getonbrd.com/jobs/conversational-ai-qa-specialist-evolution-collect-llc-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-03",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "SysAdmin / DevOps / QA",
+   "idioma": "en",
+   "salario": "USD 2.900–3.200",
+   "puntaje": 65,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · junior · remoto · experiencia en Compliance (J&J)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "gob-infosec-analyst-i-lemontech-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Infosec Analyst I",
+   "empresa": "LemonTech",
+   "url": "https://www.getonbrd.com/jobs/infosec-analyst-i-lemontech-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-13",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "Cybersecurity",
+   "idioma": "lang_not_specified",
+   "salario": "",
+   "puntaje": 64,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior · remoto · pide metricas · experiencia en Compliance (J&J)",
+   "visto": "2026-11-25",
+   "nueva": true
+  }
+ ]
+}
