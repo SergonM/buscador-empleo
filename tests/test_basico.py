@@ -61,6 +61,24 @@ class Pruebas(unittest.TestCase):
         html = generar([o], {"actualizado": "2026-11-25T12:00+00:00", "nuevas": 1, "mostradas": 1, "revisadas": 5, "fuentes": ["GetOnBoard"]})
         self.assertNotIn("Jr </script>", html)
 
+    def test_linkedin_indeed(self):
+        from buscador.fuentes.linkedin_indeed import _a_oferta as li
+        o = li({"site": "linkedin", "id": "li-1", "title": "Analista de Datos Junior", "company": "Bancolombia",
+                "location": "Bogotá, D.C., Colombia", "date_posted": date(2026, 11, 24), "is_remote": float("nan"),
+                "description": "Modelo híbrido. SQL y Power BI", "job_url": "https://www.linkedin.com/jobs/view/1"})
+        self.assertEqual(o["modalidad"], "Híbrido")
+        self.assertEqual(o["fecha"], "2026-11-24")
+        self.assertIsNone(motivo_descarte(o, PERFIL))
+        med = li({"site": "indeed", "id": "in-2", "title": "Data Analyst", "company": "X", "location": "Medellín, Antioquia",
+                  "job_url": "https://co.indeed.com/viewjob?jk=2", "description": ""})
+        self.assertIn("ubicación", motivo_descarte(med, PERFIL))
+
+    def test_remotos_zona(self):
+        from buscador.fuentes.remotos import _zona_ok
+        self.assertTrue(_zona_ok("LATAM"))
+        self.assertTrue(_zona_ok("Worldwide"))
+        self.assertFalse(_zona_ok("USA only"))
+
 
 if __name__ == "__main__":
     unittest.main()

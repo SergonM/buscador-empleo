@@ -49,7 +49,24 @@
                            "ejecutivo comercial", "vendedor", "soporte", "support", "call center", "telemarketing"],
   "max_anios_experiencia": 2,
   "incluir_semi_senior": true,
-  "paises_ok": ["colombia", "latam", "latin america", "america latina", "latinoamerica", "remote", "remoto", "south america", "americas"],
+  "paises_ok": ["worldwide", "anywhere", "global", "colombia", "latam", "latin america", "america latina", "latinoamerica", "remote", "remoto", "south america", "americas"],
   "ciudad": "bogota",
-  "dias_mostrar": 30
+  "dias_mostrar": 30,
+  "fuentes": {
+    "getonboard": true,
+    "linkedin_indeed": true,
+    "remotive": true,
+    "himalayas": true
+  },
+  "jobspy": {
+    "_nota": "LinkedIn e Indeed Colombia. Bajo volumen: solo ofertas de las últimas 'horas'.",
+    "busquedas": ["analista de datos", "data analyst", "analista de negocio", "product analyst",
+                  "ciberseguridad", "compliance", "machine learning", "analista junior"],
+    "horas": 24,
+    "resultados": 25,
+    "pausa": 6,
+    "ciudad": "Bogotá",
+    "pais": "Colombia"
+  },
+  "himalayas": ["data analyst", "business analyst", "product analyst", "security analyst", "compliance", "machine learning"]
 }

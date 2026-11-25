@@ -61,7 +61,8 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt
 const fmt = d => { if(!d) return ""; const [y,m,dd]=d.split("-"); return `${+dd} ${["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"][m-1]}`; };
 const act = new Date(R.actualizado);
 $("#sub").textContent = `${R.nuevas} nuevas · ${R.mostradas} en total · actualizado ${act.toLocaleString("es-CO",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})}`;
-$("#pie").textContent = `Fuente: ${R.fuentes.join(", ")} · ${R.revisadas} ofertas revisadas, ${R.revisadas - R.mostradas} descartadas (senior, ubicación o fuera de tus áreas).`;
+const pf = R.por_fuente ? Object.entries(R.por_fuente).map(([f,n]) => `${f} (${n})`).join(", ") : R.fuentes.join(", ");
+$("#pie").textContent = `Fuentes de hoy: ${pf}. ${R.revisadas} ofertas revisadas; se descartan senior, fuera de Bogotá/Colombia/LATAM remoto y fuera de tus áreas.`;
 $("#chips").innerHTML = [["","Todas las áreas"],...AREAS.map(a=>[a,a])].map(([v,l]) => `<button class="c" data-a="${esc(v)}" aria-pressed="${v===area}">${esc(l)}</button>`).join("");
 function pintar(){
   document.querySelectorAll("button.t").forEach(b => b.setAttribute("aria-pressed", b.dataset.v===vista));
@@ -72,7 +73,7 @@ function pintar(){
   <article class="card">
     <div class="top"><div class="score">${o.puntaje}<small>encaje</small></div>
       <div><h2>${esc(o.titulo)}</h2><div class="emp">${esc(o.empresa)}</div></div></div>
-    <div class="meta">${o.nueva?'<span class="nv">Nueva</span>':""}<span>${esc(o.modalidad)}</span>${o.fecha?`<span>${fmt(o.fecha)}</span>`:""}${o.seniority?`<span>${esc(o.seniority)}</span>`:""}${o.salario?`<span>${esc(o.salario)}</span>`:""}</div>
+    <div class="meta">${o.nueva?'<span class="nv">Nueva</span>':""}<span>${esc(o.fuente)}</span><span>${esc(o.modalidad)}</span>${o.fecha?`<span>${fmt(o.fecha)}</span>`:""}${o.seniority?`<span>${esc(o.seniority)}</span>`:""}${o.salario?`<span>${esc(o.salario)}</span>`:""}</div>
     <p class="why">${esc(o.por_que)}</p>
     <a class="ver" href="${esc(o.url)}" target="_blank" rel="noopener">Ver oferta en ${esc(o.fuente)}</a>
   </article>`).join("") : `<div class="vacio">${vista==="nuevas"?"Hoy no hay ofertas nuevas con estos filtros. Mira la pestaña “Todas”.":"No hay ofertas con estos filtros."}</div>`;
