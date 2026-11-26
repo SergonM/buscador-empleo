@@ -1,6 +1,78 @@
 {
  "LinkedIn + Indeed": [
   {
+   "id": "in-15c3a1e2ebf83570",
+   "site": "indeed",
+   "job_url": "https://co.indeed.com/viewjob?jk=15c3a1e2ebf83570",
+   "job_url_direct": "nan",
+   "title": "ANALISTA DE SISTEMAS",
+   "company": "UNINPAHU",
+   "location": "Bogotá, CUN, Colombia",
+   "date_posted": "2026-11-26",
+   "job_type": "fulltime",
+   "salary_source": "direct_data",
+   "interval": "monthly",
+   "min_amount": "nan",
+   "max_amount": "2244763.0",
+   "currency": "COP",
+   "is_remote": "False",
+   "job_level": "None",
+   "job_function": "None",
+   "listing_type": "None",
+   "emails": "nan",
+   "description": "ANALISTA DE SISTEMAS Importante institución del sector educativo está en búsqueda de un Analista de sistemas. Gestionar y administrar usuarios y bases de datos, estableciendo seguridad en los mismos. ",
+   "company_industry": "None",
+   "company_url": "https://co.indeed.com/cmp/Uninpahu-1",
+   "company_logo": "nan",
+   "company_url_direct": "nan",
+   "company_addresses": "nan",
+   "company_num_employees": "nan",
+   "company_revenue": "nan",
+   "company_description": "nan",
+   "skills": "None",
+   "experience_range": "None",
+   "company_rating": "nan",
+   "company_reviews_count": "nan",
+   "vacancy_count": "None",
+   "work_from_home_type": "None"
+  },
+  {
+   "id": "in-59b0445cda416948",
+   "site": "indeed",
+   "job_url": "https://co.indeed.com/viewjob?jk=59b0445cda416948",
+   "job_url_direct": "https://group.bnpparibas/en/careers/job-offer/analista-iii-de-it-especialista-dba",
+   "title": "Analista III de IT - Especialista DBA",
+   "company": "BNP Paribas",
+   "location": "Bogotá, CUN, Colombia",
+   "date_posted": "2026-11-26",
+   "job_type": "fulltime",
+   "salary_source": "nan",
+   "interval": "nan",
+   "min_amount": "nan",
+   "max_amount": "nan",
+   "currency": "nan",
+   "is_remote": "False",
+   "job_level": "None",
+   "job_function": "None",
+   "listing_type": "None",
+   "emails": "nan",
+   "description": "Senior Database Administrator (DBA) - Analista SR de IT Ubicación: Bogotá, Colombia. ¿Eres un experto en bases de datos buscando un nuevo desafío profesional? En Cardif Servicios estamos en la búsqued",
+   "company_industry": "None",
+   "company_url": "https://co.indeed.com/cmp/Bnp-Paribas",
+   "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/86a8eba5970c7bd11094dce6527d26f4",
+   "company_url_direct": "http://www.group.bnpparibas",
+   "company_addresses": "Paris",
+   "company_num_employees": "10,000+",
+   "company_revenue": "more than $10B (USD)",
+   "company_description": "BNP Paribas, el líder europeo en servicios bancarios y financieros está presente en 64 países y territorios y cuenta con más de 180.000 empleados.",
+   "skills": "None",
+   "experience_range": "None",
+   "company_rating": "3.8",
+   "company_reviews_count": "5149.0",
+   "vacancy_count": "None",
+   "work_from_home_type": "None"
+  },
+  {
    "id": "in-dabbf18c05e1cc2c",
    "site": "indeed",
    "job_url": "https://co.indeed.com/viewjob?jk=dabbf18c05e1cc2c",
@@ -27,8 +99,8 @@
    "company_url_direct": "http://www.babel.es",
    "company_addresses": "Madrid",
    "company_num_employees": "501 to 1,000",
-   "company_revenue": "None",
-   "company_description": "None",
+   "company_revenue": "nan",
+   "company_description": "nan",
    "skills": "None",
    "experience_range": "None",
    "company_rating": "3.5",
@@ -63,80 +135,8 @@
    "company_url_direct": "nan",
    "company_addresses": "nan",
    "company_num_employees": "nan",
-   "company_revenue": "None",
-   "company_description": "None",
-   "skills": "None",
-   "experience_range": "None",
-   "company_rating": "nan",
-   "company_reviews_count": "nan",
-   "vacancy_count": "None",
-   "work_from_home_type": "None"
-  },
-  {
-   "id": "in-5f18ed403170fde1",
-   "site": "indeed",
-   "job_url": "https://co.indeed.com/viewjob?jk=5f18ed403170fde1",
-   "job_url_direct": "https://cusezar.na.teamtailor.com/jobs/745957-analista-de-control",
-   "title": "Analista de Control",
-   "company": "cusezar",
-   "location": "Bogotá, CUN, Colombia",
-   "date_posted": "2026-11-25",
-   "job_type": "nan",
-   "salary_source": "nan",
-   "interval": "nan",
-   "min_amount": "nan",
-   "max_amount": "nan",
-   "currency": "nan",
-   "is_remote": "False",
-   "job_level": "None",
-   "job_function": "None",
-   "listing_type": "None",
-   "emails": "nan",
-   "description": "Objetivo del Cargo Apoyar los procesos de control de costos y programación de proyectos, con énfasis en proyectos en etapa de cierre y zonas de cesión, contribuyendo al seguimiento presupuestal y de e",
-   "company_industry": "None",
-   "company_url": "https://co.indeed.com/cmp/Cusezar",
-   "company_logo": "nan",
-   "company_url_direct": "http://www.cusezar.com",
-   "company_addresses": "Bogotá",
-   "company_num_employees": "201 to 500",
-   "company_revenue": "None",
-   "company_description": "None",
-   "skills": "None",
-   "experience_range": "None",
-   "company_rating": "3.9",
-   "company_reviews_count": "30.0",
-   "vacancy_count": "None",
-   "work_from_home_type": "None"
-  },
-  {
-   "id": "in-71425528321d90d5",
-   "site": "indeed",
-   "job_url": "https://co.indeed.com/viewjob?jk=71425528321d90d5",
-   "job_url_direct": "nan",
-   "title": "Coordinador(a) de Soporte",
-   "company": "INNOVASOFT COLOMBIA SAS",
-   "location": "Bogotá, CUN, Colombia",
-   "date_posted": "2026-11-25",
-   "job_type": "fulltime",
-   "salary_source": "direct_data",
-   "interval": "monthly",
-   "min_amount": "3000000.0",
-   "max_amount": "3500000.0",
-   "currency": "COP",
-   "is_remote": "False",
-   "job_level": "None",
-   "job_function": "None",
-   "listing_type": "None",
-   "emails": "nan",
-   "description": "Buscamos Coordinador(a) de Soporte al Cliente, responsable de liderar el equipo de soporte técnico de la Dirección de Tecnología y de garantizar la resolución de incidencias en los niveles L1, L2 y L3",
-   "company_industry": "None",
-   "company_url": "https://co.indeed.com/cmp/Innovasoft-Colombia-SAS-1",
-   "company_logo": "nan",
-   "company_url_direct": "nan",
-   "company_addresses": "nan",
-   "company_num_employees": "nan",
-   "company_revenue": "None",
-   "company_description": "None",
+   "company_revenue": "nan",
+   "company_description": "nan",
    "skills": "None",
    "experience_range": "None",
    "company_rating": "nan",
@@ -146,6 +146,44 @@
   }
  ],
  "Workday (multinacionales)": [
+  {
+   "id": "workday-jj-R-108823",
+   "fuente": "Workday",
+   "titulo": "A2R DS Analyst- Talento sin Barreras",
+   "empresa": "Johnson & Johnson",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bogot-Distrito-Capital-Colombia/A2R-DS-Analyst_R-108823-2",
+   "modalidad": "Híbrido",
+   "remoto": "False",
+   "remote_modality": "hybrid",
+   "paises": "['Colombia']",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "fecha": "2026-11-26",
+   "seniority_id": "None",
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "descripcion": "<p style=\"text-align:left !important\">At Johnson &amp; Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented",
+   "salario": ""
+  },
+  {
+   "id": "workday-jj-R-108824",
+   "fuente": "Workday",
+   "titulo": "A2R DS Junior Analyst - Talento sin Barreras",
+   "empresa": "Johnson & Johnson",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bogot-Distrito-Capital-Colombia/A2R-DS-Junior-Analyst_R-108824-1",
+   "modalidad": "Híbrido",
+   "remoto": "False",
+   "remote_modality": "hybrid",
+   "paises": "['Colombia']",
+   "ubicacion": "Bogotá, Distrito Capital, Colombia",
+   "fecha": "2026-11-26",
+   "seniority_id": "None",
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "descripcion": "<p style=\"text-align:left !important\">At Johnson &amp; Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented",
+   "salario": ""
+  },
   {
    "id": "workday-jj-R-101809",
    "fuente": "Workday",
@@ -158,44 +196,6 @@
    "paises": "['Colombia']",
    "ubicacion": "Bogotá, Distrito Capital, Colombia",
    "fecha": "2026-11-23",
-   "seniority_id": "None",
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "descripcion": "<p style=\"text-align:left !important\">At Johnson &amp; Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented",
-   "salario": ""
-  },
-  {
-   "id": "workday-jj-R-101807",
-   "fuente": "Workday",
-   "titulo": "Procurement Operations Analyst, Americas",
-   "empresa": "Johnson & Johnson",
-   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bogot-Distrito-Capital-Colombia/Procurement-Operations-Analyst--Americas_R-101807-1",
-   "modalidad": "Híbrido",
-   "remoto": "False",
-   "remote_modality": "hybrid",
-   "paises": "['Colombia']",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "fecha": "2026-11-23",
-   "seniority_id": "None",
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "descripcion": "<p style=\"text-align:left !important\">At Johnson &amp; Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented",
-   "salario": ""
-  },
-  {
-   "id": "workday-jj-R-108165",
-   "fuente": "Workday",
-   "titulo": "Payroll Contact Center Analyst",
-   "empresa": "Johnson & Johnson",
-   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bogot-Distrito-Capital-Colombia/NAM-Payroll-Contact-Center-Jr-Analyst_R-108165",
-   "modalidad": "Híbrido",
-   "remoto": "False",
-   "remote_modality": "hybrid",
-   "paises": "['Colombia']",
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "fecha": "2026-11-21",
    "seniority_id": "None",
    "seniority": "",
    "categoria": "",
@@ -265,64 +265,441 @@
  ],
  "Computrabajo": [
   {
-   "id": "computrabajo-FF96C7436DDB818761373E686DCF3405",
+   "id": "computrabajo-EAC957AE4B9296F561373E686DCF3405",
    "fuente": "Computrabajo",
-   "titulo": "Analista Administrativos de Datos /Excel Avanzado",
-   "empresa": "Ocupar Temporales S.A.",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-administrativos-de-datos-excel-avanzado-en-bogota-dc-FF96C7436DDB818761373E686DCF3405",
+   "titulo": "Analista de Ciencia de Datos (Mercadeo) - Bogotá",
+   "empresa": "SOMOS PRIMERO IPS S.A.S",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-ciencia-de-datos-mercadeo-bogota-en-bogota-dc-EAC957AE4B9296F561373E686DCF3405",
    "modalidad": "Presencial",
    "remoto": "False",
    "remote_modality": "no_remote",
    "paises": "['Colombia']",
    "ubicacion": "Bogotá, D.C.",
-   "fecha": "2026-10-13",
+   "fecha": "2026-10-30",
    "seniority_id": "None",
    "seniority": "",
    "categoria": "",
    "idioma": "",
-   "descripcion": "¡Únete a nuestro equipo! Estamos en búsqueda de un Analista de Datos con experiencia en el area administrativa y Excel avanzado, orientado a la optimización de procesos y a la generación de soluciones",
-   "salario": "$3.696.000"
+   "descripcion": "Únete a nuestro equipo buscamos transformar la ciencia de datos en recomendaciones accionables para nuestro negocio mediante el uso de modelos estadísticos y modelos predictivos que permitan anticipar",
+   "salario": ""
   },
   {
-   "id": "computrabajo-04A7163C079721C561373E686DCF3405",
+   "id": "computrabajo-BDE3E56E7BA61C5861373E686DCF3405",
    "fuente": "Computrabajo",
-   "titulo": "Analista de Datos y Automatización Junior",
-   "empresa": "Manpower Group Colombia",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-junior-en-bogota-dc-04A7163C079721C561373E686DCF3405",
+   "titulo": "Analista de Datos y Automatización Junior - Bogota.",
+   "empresa": "LAGOBO DISTRIBUCIONES S.A.S",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-junior-bogota-en-bogota-dc-BDE3E56E7BA61C5861373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": "False",
+   "remote_modality": "no_remote",
+   "paises": "['Colombia']",
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-05",
+   "seniority_id": "None",
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "descripcion": "¡Transforma datos en oportunidades! · En LAGOBO buscamos una persona analítica, organizada y con curiosidad por la tecnología, que quiera aprender, aportar ideas y crecer profesionalmente. Como ANALIS",
+   "salario": "$2.900.000"
+  },
+  {
+   "id": "computrabajo-5918BCBFEFA0FF0461373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Inteligencia de Negocios - Riesgos y Cotizaciones",
+   "empresa": "IKE ASISTENCIA COLOMBIA S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-inteligencia-de-negocios-riesgos-y-cotizaciones-en-bogota-dc-5918BCBFEFA0FF0461373E686DCF3405",
    "modalidad": "Híbrido",
    "remoto": "False",
    "remote_modality": "hybrid",
    "paises": "['Colombia']",
    "ubicacion": "Bogotá, D.C.",
-   "fecha": "2026-11-13",
+   "fecha": "2026-11-26",
    "seniority_id": "None",
    "seniority": "",
    "categoria": "",
    "idioma": "",
-   "descripcion": "Analista de Automatización y Datos · ¡Haz parte de una compañía global y desarrolla tu carrera en analítica y automatización! ¿Te apasionan los datos, la mejora continua y la tecnología? ¿Te gustaría ",
-   "salario": "$3.000.000"
-  },
-  {
-   "id": "computrabajo-EB48AA68C528B8ED61373E686DCF3405",
-   "fuente": "Computrabajo",
-   "titulo": "Analista Fiduciario Inmobiliario",
-   "empresa": "Empresa confidencial",
-   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-fiduciario-inmobiliario-en-bogota-dc-EB48AA68C528B8ED61373E686DCF3405",
-   "modalidad": "Presencial",
-   "remoto": "False",
-   "remote_modality": "no_remote",
-   "paises": "['Colombia']",
-   "ubicacion": "Bogota Dc",
-   "fecha": "2026-11-25",
-   "seniority_id": "None",
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "descripcion": "¿Buscas trabajo de Analista Fiduciario Inmobiliario? Ingresa tu hoja de vida y aplica a la vacante en Bogotá, D.C., Bogotá, D.C.. Computrabajo publica nuevos empleos cada día. ",
-   "salario": ""
+   "descripcion": "¡Únete a nuestro equipo como Analista de Inteligencia de Negocios y Pricing! ¿Te apasiona el análisis de datos, la generación de estrategias basadas en información y la construcción de modelos que imp",
+   "salario": "$2.300.000"
   }
  ],
- "GetOnBoard": [],
+ "GetOnBoard": [
+  {
+   "id": "analista-qa-funcional-bc-tecnologia-santiago",
+   "type": "job",
+   "attributes": {
+    "title": "Analista QA Funcional",
+    "description_headline": "Requisitos excluyentes",
+    "description": "<ul><li>Mínimo 3 años de experiencia como Analista QA Funcional o en aseguramiento de calidad de software.</li><li>Experiencia en diseño y ejecución de pruebas funcionales y de regresión.</li><li>Experiencia en procesos de certificación funcional de soluciones tecnológicas.</li><li>Manejo de SQL y bases de datos relacionales para validación de información y preparación de datos de prueba.</li><li>Experiencia con Jira o herramientas equivalentes de gestión de pruebas e incidencias.</li><li>Experiencia en documentación de pruebas, evidencias y trazabilidad de requerimientos.</li><li>Formación académica y/o certificaciones relacionadas con QA.</li><li>Disponibilidad para trabajar bajo modalidad híbrida en Providencia.</li></ul><p>Buscamos profesionales con experiencia en aseguramiento de calidad, certificación funcional de soluciones tecnológicas, diseño y ejecución de pruebas, con sólidos conocimientos en SQL y herramientas de gestión de pruebas.</p>",
+    "projects": "<p>En <strong>BC Tecnología</strong> nos encontramos en búsqueda de <strong>3 Analistas QA Funcionales</strong> para integrarse a un importante proyecto del sector financiero y de seguridad social.</p><p>Buscamos profesionales con experiencia en aseguramiento de calidad, certificación funcional de soluciones tecnológicas, diseño y ejecución de pruebas, con sólidos conocimientos en SQL y herramientas de gestión de pruebas.</p>",
+    "functions_headline": "Principales funciones",
+    "functions": "<p>Analizar requerimientos funcionales y criterios de aceptación.</p><p>Definir estrategias, diseñar planes y ejecutar casos de pruebas funcionales.</p><p>Elaborar y actualizar modelos funcionales y diagramas de actividades en Enterprise Architect.</p><p>Ejecutar pruebas funcionales, de regresión y re-pruebas.</p><p>Preparar y validar datos de prueba mediante consultas SQL.</p><p>Registrar, gestionar y realizar seguimiento de defectos e incidencias en Jira.</p><p>Reproducir errores productivos y certificar las soluciones implementadas.</p><p>Elaborar documentación, evidencias, reportes de certificación y matrices de trazabilidad.</p><p>Mantener actualizados los indicadores de cobertura, avance y resultados de pruebas.</p><p>Trabajar colaborativamente con equipos de desarrollo, análisis funcional, QA técnico y áreas de negocio.</p>",
+    "benefits_headline": "",
+    "benefits": "",
+    "desirable_headline": "Requisitos deseables",
+    "desirable": "<ul><li>Experiencia con Enterprise Architect y modelamiento de procesos funcionales.</li><li>Experiencia en banca, instituciones financieras, AFP, cajas de compensación o seguridad social.</li><li>Experiencia en organizaciones reguladas o de alta criticidad operacional.</li><li>Manejo de Microsoft Planner.</li><li>Certificación ISTQB.</li></ul>",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "lang_not_specified",
+    "category_name": "SysAdmin / DevOps / QA",
+    "perks": [],
+    "min_salary": null,
+    "max_salary": null,
+    "published_at": 1795718676,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 7,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 3,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 36815,
+       "type": "tag"
+      },
+      {
+       "id": 2803,
+       "type": "tag"
+      },
+      {
+       "id": 64,
+       "type": "tag"
+      },
+      {
+       "id": 2128,
+       "type": "tag"
+      },
+      {
+       "id": 4297,
+       "type": "tag"
+      },
+      {
+       "id": 36991,
+       "type": "tag"
+      },
+      {
+       "id": 40684,
+       "type": "tag"
+      },
+      {
+       "id": 11733,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "bctecnologia",
+      "type": "company",
+      "attributes": {
+       "name": "BC Tecnología",
+       "description": "Somos una consultora de TI con personal experto en diferentes áreas de tecnología.",
+       "long_description": "<p>Somos una consultora de Servicios IT. Administramos portafolio, desarrollamos proyectos, realizamos outsourcing y selección de profesionales.</p><p>Creamos equipos de trabajos ágiles para áreas de Infraestructura Tecnología, Desarrollo de Software y Unidades de Negocio, en clientes de servicios financieros, seguros, retail y gobierno.</p><p>Desde hace 6 años diseñamos soluciones acorde a las necesidades de nuestros clientes. Nuestras principales áreas de negocio son:</p><p>- Consultoría y diseño de soluciones.<br>- Formación de equipos de trabajo, outsourcing de personal.<br>- Desarrollo de proyectos.<br>- Servicios de soporte y administración IT </p><p>Tenemos un enfoque claro en el cliente, metodologías ágiles, cambio organizacional y desarrollo de productos. </p>",
+       "projects": "<div>En BC Tecnología gestionamos portafolios, desarrollamos proyectos y ofrecemos servicios de outsourcing y selección de profesionales para clientes de sectores como servicios financieros, seguros, retail y gobierno. Participarás en iniciativas estratégicas de transformación digital para LATAM Airlines, una organización líder en la industria aeronáutica, en un entorno que combina trabajo remoto con presencia ocasional en oficina. Serás parte de la Gerencia de Arquitectura, colaborando en la definición de la arquitectura empresarial y su evolución ante cambios tecnológicos y de negocio, asegurando alineación con la estrategia corporativa y con estándares de gobernanza.</div>",
+       "benefits": "<div>En BC Tecnología promovemos un ambiente de trabajo colaborativo que valora el compromiso y el aprendizaje constante. Nuestra cultura se orienta al crecimiento profesional a través de la integración y el intercambio de conocimientos entre equipos.</div><div>La modalidad híbrida que ofrecemos, ubicada en Las Condes, permite combinar la flexibilidad del trabajo remoto con la colaboración presencial, facilitando un mejor equilibrio y dinamismo laboral.</div><div>Participarás en proyectos innovadores con clientes de alto nivel y sectores diversos, en un entorno que fomenta la inclusión, el respeto y el desarrollo técnico y profesional.</div>",
+       "web": "http://www.bctecnologia.com",
+       "twitter": "",
+       "github": "",
+       "facebook": "",
+       "angellist": "",
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 5,
+        "max": 19
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/9458/Copia_de_logo.png"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/analista-qa-funcional-bc-tecnologia-santiago"
+   }
+  },
+  {
+   "id": "analista-de-canales-digitales-bice-vida-santiago",
+   "type": "job",
+   "attributes": {
+    "title": "Analista de Canales Digitales",
+    "description_headline": "¿Qué necesitamos? 😎",
+    "description": "<ul><li>Formación en <strong>Ingeniería Industrial o carrera afín</strong>, con entre <strong>0 y 2 años de experiencia profesional</strong>. También consideraremos recién titulados con prácticas o experiencias relevantes.</li><li><strong>Alta capacidad analítica y de resolución de problemas</strong>, pudiendo estructurar situaciones con información incompleta o poco ordenada y respaldar conclusiones con datos.</li><li><strong>Alta capacidad de aprendizaje y adaptación</strong>, con motivación por desenvolverse en ambientes dinámicos, desafiantes y con problemas que no siempre tienen una respuesta evidente.</li><li><strong>Interés genuino por el mundo digital, la tecnología y la innovación</strong>, con curiosidad por investigar, aprender y mantenerse al día en nuevas tendencias y soluciones.</li><li><strong>Autonomía, iniciativa y buena comunicación</strong>, con capacidad para trabajar con distintas personas, profundizar en los problemas y movilizar iniciativas para que avancen.</li></ul>",
+    "projects": "<div>En <strong>BICE VIDA</strong> somos líderes en el rubro de las aseguradoras en Chile y trabajamos para satisfacer las necesidades de <strong>seguridad, prosperidad y protección</strong> de nuestros clientes. Estamos viviendo un proceso profundo de <strong>transformación digital</strong>, explorando nuevas formas de hacer negocio, diseñar experiencias de alto impacto y responder a un entorno cada vez más exigente y cambiante.</div><div><em>Esta oferta se enmarca en la </em><strong><em>Ley 21.015</em></strong><em>, que incentiva la inclusión laboral de personas en situación de discapacidad. Las personas interesadas contarán con el apoyo de la Compañía para realizar un proceso inclusivo y en igualdad de condiciones. BICE Vida se compromete a resguardar la información proporcionada de manera voluntaria.</em></div>",
+    "functions_headline": "¿Qué buscamos?",
+    "functions": "<p>En <strong>BICE Vida estamos buscando un/a Analista de Canales Digitales</strong> para sumarse a nuestra <strong>Tribu de Canales Digitales</strong>, equipo que impulsa la evolución de nuestros principales canales: Sucursal Virtual, App y Sitio Público.</p><p>En este rol tendrás la oportunidad de trabajar junto a equipos de producto, negocio y tecnología, participando en iniciativas que buscan mejorar la experiencia de nuestros clientes y potenciar nuestros canales digitales.</p><p>Buscamos una persona con <strong>alta capacidad analítica, curiosidad e iniciativa</strong>, apasionada por el mundo digital y la tecnología, que disfrute investigar tendencias, identificar oportunidades y transformar análisis en soluciones concretas.</p><p>Es una excelente oportunidad para desarrollarte en el mundo de producto digital, participando desde la identificación de oportunidades hasta la implementación y medición de resultados.</p><h2>¿Qué harás?</h2><ul><li><strong>Analizar nuestros canales digitales</strong> para identificar problemas y oportunidades a partir de datos, comportamiento de clientes, feedback e información de negocio, preparando análisis y síntesis ejecutivas que apoyen la toma de decisiones.</li><li><strong>Investigar tendencias, innovaciones, proveedores y soluciones de mercado</strong>, realizando benchmarks y evaluando alternativas para nuestros desafíos.</li><li><strong>Evaluar iniciativas y oportunidades</strong> considerando impacto esperado, valor, costos, esfuerzo y dependencias, aportando información para su priorización y posterior medición de resultados.</li><li><strong>Apoyar y/o liderar iniciativas de Canales Digitales</strong>, tomando responsabilidad sobre iniciativas concretas, coordinando con distintas áreas e identificando avances, riesgos, bloqueos y próximos pasos.</li><li>Trabajar junto a nuestros <strong>equipos de producto, negocio y tecnología, entre otros</strong>, apoyando el análisis y definición de soluciones durante las distintas etapas de una iniciativa.</li></ul>",
+    "benefits_headline": "¿Cómo es trabajar en BICE Vida? 🤔",
+    "benefits": "<ul><li>Contamos con la mejor cobertura de la industria y te brindamos un seguro complementario de salud, dental y vida, y además un seguro catastrófico (Para ti y tus cargas legales).</li><li>🏅Bonos en UF dependiendo de la estación del año y del tiempo que lleves en nuestra Compañía. 🎁</li><li>Salida anticipada los días viernes, hasta las 14:00 hrs, lo que te permitirá balancear tu vida personal y laboral. 🙌</li><li>Dress code semi-formal, porque privilegiamos la comodidad. 👟</li><li>Almuerzo gratis.</li><li>Contamos con capacitaciones constantes, para impulsar y empoderar equipos diversos con foco en buscar mejores resultados. Puedes venir en bicicleta y la cuidamos por ti. Tenemos bicicleteros en casa matriz. 🚲</li></ul>",
+    "desirable_headline": "Opcionales",
+    "desirable": "",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "lang_not_specified",
+    "category_name": "Product, Innovation & Agile",
+    "perks": [
+     "accessible",
+     "life_insurance",
+     "meals_provided",
+     "remote_partial",
+     "bicycle_parking",
+     "dental_insurance",
+     "computer_provided",
+     "education_stipend"
+    ],
+    "min_salary": null,
+    "max_salary": null,
+    "published_at": 1795707648,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 193,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 3,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 56,
+       "type": "tag"
+      },
+      {
+       "id": 5753,
+       "type": "tag"
+      },
+      {
+       "id": 61685,
+       "type": "tag"
+      },
+      {
+       "id": 1244,
+       "type": "tag"
+      },
+      {
+       "id": 45459,
+       "type": "tag"
+      },
+      {
+       "id": 37164,
+       "type": "tag"
+      },
+      {
+       "id": 1198,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "bice-vida",
+      "type": "company",
+      "attributes": {
+       "name": "BICE VIDA",
+       "description": "Líderes en el negocio de las aseguradoras en Chile, somos una empresa enfocada en satisfacer las necesidades de seguridad, prosperidad y protección de nuestros clientes. ",
+       "long_description": "<div>Con más de 30 años de historia, somos unos de los líderes del rubro de las aseguradoras y queremos seguir siendo una de las Compañías referentes en el mercado. </div><div>Hemos construido un gran equipo de trabajo y excelente clima laboral, que nos permite seguir enfocándonos en potenciar nuestra colaboración, flexibilidad, excelencia y calidad de nuestros servicios dentro y fuera de la Compañía, a través de procesos de mejoras continua, apoyados de tecnologías vanguardistas y con el mejor equipo de trabajo. </div>",
+       "projects": "<div>En <strong>BICE VIDA</strong> somos líderes en el rubro de las aseguradoras en Chile y trabajamos para satisfacer las necesidades de <strong>seguridad, prosperidad y protección</strong> de nuestros clientes. Estamos viviendo un proceso profundo de <strong>transformación digital</strong>, explorando nuevas formas de hacer negocio, diseñar experiencias de alto impacto y responder a un entorno cada vez más exigente y cambiante.</div><div><em>Esta oferta se enmarca en la </em><strong><em>Ley 21.015</em></strong><em>, que incentiva la inclusión laboral de personas en situación de discapacidad. Las personas interesadas contarán con el apoyo de la Compañía para realizar un proceso inclusivo y en igualdad de condiciones. BICE Vida se compromete a resguardar la información proporcionada de manera voluntaria.</em></div>",
+       "benefits": "<ul><li>Contamos con la mejor cobertura de la industria y te brindamos un seguro complementario de salud, dental y vida, y además un seguro catastrófico (Para ti y tus cargas legales).</li><li>🏅Bonos en UF dependiendo de la estación del año y del tiempo que lleves en nuestra Compañía. 🎁</li><li>Salida anticipada los días viernes, hasta las 14:00 hrs, lo que te permitirá balancear tu vida personal y laboral. 🙌</li><li>Dress code semi-formal, porque privilegiamos la comodidad. 👟</li><li>Almuerzo gratis.</li><li>Contamos con capacitaciones constantes, para impulsar y empoderar equipos diversos con foco en buscar mejores resultados. Puedes venir en bicicleta y la cuidamos por ti. Tenemos bicicleteros en casa matriz. 🚲</li></ul>",
+       "web": "http://www.bicevida.cl",
+       "twitter": "",
+       "github": "",
+       "facebook": "",
+       "angellist": "",
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 11,
+        "max": 25
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/7178/bice_vida_logo.jpeg"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/analista-de-canales-digitales-bice-vida-santiago"
+   }
+  },
+  {
+   "id": "business-analyst-junior-apside-santiago-110f",
+   "type": "job",
+   "attributes": {
+    "title": "Business Analyst Junior",
+    "description_headline": "¿Qué requisitos básicos debe tener?",
+    "description": "<p>Buscamos un Business Analyst Junior con hasta 2 años de experiencia en análisis funcional y apoyo a equipos de desarrollo de software. Buscamos un perfil analítico, ordenado y con alta capacidad de comunicación, orientado a la calidad y al cumplimiento de compromisos.</p><h3><h3><strong>Requisitos técnicos excluyentes:</strong></h3></h3><ul><li>Experiencia inicial o conocimientos sólidos en análisis de requerimientos de software.</li><li>Capacidad para levantar, documentar y validar requerimientos con stakeholders.</li><li>Conocimiento en elaboración de casos de uso, historias de usuario y documentación funcional.</li><li>Experiencia básica en generación de planes de prueba y apoyo en pruebas funcionales.</li><li>Manejo de herramientas de gestión de tareas y proyectos como JIRA.</li><li>Conocimientos básicos de SQL para consultas y análisis de datos.</li><li>Comprensión general del ciclo de vida del desarrollo de software (SDLC).</li><li>Experiencia o conocimientos en trabajo con equipos ágiles (Scrum / Kanban).</li></ul>",
+    "projects": "<p>Con más de 10 años de experiencia en el mercado y un crecimiento constante, nos destacamos por centrarnos en el desarrollo profesional de nuestros talentos. Trabajamos en proyectos variados, abarcando sectores como seguros, retail, banca, gobierno e innovación pública.<br>Nuestro equipo está compuesto por profesionales altamente calificados en la industria, con una amplia experiencia y apasionados por la tecnología. Fomentamos una relación con profesionales autónomos que valoran la excelencia técnica y la búsqueda constante de conocimiento.<br>¡Somos una empresa <strong>100% remota</strong>, con personas en diferentes países de América Latina!</p><p><strong>¿Que ofrecemos?<br></strong>Te ofrecemos formar parte de un equipo con un <strong>muy buen ambiente de trabajo</strong>, multicultural, con personas que valoran la autonomia, el trabajo en equipo y el respeto mutuo.<strong><br></strong><br>Contamos con excelentes beneficios para nuestros Apsiders: Salud, Bienestar, Educación y diferentes bonos que se ajustan a las necesidades de nuestros talentos.</p>",
+    "functions_headline": "¿Qué funciones concretas desarrollarás?",
+    "functions": "<p>Al ser parte del equipo, el Business Analyst Junior será responsable de:</p><ul><li>Participar activamente en la gestión de la relación con los distintos stakeholders, colaborando en el cumplimiento de los tiempos de respuesta definidos por la gerencia y los acuerdos de nivel de servicio (SLA).</li><li>Levantar, analizar y documentar requerimientos funcionales, apoyando la correcta comprensión de las necesidades del negocio por parte del equipo de desarrollo.</li><li>Elaborar casos de uso, historias de usuario y documentación funcional que contribuyan a la calidad del producto y del proceso de desarrollo.</li><li>Diseñar planes de prueba y colaborar en los procesos de pruebas de aceptación y validación dentro de la célula o equipo de trabajo.</li><li>Dar seguimiento a los indicadores y métricas de desarrollo de software definidos por la gerencia, apoyando su cumplimiento y mejora continua.</li><li>Realizar consultas y análisis de información mediante SQL, asegurando la trazabilidad de los datos asociados a procesos de Venta y Post Venta.</li><li>Asegurar el uso adecuado y la correcta actualización de las herramientas de gestión de tareas y requerimientos, especialmente JIRA.</li><li>Colaborar con los distintos roles del equipo (QA, desarrollo, liderazgo) para garantizar entregables alineados a los objetivos del proyecto.</li></ul>",
+    "benefits_headline": "Condiciones",
+    "benefits": "",
+    "desirable_headline": "¿Qué te daría un plus +++?",
+    "desirable": "<ul><li>Experiencia previa en proyectos de software en contextos.</li><li>Conocimientos básicos de métricas de desarrollo de software.</li><li>Buen manejo de documentación funcional y diagramas simples (BPMN, UML básico).</li><li>Habilidades de comunicación escrita y verbal con perfiles técnicos y de negocio.</li></ul>",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "es",
+    "category_name": "Product, Innovation & Agile",
+    "perks": [
+     "internal_talks",
+     "life_insurance",
+     "health_coverage",
+     "computer_repairs",
+     "dental_insurance",
+     "education_stipend",
+     "personal_coaching",
+     "conference_stipend"
+    ],
+    "min_salary": 900,
+    "max_salary": 1200,
+    "published_at": 1795634918,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 42,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 2,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 64,
+       "type": "tag"
+      },
+      {
+       "id": 305,
+       "type": "tag"
+      },
+      {
+       "id": 1766,
+       "type": "tag"
+      },
+      {
+       "id": 37564,
+       "type": "tag"
+      },
+      {
+       "id": 37164,
+       "type": "tag"
+      },
+      {
+       "id": 37284,
+       "type": "tag"
+      },
+      {
+       "id": 34,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "apside",
+      "type": "company",
+      "attributes": {
+       "name": "Apside",
+       "description": "Valoramos profundamente el profesionalismo y compromiso en nuestro equipo, el que cuenta con amplia experiencia en el desarrollo de proyectos,  una fuerte orientación al cliente y un alto nivel técnico. ",
+       "long_description": "",
+       "projects": "<p>Con más de 10 años de experiencia en el mercado y un crecimiento constante, nos destacamos por centrarnos en el desarrollo profesional de nuestros talentos. Trabajamos en proyectos variados, abarcando sectores como seguros, retail, banca, gobierno e innovación pública.<br>Nuestro equipo está compuesto por profesionales altamente calificados en la industria, con una amplia experiencia y apasionados por la tecnología. Fomentamos una relación con profesionales autónomos que valoran la excelencia técnica y la búsqueda constante de conocimiento.<br>¡Somos una empresa <strong>100% remota</strong>, con personas en diferentes países de América Latina!<br><br></p><p><strong>¿Que ofrecemos?<br></strong>Te ofrecemos formar parte de un equipo con un <strong>muy buen ambiente de trabajo</strong>, multicultural, con personas que valoran la autonomia, el trabajo en equipo y el respeto mutuo.<strong><br></strong><br>Contamos con excelentes beneficios para nuestros Apsiders: Salud, Bienestar, Educación y diferentes bonos que se ajustan a las necesidades de nuestros talentos.<br><br></p>",
+       "benefits": "",
+       "web": "http://www.apside.cl",
+       "twitter": "apsidecl",
+       "github": "",
+       "facebook": "apsidecl",
+       "angellist": "",
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 22,
+        "max": 32
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/5190/isotipo_1024x1024.png"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/business-analyst-junior-apside-santiago-110f"
+   }
+  }
+ ],
  "Remotive": [
   {
    "id": "2091179",
@@ -356,118 +733,122 @@
  ],
  "Himalayas": [
   {
-   "title": "Business Intelligence Analyst, Finance",
-   "excerpt": "About WCG WCG delivers transformational solutions that accelerate clinical research and advance human health.",
-   "companyName": "Wirb Copernicus Group",
-   "companySlug": "wirb-copernicus-group",
-   "companyLogo": "https://cdn-images.himalayas.app/1lhy2199kt50el4q6bumgafqlwqn",
-   "employmentType": "Other",
-   "minSalary": "65700",
-   "maxSalary": "110000",
+   "title": "QA - Hebrew",
+   "excerpt": "Work Location: Remote Work Schedule/Workload: 16 Hours Engagement Model: Independent Contractor/Freelance Estimated Project Duration: 1 week Estimated Start Date: Immediate Language(s) Needed: Hebrew ",
+   "companyName": "TransPerfect",
+   "companySlug": "transperfect",
+   "companyLogo": "https://cdn-images.himalayas.app/ajo5i9rif4b5o85fv5k9mcd8pr0p",
+   "employmentType": "Contractor",
+   "minSalary": "None",
+   "maxSalary": "None",
    "salaryPeriod": "annual",
-   "seniority": "['Senior']",
-   "currency": "USD",
-   "locationRestrictions": "['United States']",
-   "timezoneRestrictions": "[-10, -9, -8, -7, -6, -5, 14]",
-   "categories": "['Business-Intelligence-Analyst', 'Financial-Analyst', 'Reporting-Analyst', 'Data-Analyst']",
-   "parentCategories": "['Data Science', 'Finance']",
-   "description": "<h3>About WCG</h3><p>WCG delivers transformational solutions that accelerate clinical research and advance human health. We serve the experts, innovators, and pathfinders on the frontlines of science ",
-   "pubDate": "1795659991",
-   "expiryDate": "1800843991",
-   "applicationLink": "https://himalayas.app/companies/wirb-copernicus-group/jobs/business-intelligence-analyst-finance?utm_source=api",
-   "guid": "https://himalayas.app/companies/wirb-copernicus-group/jobs/business-intelligence-analyst-finance"
+   "seniority": "['Mid-level']",
+   "currency": "None",
+   "locationRestrictions": "['Israel']",
+   "timezoneRestrictions": "[2]",
+   "categories": "['QA-Analyst', 'Data-Quality-Analyst', 'Quality-Checker', 'Data-Annotator']",
+   "parentCategories": "['Developer', 'Data Science']",
+   "description": "<p><strong>Work Location</strong>: Remote</p><p><strong>Work Schedule/Workload</strong>: 16 Hours</p><p><strong>Engagement Model</strong>: Independent Contractor/Freelance</p><p><strong>Estimated Proj",
+   "pubDate": "1795711324",
+   "expiryDate": "1800895324",
+   "applicationLink": "https://himalayas.app/companies/transperfect/jobs/qa-hebrew?utm_source=api",
+   "guid": "https://himalayas.app/companies/transperfect/jobs/qa-hebrew"
   },
   {
-   "title": "Contract Analyst",
-   "excerpt": "Contract AnalystWhat you will be doing: The Contract Analyst is responsible for the creation of analytic deliverables for the Member Value Enablement (“MVE”) division to support strategies to bring to",
-   "companyName": "Premier Inc.",
-   "companySlug": "premier-inc",
-   "companyLogo": "https://cdn-images.himalayas.app/eo1h5swy0iui54yquj6ti7vtzzkc",
+   "title": "NEPS Requirements Development Subject Matter Expert",
+   "excerpt": "Overview NEPS Requirements Development Subject Matter Expert (C80-2026-26586) Bowhead seeks a NEPS Requirements Development Subject Matter Experts for a growing effort of the NAVSEA Enterprise Plannin",
+   "companyName": "UIC Alaska",
+   "companySlug": "uic-alaska",
+   "companyLogo": "https://cdn-images.himalayas.app/goo2sm586mw8k4bxnlqn8ghu0z6m",
    "employmentType": "Full Time",
-   "minSalary": "62000",
-   "maxSalary": "93000",
+   "minSalary": "110000",
+   "maxSalary": "138000",
    "salaryPeriod": "annual",
    "seniority": "['Mid-level']",
    "currency": "USD",
    "locationRestrictions": "['United States']",
    "timezoneRestrictions": "[-10, -9, -8, -7, -6, -5, 14]",
-   "categories": "['Contract-Analyst', 'Business-Analyst', 'Data-Analyst', 'Healthcare-Analyst', 'Supply-Chain-Analyst']",
-   "parentCategories": "['Data Science', 'Operations']",
-   "description": "Contract Analyst<h3>What you will be doing:</h3><p>The Contract Analyst is responsible for the creation of analytic deliverables for the Member Value Enablement (“MVE”) division to support strategies ",
-   "pubDate": "1795659900",
-   "expiryDate": "1800843900",
-   "applicationLink": "https://himalayas.app/companies/premier-inc/jobs/contract-analyst?utm_source=api",
-   "guid": "https://himalayas.app/companies/premier-inc/jobs/contract-analyst"
+   "categories": "['Requirements-Development-Subject-Matter-Expert', 'Requirements-Analyst', 'Business-Intelligence-Analyst', 'Financial-Systems-Analyst', 'Program-Analyst']",
+   "parentCategories": "['Data Science', 'Finance', 'Operations']",
+   "description": "Overview<br><br><p>NEPS Requirements Development Subject Matter Expert (C80-2026-26586)</p><p>Bowhead seeks a NEPS Requirements Development Subject Matter Experts for a growing effort of the NAVSEA En",
+   "pubDate": "1795711248",
+   "expiryDate": "1800895247",
+   "applicationLink": "https://himalayas.app/companies/uic-alaska/jobs/neps-requirements-development-subject-matter-expert?utm_source=api",
+   "guid": "https://himalayas.app/companies/uic-alaska/jobs/neps-requirements-development-subject-matter-expert"
   }
  ],
  "Jobicy": [
   {
-   "id": "164300",
-   "url": "https://jobicy.com/jobs/164300-customer-engineering-manager",
-   "jobSlug": "164300-customer-engineering-manager",
-   "jobTitle": "Customer Engineering Manager",
-   "companyName": "Cloudflare, Inc.",
-   "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/e81b43c4-221.png",
-   "jobIndustry": "['Sales']",
-   "jobType": "['Full-Time']",
-   "jobGeo": "Mexico",
+   "id": "164416",
+   "url": "https://jobicy.com/jobs/164416-cobalt-core-pentester-2",
+   "jobSlug": "164416-cobalt-core-pentester-2",
+   "jobTitle": "Cobalt Core Pentester",
+   "companyName": "Cobalt",
+   "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/7a1fbbfd-221.jpg",
+   "jobIndustry": "['Cybersecurity']",
+   "jobType": "['Part-Time']",
+   "jobGeo": "APAC,  EMEA,  LATAM,  Canada",
    "jobLevel": "Senior",
-   "jobExcerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties f",
-   "jobDescription": "<h3>About Us</h3>\n<p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet ",
-   "pubDate": "2026-11-25T15:54:33+00:00"
+   "jobExcerpt": "Who We Are The Cobalt Core is an exclusive community of security pentesters. We admit a select fraction of applicants, each earning their place through a rigorous vetting process that evaluates techni",
+   "jobDescription": "<p><strong>Who We Are </strong></p>\n<p>The <a href=\"https://jobicy.com/company/cobalt\" target=\"_blank\" rel=\"noopener\">Cobalt</a> Core is an exclusive community of security pentesters. We admit a selec",
+   "pubDate": "2026-11-26T14:35:23+00:00"
   },
   {
-   "id": "164287",
-   "url": "https://jobicy.com/jobs/164287-senior-software-engineer-31",
-   "jobSlug": "164287-senior-software-engineer-31",
-   "jobTitle": "Senior Software Engineer",
-   "companyName": "BigID",
-   "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/09d6c6d2-221.jpg",
-   "jobIndustry": "['Software Engineering']",
+   "id": "164419",
+   "url": "https://jobicy.com/jobs/164419-associate-director-music-policy-spotify-for-artists",
+   "jobSlug": "164419-associate-director-music-policy-spotify-for-artists",
+   "jobTitle": "Associate Director, Music Policy, Spotify for Artists",
+   "companyName": "Spotify",
+   "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/03/Jobicy-210328105941-289246.jpg",
+   "jobIndustry": "['Legal & Compliance']",
    "jobType": "['Full-Time']",
-   "jobGeo": "Argentina",
-   "jobLevel": "Senior",
-   "jobExcerpt": "Who we are: BigID is an innovative tech startup that focuses on solutions for data security, compliance, privacy, and AI data management. We're leading the market in all things data: helping our custo",
-   "jobDescription": "<p><strong>Who we are:</strong></p>\n<p><a href=\"https://jobicy.com/company/bigid\" target=\"_blank\" rel=\"noopener\">BigID</a> is an innovative tech startup that focuses on solutions for data security, co",
-   "pubDate": "2026-11-25T14:26:47+00:00"
+   "jobGeo": "LATAM,  Canada,  USA",
+   "jobLevel": "Director",
+   "jobExcerpt": "We’re looking for a leader to manage Spotify’s Music Policy team, driving our strategy and execution for many of the most important issues facing the music industry for the next decade. As our Head of",
+   "jobDescription": "<p>We’re looking for a leader to manage <a href=\"https://jobicy.com/company/spotify\" target=\"_blank\" rel=\"noopener\">Spotify</a>’s Music Policy team, driving our strategy and execution for many of the ",
+   "pubDate": "2026-11-26T14:35:12+00:00",
+   "salaryMin": "181000",
+   "salaryMax": "259000",
+   "salaryCurrency": "USD",
+   "salaryPeriod": "yearly"
   }
  ],
  "Remote OK": [
   {
-   "slug": "remote-intermediate-security-engineer-security-incident-response-team-sirt-gitlab-1138104",
-   "id": "1138104",
-   "epoch": "1795566028",
-   "date": "2026-11-25T00:20:28+00:00",
-   "company": "GitLab",
+   "slug": "remote-commercial-manager-europe-lyra-health-1138149",
+   "id": "1138149",
+   "epoch": "1795617609",
+   "date": "2026-11-25T14:40:09+00:00",
+   "company": "Lyra Health",
    "company_logo": "",
-   "position": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
-   "tags": "['devops']",
-   "description": "<div><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance ",
-   "location": "US Only",
-   "apply_url": "https://remoteOK.com/remote-jobs/remote-intermediate-security-engineer-security-incident-response-team-sirt-gitlab-1138104",
+   "position": "Commercial Manager - Europe",
+   "tags": "['sales']",
+   "description": "<div><b>About Lyra</b></div><div><br /></div><div><span>Lyra Health is the leading provider of mental health solutions for employers supporting more than 20 million people globally. The company has de",
+   "location": "UK Only",
+   "salary_min": "51000",
+   "salary_max": "70000",
+   "apply_url": "https://remoteOK.com/remote-jobs/remote-commercial-manager-europe-lyra-health-1138149",
    "original": "True",
-   "salary_min": "0",
-   "salary_max": "0",
    "logo": "",
-   "url": "https://remoteOK.com/remote-jobs/remote-intermediate-security-engineer-security-incident-response-team-sirt-gitlab-1138104"
+   "url": "https://remoteOK.com/remote-jobs/remote-commercial-manager-europe-lyra-health-1138149"
   },
   {
-   "slug": "remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
-   "id": "1138103",
-   "epoch": "1795564829",
-   "date": "2026-11-25T00:00:29+00:00",
-   "company": "GitLab",
+   "slug": "remote-seo-manager-bounteous-1138148",
+   "id": "1138148",
+   "epoch": "1795616433",
+   "date": "2026-11-25T14:20:33+00:00",
+   "company": "Bounteous",
    "company_logo": "",
-   "position": "Senior Executive Assistant, Office of the CRO (EST / CST)",
-   "tags": "['other']",
-   "description": "<div><p>GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance ",
+   "position": "SEO - Manager",
+   "tags": "['marketing']",
+   "description": "<div><span>Bounteous is a global AI Services firm where agentic engineering and human experience converge to deliver transformative business outcomes for the enterprise. We help organizations design, ",
    "location": "US Only",
-   "apply_url": "https://remoteOK.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
+   "apply_url": "https://remoteOK.com/remote-jobs/remote-seo-manager-bounteous-1138148",
    "original": "True",
    "salary_min": "0",
    "salary_max": "0",
    "logo": "",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103"
+   "url": "https://remoteOK.com/remote-jobs/remote-seo-manager-bounteous-1138148"
   }
  ]
 }
