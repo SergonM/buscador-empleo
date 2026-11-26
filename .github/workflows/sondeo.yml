@@ -9,12 +9,13 @@ jobs:
     timeout-minutes: 25
     strategy:
       matrix:
-        lote: [a, b, c, agr]
+        lote: [d, wd]
     steps:
       - uses: actions/checkout@v4
       - run: |
           cd sondeo
           case ${{ matrix.lote }} in
             agr) python agregadores.py ;;
+            wd) python workday.py ;;
             *) python sondeo.py "$(cat lote_${{ matrix.lote }}.txt)" ;;
           esac
