@@ -1,0 +1,20 @@
+name: Sondeo de fuentes
+on:
+  push:
+    branches: [claude/project-thread-5ghnfg]
+    paths: ["sondeo/**"]
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      matrix:
+        lote: [a, b, c, agr]
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          cd sondeo
+          case ${{ matrix.lote }} in
+            agr) python agregadores.py ;;
+            *) python sondeo.py "$(cat lote_${{ matrix.lote }}.txt)" ;;
+          esac
