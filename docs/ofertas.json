@@ -1,70 +1,75 @@
 {
  "resumen": {
-  "actualizado": "2026-11-26T03:46+00:00",
+  "actualizado": "2026-11-26T04:40+00:00",
   "fecha": "2026-11-25",
-  "revisadas": 3331,
-  "mostradas": 205,
-  "nuevas": 205,
+  "revisadas": 2797,
+  "mostradas": 260,
+  "nuevas": 260,
   "descartes": {
-   "título senior": 1460,
-   "ubicación": 486,
-   "rol no buscado": 210,
-   "fuera de las áreas buscadas": 133,
-   "nivel Senior": 110,
-   "pide 3 años de experiencia": 109,
-   "pide 5 años de experiencia": 64,
-   "pide 4 años de experiencia": 25,
-   "pide 7 años de experiencia": 15,
+   "título senior": 1268,
+   "ubicación": 326,
+   "rol no buscado": 162,
+   "fuera de las áreas buscadas": 116,
+   "pide 3 años de experiencia": 72,
+   "pide 5 años de experiencia": 50,
+   "pide 7 años de experiencia": 17,
+   "pide 4 años de experiencia": 14,
    "pide 8 años de experiencia": 12,
-   "pide 6 años de experiencia": 11,
+   "pide 6 años de experiencia": 10,
+   "nivel Senior": 8,
    "pide 25 años de experiencia": 6,
    "pide 10 años de experiencia": 4,
    "pide 12 años de experiencia": 3,
-   "nivel Experto": 2,
    "pide 15 años de experiencia": 1,
-   "pide 9 años de experiencia": 1,
-   "pide 20 años de experiencia": 1
+   "pide 9 años de experiencia": 1
   },
   "fuentes": [
    "LinkedIn + Indeed",
    "Workday (multinacionales)",
    "Portales de empresas",
-   "GetOnBoard",
+   "Computrabajo",
    "Remotive",
    "Himalayas",
    "Jobicy",
    "Remote OK"
   ],
   "por_fuente": {
-   "LinkedIn + Indeed": 81,
-   "Workday (multinacionales)": 133,
+   "LinkedIn + Indeed": 62,
+   "Workday (multinacionales)": 180,
    "Portales de empresas": 2431,
-   "GetOnBoard": 623,
+   "Computrabajo": 60,
+   "GetOnBoard": 0,
    "Remotive": 9,
-   "Himalayas": 3,
+   "Himalayas": 4,
    "Jobicy": 39,
    "Remote OK": 12
   },
   "estado_fuentes": {
    "LinkedIn + Indeed": {
     "ok": true,
-    "ofertas": 81,
-    "segundos": 180
+    "ofertas": 62,
+    "segundos": 154
    },
    "Workday (multinacionales)": {
     "ok": true,
-    "ofertas": 133,
-    "segundos": 117
+    "ofertas": 180,
+    "segundos": 137
    },
    "Portales de empresas": {
     "ok": true,
     "ofertas": 2431,
-    "segundos": 58
+    "segundos": 49
+   },
+   "Computrabajo": {
+    "ok": true,
+    "ofertas": 60,
+    "segundos": 213
    },
    "GetOnBoard": {
-    "ok": true,
-    "ofertas": 623,
-    "segundos": 29
+    "ok": false,
+    "ofertas": 0,
+    "segundos": 26,
+    "error": "no devolvió ofertas"
    },
    "Remotive": {
     "ok": true,
@@ -73,8 +78,8 @@
    },
    "Himalayas": {
     "ok": true,
-    "ofertas": 3,
-    "segundos": 11
+    "ofertas": 4,
+    "segundos": 9
    },
    "Jobicy": {
     "ok": true,
@@ -87,13 +92,13 @@
     "segundos": 1
    }
   },
-  "duracion": 185,
+  "duracion": 218,
   "historia": [
    {
     "fecha": "2026-11-25",
-    "revisadas": 3331,
-    "mostradas": 205,
-    "nuevas": 205
+    "revisadas": 2797,
+    "mostradas": 260,
+    "nuevas": 260
    }
   ]
  },
@@ -118,6 +123,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -148,6 +154,139 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-ADCE302C598CC5A661373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista / Ingeniero(a) de Datos Junior",
+   "empresa": "ALO CREDIT COLOMBIA SAS",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ingenieroa-de-datos-junior-en-bogota-dc-ADCE302C598CC5A661373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$5.000.000",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "sql",
+    "power bi",
+    "git",
+    "estadistica",
+    "analisis de datos",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "aws",
+    "requerimientos",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 90,
+   "puntaje": 90,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · junior/trainee · presencial en Bogotá · pide python, sql, power bi · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-BDE3E56E7BA61C5861373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Datos y Automatización Junior - Bogota.",
+   "empresa": "LAGOBO DISTRIBUCIONES S.A.S",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-junior-bogota-en-bogota-dc-BDE3E56E7BA61C5861373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-05",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.900.000",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "sql",
+    "excel",
+    "power bi",
+    "estadistica",
+    "procesos"
+   ],
+   "reforzar": [
+    "inteligencia artificial",
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 84,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · junior/trainee · presencial en Bogotá · pide python, sql, power bi · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-0AFFE3D4BD998B7C61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Planeación y Análisis Financiero Junior",
+   "empresa": "SGF Global",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-planeacion-y-analisis-financiero-junior-en-bogota-dc-0AFFE3D4BD998B7C61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$4.000.000",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "excel",
+    "power bi",
+    "pandas",
+    "analisis de datos",
+    "procesos",
+    "ingles"
+   ],
+   "reforzar": [
+    "visualizacion de datos",
+    "dashboards",
+    "requerimientos"
+   ],
+   "ingles": true,
+   "anios": 2,
+   "calidad": 90,
+   "puntaje": 83,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · presencial en Bogotá · pide excel, procesos, requerimientos · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-7906563003",
    "fuente": "Greenhouse",
    "titulo": "AI Engineering Intern",
@@ -167,6 +306,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -234,6 +374,91 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-7750229003",
+   "fuente": "Greenhouse",
+   "titulo": "A.I. Engineering Intern (Remote)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7750229003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Türkiye, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Türkiye, Remote Bogota, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "python",
+    "sql",
+    "git",
+    "data analysis",
+    "risk"
+   ],
+   "reforzar": [
+    "aws",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 77,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML (por la descripción; el cargo es genérico) · junior/trainee · remoto desde Colombia · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-6233081003",
+   "fuente": "Greenhouse",
+   "titulo": "Software Engineer Intern",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/6233081003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Colombia, Remote Bogota, Colombia",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "python",
+    "sql",
+    "git"
+   ],
+   "reforzar": [
+    "javascript",
+    "aws",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 76,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML (por la descripción; el cargo es genérico) · junior/trainee · remoto desde Colombia · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "workday-jj-R-107023",
    "fuente": "Workday",
    "titulo": "Jr Analyst Global Finance Master Data",
@@ -252,6 +477,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "excel",
@@ -295,6 +521,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -344,6 +571,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -389,6 +617,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "data analysis",
@@ -433,6 +662,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "data analysis",
@@ -477,6 +707,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "data analysis",
@@ -520,6 +751,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -545,6 +777,49 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-B0AB44604BB5B63A61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Practicante Universitario de Ingenieria Industrial - Operaciones DHL Contrato de Aprendizaje",
+   "empresa": "DHL EXPRESS COLOMBIA LTDA",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practicante-universitario-de-ingenieria-industrial-operaciones-dhl-contrato-de-aprendizaje-en-bogota-dc-B0AB44604BB5B63A61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "stakeholders",
+    "procesos",
+    "auditoria",
+    "riesgo",
+    "cumplimiento",
+    "ingles"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 73,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · presencial en Bogotá · pide stakeholders, procesos, requerimientos · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-ac9095816dc2115c",
    "fuente": "Indeed",
    "titulo": "Analista junior de procesos migratorios - (Estudiantes)Bogotá",
@@ -563,6 +838,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "procesos",
     "ingles"
@@ -578,6 +854,86 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · junior/trainee · presencial o híbrido en Bogotá · pide procesos · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-2BC37470E8FD4E7A61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista Junior Cuentas por Pagar",
+   "empresa": "Manpower Group Colombia",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-junior-cuentas-por-pagar-en-bogota-dc-2BC37470E8FD4E7A61373E686DCF3405",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.522.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "power bi",
+    "procesos",
+    "politicas",
+    "cumplimiento",
+    "ingles"
+   ],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 73,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · híbrido en Bogotá · pide excel, procesos, requerimientos · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-23B0B6DF3296651C61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Ingeniero(A) De Operaciones Junior",
+   "empresa": "CENTRO DE EMPLEO Y TALENTO COLSUBSIDIO",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingenieroa-de-operaciones-junior-en-bogota-dc-23B0B6DF3296651C61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-11",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$3.000.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "scrum"
+   ],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 73,
+   "puntaje": 73,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · presencial en Bogotá · pide excel, requerimientos, scrum · acepta poca o ninguna experiencia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -600,6 +956,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "risk",
@@ -647,6 +1004,130 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-7980309003",
+   "fuente": "Greenhouse",
+   "titulo": "A.I. Engineering Intern",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7980309003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Latin America Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Latin America Bogota, Colombia",
+   "fecha": "2026-11-18",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "python",
+    "sql",
+    "git",
+    "data analysis",
+    "risk"
+   ],
+   "reforzar": [
+    "aws",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 72,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML (por la descripción; el cargo es genérico) · junior/trainee · en Bogotá · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-7750230003",
+   "fuente": "Greenhouse",
+   "titulo": "A.I. Engineering Intern (Colombia)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7750230003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Bogota, Colombia Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia Bogota, Colombia",
+   "fecha": "2026-11-18",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "python",
+    "sql",
+    "git",
+    "data analysis",
+    "risk"
+   ],
+   "reforzar": [
+    "aws",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 72,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML (por la descripción; el cargo es genérico) · junior/trainee · en Bogotá · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-AFED4234AEC1EBBF61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de riesgos - junior",
+   "empresa": "Deas Ltda.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-riesgos-junior-en-bogota-dc-AFED4234AEC1EBBF61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-17",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "riesgo"
+   ],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 72,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · presencial en Bogotá · pide excel, requerimientos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-7695762003",
    "fuente": "Greenhouse",
    "titulo": "Product Intern",
@@ -666,6 +1147,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "data analysis",
@@ -710,6 +1192,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -753,6 +1236,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -880,6 +1364,46 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-B92FA8A3F7540BAD61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Aseguramiento de Negocio - Riesgos",
+   "empresa": "CEL YA SAS",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-aseguramiento-de-negocio-riesgos-en-bogota-dc-B92FA8A3F7540BAD61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$3.000.000",
+   "area_por_desc": false,
+   "claves": [
+    "sql",
+    "excel",
+    "estadistica",
+    "procesos"
+   ],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 68,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá · pide excel, procesos, requerimientos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-9759525a40899e6d",
    "fuente": "Indeed",
    "titulo": "Analista junior de operaciones comerciales y precios",
@@ -898,6 +1422,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "COP 2.900.000–2.900.000",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -914,6 +1439,85 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · junior/trainee · presencial o híbrido en Colombia · pide excel",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-iqvia-R1581912",
+   "fuente": "Workday",
+   "titulo": "Profesional de Acceso PSP",
+   "empresa": "IQVIA",
+   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bogota-Colombia/Profesional-de-Acceso-PSP_R1581912",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel",
+    "stakeholders",
+    "procesos",
+    "auditoria",
+    "riesgo",
+    "compliance",
+    "healthcare"
+   ],
+   "reforzar": [
+    "privacidad"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 67,
+   "areas": [
+    "Ciberseguridad / GRC",
+    "Negocio / Producto"
+   ],
+   "por_que": "Ciberseguridad / GRC + Negocio / Producto (por la descripción; el cargo es genérico) · presencial o híbrido en Bogotá · pide auditoria, stakeholders, excel · sector salud como en J&J",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-82435075CCA1779161373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Abogado(a) Oficial de Cumplimiento JR",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-abogadoa-oficial-de-cumplimiento-jr-en-bogota-dc-82435075CCA1779161373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "cumplimiento"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 67,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · junior/trainee · presencial en Bogotá · experiencia en Compliance (J&J)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -936,6 +1540,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "procesos",
     "cumplimiento"
@@ -952,6 +1557,182 @@
     "Ciberseguridad / GRC"
    ],
    "por_que": "Ciberseguridad / GRC · junior/trainee · presencial o híbrido en Colombia · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8043406003",
+   "fuente": "Greenhouse",
+   "titulo": "Practicante de Gestión Humana",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8043406003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Colombia Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel",
+    "procesos",
+    "ingles"
+   ],
+   "reforzar": [
+    "fintech",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 67,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · en Bogotá · pide excel, procesos · fintech · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-17F0279E2643533561373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Practicante Universitario de Ingeniería de Sistemas - / Software",
+   "empresa": "IntouchCX",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practicante-universitario-de-ingenieria-de-sistemas--software-en-bogota-dc-17F0279E2643533561373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.000.000",
+   "area_por_desc": true,
+   "claves": [
+    "python",
+    "procesos",
+    "auditoria"
+   ],
+   "reforzar": [
+    "javascript",
+    "dashboards",
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 66,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · presencial en Bogotá · pide procesos, requerimientos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-4711F08873E9732461373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Datos e Incentivos / Oppo Colombia - Bogotá",
+   "empresa": "Multiempleos S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-e-incentivos-oppo-colombia-bogota-en-bogota-dc-4711F08873E9732461373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "sql",
+    "excel",
+    "machine learning",
+    "analisis de datos",
+    "procesos",
+    "politicas",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "inteligencia artificial",
+    "requerimientos",
+    "crm",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 66,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial en Bogotá · pide python, sql · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-EC3EE1F998C56D3961373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista BI / Oppo Colombia - Bogotá",
+   "empresa": "Multiempleos S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-bi-oppo-colombia-bogota-en-bogota-dc-EC3EE1F998C56D3961373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "sql",
+    "excel",
+    "machine learning",
+    "analisis de datos",
+    "procesos",
+    "politicas",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "inteligencia artificial",
+    "requerimientos",
+    "crm",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 66,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial en Bogotá · pide python, sql · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -974,6 +1755,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1021,6 +1803,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "risk",
@@ -1059,6 +1842,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "java",
@@ -1084,6 +1868,91 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-861D573B1AFC537C61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Ciberseguridad",
+   "empresa": "ALO CREDIT COLOMBIA SAS",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-ciberseguridad-en-bogota-dc-861D573B1AFC537C61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$400.000",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "excel",
+    "power bi"
+   ],
+   "reforzar": [
+    "aws",
+    "dashboards",
+    "requerimientos",
+    "iso 27001",
+    "nist",
+    "pci"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 90,
+   "puntaje": 65,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial en Bogotá · pide iso 27001, nist, pci",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-wri-2026-JR100577",
+   "fuente": "Workday",
+   "titulo": "Practicante Dirección Ejecutiva",
+   "empresa": "World Resources Institute",
+   "url": "https://wri.wd501.myworkdayjobs.com/WRI/job/Bogota-Colombia/Practicante-Direccin-Ejecutiva_2026-JR100577",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-17",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel",
+    "procesos",
+    "politicas",
+    "ingles"
+   ],
+   "reforzar": [
+    "comunicacion",
+    "presentaciones"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 65,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · presencial o híbrido en Bogotá · pide excel, procesos · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-8012021003",
    "fuente": "Greenhouse",
    "titulo": "Chargeback Operations Intern",
@@ -1103,6 +1972,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "data analysis",
     "stakeholders",
@@ -1142,6 +2012,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "data analysis",
     "stakeholders",
@@ -1314,6 +2185,52 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-04A7163C079721C561373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Datos y Automatización Junior",
+   "empresa": "Manpower Group Colombia",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-junior-en-bogota-dc-04A7163C079721C561373E686DCF3405",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-13",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$3.000.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "power bi",
+    "analisis de datos",
+    "stakeholders",
+    "procesos",
+    "ingles"
+   ],
+   "reforzar": [
+    "tableau",
+    "visualizacion de datos",
+    "dashboards",
+    "requerimientos",
+    "sap"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 64,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · junior/trainee · híbrido en Bogotá · pide power bi, tableau · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-8012083003",
    "fuente": "Greenhouse",
    "titulo": "Product Operations Intern, Rewards",
@@ -1333,6 +2250,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "data analysis",
     "risk"
@@ -1403,6 +2321,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1446,6 +2365,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1469,6 +2389,92 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · presencial o híbrido en Colombia · pide python, sql, power bi · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-natura-JR40761",
+   "fuente": "Workday",
+   "titulo": "Aprendiz Asuntos Regulatorios Etapa Productiva",
+   "empresa": "Natura &Co",
+   "url": "https://natura.wd501.myworkdayjobs.com/NaturaCarreiras/job/Natura-Bogot-Natura-Colombia/Aprendiz-Asuntos-Regulatorios-Etapa-Productiva_JR40761",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Natura Bogotá (Natura, Colombia)",
+   "fecha": "2026-10-29",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel",
+    "procesos",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 63,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · presencial o híbrido en Bogotá · pide excel, procesos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-F0358D3940B6326A61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Data Scientist",
+   "empresa": "CompuTrabajo",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-scientist-en-bogota-dc-F0358D3940B6326A61373E686DCF3405",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-10-27",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "python",
+    "sql",
+    "pandas",
+    "estadistica",
+    "machine learning",
+    "procesos",
+    "ingles"
+   ],
+   "reforzar": [
+    "scikit-learn",
+    "tensorflow",
+    "aws",
+    "azure",
+    "requerimientos"
+   ],
+   "ingles": true,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 63,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · híbrido en Bogotá · pide python, sql, pandas · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1500,6 +2506,44 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-6229823003",
+   "fuente": "Greenhouse",
+   "titulo": "Human Resources Intern (Colombia)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/6229823003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Colombia, Remote Bogota, Colombia",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "risk"
+   ],
+   "reforzar": [
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 62,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · remoto desde Colombia · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-7907182003",
    "fuente": "Greenhouse",
    "titulo": "IT Operations Intern",
@@ -1519,6 +2563,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [
     "jira",
@@ -1555,6 +2600,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "data analysis",
     "stakeholders",
@@ -1571,6 +2617,89 @@
     "Ciberseguridad / GRC"
    ],
    "por_que": "Ciberseguridad / GRC · junior/trainee · en Bogotá · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-30B96A5D3E54B13D61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de riesgos - Bogota",
+   "empresa": "RECURSIVOS SERVIAYUDA S.A.S",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-riesgos-bogota-en-bogota-dc-30B96A5D3E54B13D61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.500.000",
+   "area_por_desc": false,
+   "claves": [
+    "procesos",
+    "controles",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "vulnerabilidades",
+    "incidentes"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 61,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá · pide procesos, requerimientos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-59102EE20DCC7C8961373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de información BI",
+   "empresa": "Adecco Colombia S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-informacion-bi-en-bogota-dc-59102EE20DCC7C8961373E686DCF3405",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.200.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "power bi",
+    "estadistica",
+    "analisis de datos",
+    "procesos"
+   ],
+   "reforzar": [
+    "dashboards",
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 90,
+   "puntaje": 61,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · híbrido en Bogotá · pide power bi, estadistica · acepta poca o ninguna experiencia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1593,6 +2722,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -1631,6 +2761,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "machine learning",
@@ -1674,6 +2805,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "machine learning",
@@ -1697,6 +2829,53 @@
    "nueva": true
   },
   {
+   "id": "workday-bbva-JR00120437",
+   "fuente": "Workday",
+   "titulo": "SOFTWARE SOLUTIONS DEVELOPMENT ASSOCIATE I - FINANZAS -  ENGINEERING COLOMBIA",
+   "empresa": "BBVA",
+   "url": "https://bbva.wd3.myworkdayjobs.com/BBVA/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-SOLUTIONS-DEVELOPMENT-ASSOCIATE-I---FINANZAS----ENGINEERING-COLOMBIA_JR00120437",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "11001, Bogotá. D.C., Distrito Capital de Bogotá",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "sql",
+    "java",
+    "scrum",
+    "procesos",
+    "politicas",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "api",
+    "inteligencia artificial",
+    "sarlaft",
+    "comunicacion",
+    "liderazgo"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 85,
+   "puntaje": 60,
+   "areas": [
+    "Negocio / Producto",
+    "Datos / ML"
+   ],
+   "por_que": "Negocio / Producto + Datos / ML (por la descripción; el cargo es genérico) · híbrido en Bogotá · pide procesos, scrum, metricas",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-8196898003",
    "fuente": "Greenhouse",
    "titulo": "Fraud Operations Analyst",
@@ -1715,6 +2894,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1756,6 +2936,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1799,6 +2980,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1842,6 +3024,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1885,6 +3068,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1928,6 +3112,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -1953,6 +3138,48 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-7996053003",
+   "fuente": "Greenhouse",
+   "titulo": "Legal Intern (Practicante / Becario de Derecho)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7996053003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Mexico, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Mexico, Remote Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "stakeholders",
+    "risk",
+    "compliance",
+    "english"
+   ],
+   "reforzar": [
+    "jira",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 60,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · remoto desde Colombia · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "workday-iqvia-R1564951",
    "fuente": "Workday",
    "titulo": "Analyst, Financial Planning & Analysis (FP&A)",
@@ -1971,6 +3198,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "stakeholders",
@@ -2035,6 +3263,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -2081,6 +3310,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -2123,6 +3353,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel"
@@ -2161,6 +3392,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -2207,6 +3439,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -2235,6 +3468,123 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-8012024003",
+   "fuente": "Greenhouse",
+   "titulo": "Fraud & Disputes Intern",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012024003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Mexico Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Mexico Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "data analysis",
+    "stakeholders",
+    "risk"
+   ],
+   "reforzar": [
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 58,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · en Bogotá · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8010488003",
+   "fuente": "Greenhouse",
+   "titulo": "Legal Intern (Practicante de Derecho)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8010488003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Peru Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Peru Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "stakeholders",
+    "risk",
+    "compliance",
+    "english"
+   ],
+   "reforzar": [
+    "jira",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 58,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · en Bogotá · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-6367F6532C96F26F61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de estudios de Confiabilidad/ Riesgos - Bogota",
+   "empresa": "Securitas Colombia S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-estudios-de-confiabilidad-riesgos-bogota-en-bogota-dc-6367F6532C96F26F61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 58,
+   "puntaje": 57,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá · pide requerimientos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-8729517002",
    "fuente": "Greenhouse",
    "titulo": "Customer Experience Analyst",
@@ -2254,6 +3604,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -2295,6 +3646,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "agile",
     "stakeholders",
@@ -2336,6 +3688,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "pandas",
@@ -2381,6 +3734,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -2423,6 +3777,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "power bi",
@@ -2471,6 +3826,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "stakeholders",
@@ -2510,6 +3866,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -2550,6 +3907,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -2611,6 +3969,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "data analysis",
@@ -2688,6 +4047,45 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-089ADF9CE321203261373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Ingeniero de Inteligencia Artificial - Bogota",
+   "empresa": "ACTIVOS S A S",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-inteligencia-artificial-bogota-en-bogota-dc-089ADF9CE321203261373E686DCF3405",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "machine learning",
+    "procesos"
+   ],
+   "reforzar": [
+    "inteligencia artificial",
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 55,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · híbrido en Bogotá · pide modelos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-8061487003",
    "fuente": "Greenhouse",
    "titulo": "Data Engineer II, Credit Reporting",
@@ -2707,6 +4105,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -2727,6 +4126,126 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · remoto desde Colombia · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8019813003",
+   "fuente": "Greenhouse",
+   "titulo": "Junior Associate Counsel, Commercial Transactions",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8019813003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Bogota, Colombia Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "risk",
+    "compliance",
+    "english"
+   ],
+   "reforzar": [
+    "privacy",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 55,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC (por la descripción; el cargo es genérico) · junior/trainee · en Bogotá · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-326444386ECA18E361373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de crédito por temporada",
+   "empresa": "Adecco Colombia S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-credito-por-temporada-en-bogota-dc-326444386ECA18E361373E686DCF3405",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-09",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$3.131.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "riesgo"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "sarlaft"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 73,
+   "puntaje": 55,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · híbrido en Bogotá · pide excel, requerimientos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-FF4AA6A6ADF49D6B61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista SIG",
+   "empresa": "JLT TRANSPORTES",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-sig-en-bogota-dc-FF4AA6A6ADF49D6B61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-05",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$1.800.000",
+   "area_por_desc": false,
+   "claves": [
+    "procesos",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "sarlaft",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 55,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá · pide procesos, requerimientos · acepta poca o ninguna experiencia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2883,6 +4402,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "controles",
     "politicas",
@@ -2955,6 +4475,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -2987,6 +4508,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "compliance",
@@ -3025,6 +4547,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "english"
@@ -3041,6 +4564,41 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · en Bogotá · pide sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-20BE98D80DFBFEAD61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Gestión y Cumplimiento Contractual – Sector Telecomunicaciones",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-gestion-y-cumplimiento-contractual-sector-telecomunicaciones-en-bogota-dc-20BE98D80DFBFEAD61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "cumplimiento"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 53,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial en Bogotá · experiencia en Compliance (J&J)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3117,6 +4675,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "excel",
@@ -3156,6 +4715,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -3199,6 +4759,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -3240,6 +4801,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "english"
@@ -3277,6 +4839,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "risk"
    ],
@@ -3292,6 +4855,41 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide kpi · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-7DFB746999A8808C61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Datos y Reporting",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-reporting-power-bi-en-bogota-dc-7DFB746999A8808C61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "power bi"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 52,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial en Bogotá · pide power bi",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3314,6 +4912,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "COP 2.700.000–3.500.000",
+   "area_por_desc": false,
    "claves": [
     "procesos"
    ],
@@ -3377,6 +4976,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "stakeholders",
@@ -3417,6 +5017,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "estadistica",
@@ -3457,6 +5058,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -3498,6 +5100,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "data analysis",
@@ -3536,6 +5139,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "agile",
     "stakeholders",
@@ -3574,6 +5178,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [
     "dbt",
@@ -3610,6 +5215,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [
     "privacy"
@@ -3644,6 +5250,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "excel",
@@ -3965,6 +5572,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "compliance"
@@ -4056,6 +5664,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "compliance"
@@ -4071,6 +5680,124 @@
     "Ciberseguridad / GRC"
    ],
    "por_que": "Ciberseguridad / GRC · híbrido en Bogotá · pide siem · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-088296733DB8BAA261373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Técnico de Garantías / Analista de Producto / Iluminación / Electricidad / Retie / Retilab / Nom",
+   "empresa": "Adecco Colombia S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-de-garantias-analista-de-producto-iluminacion-electricidad-retie-retilab-nom-en-bogota-dc-088296733DB8BAA261373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.900.000",
+   "area_por_desc": false,
+   "claves": [
+    "controles",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 80,
+   "puntaje": 51,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá · pide requerimientos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-pfizer-4967989",
+   "fuente": "Workday",
+   "titulo": "Estudiante en práctica",
+   "empresa": "Pfizer",
+   "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Colombia---Bogota---Suba/Estudiante-en-prctica_4967989",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia - Bogota - Suba",
+   "fecha": "2026-11-13",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel",
+    "stakeholders",
+    "procesos",
+    "ingles"
+   ],
+   "reforzar": [
+    "sap",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 51,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · híbrido en Bogotá · pide stakeholders, excel, procesos · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-salesforce-JR361231",
+   "fuente": "Workday",
+   "titulo": "LATAM Internship Program | Scale Program LATAM Intern [Colombia]",
+   "empresa": "Salesforce",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Colombia---Bogota/LATAM-Internship-Program---Scale-Program-LATAM-Intern--Colombia-_JR361231-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia - Bogota",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "english"
+   ],
+   "reforzar": [
+    "salesforce",
+    "crm",
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 51,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · junior/trainee · presencial o híbrido en Bogotá · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -4094,6 +5821,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -4133,6 +5861,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "sql",
@@ -4147,6 +5876,45 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · en Bogotá · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-E079B3498142A79A61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Oficial de Cumplimiento Abogado",
+   "empresa": "SOCIEDAD PEDIATRICA DE LOS ANDES SAS",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-oficial-de-cumplimiento-abogado-en-bogota-dc-E079B3498142A79A61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-11",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.000.000",
+   "area_por_desc": false,
+   "claves": [
+    "cumplimiento",
+    "sector salud"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "sarlaft"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 83,
+   "puntaje": 51,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial en Bogotá · pide sarlaft · experiencia en Compliance (J&J)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -4169,6 +5937,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -4179,6 +5948,48 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-1A89663715E8C6B361373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Información (analisis de datos)",
+   "empresa": "Colmédica Medicina Prepagada S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-informacion-analisis-de-datos-en-bogota-dc-1A89663715E8C6B361373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "analisis de datos",
+    "procesos",
+    "riesgo",
+    "sector salud"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 50,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial en Bogotá · sector salud como en J&J",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -4228,6 +6039,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "machine learning",
     "stakeholders",
@@ -4266,6 +6078,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "procesos",
@@ -4289,6 +6102,72 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-EB48AA68C528B8ED61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista Fiduciario Inmobiliario",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-fiduciario-inmobiliario-en-bogota-dc-EB48AA68C528B8ED61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-9687032B62AFBAB261373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Costos",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-costos-bogota-en-bogota-dc-9687032B62AFBAB261373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-8453a188c3c1f569",
    "fuente": "Indeed",
    "titulo": "Order Management Analyst",
@@ -4307,6 +6186,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "english"
@@ -4345,6 +6225,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -4377,6 +6258,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -4391,11 +6273,11 @@
    "nueva": true
   },
   {
-   "id": "linkedin-li-4494674889",
+   "id": "linkedin-li-4494489577",
    "fuente": "LinkedIn",
-   "titulo": "Analista Workforce / Data Marshall",
-   "empresa": "QUE +",
-   "url": "https://www.linkedin.com/jobs/view/4494674889",
+   "titulo": "Analista De Datos De Producción",
+   "empresa": "Asesoramos TyS Services S.A.S",
+   "url": "https://www.linkedin.com/jobs/view/4494489577",
    "modalidad": "Presencial o híbrido",
    "remoto": false,
    "remote_modality": "no_remote",
@@ -4409,6 +6291,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -4441,6 +6324,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -4455,11 +6339,11 @@
    "nueva": true
   },
   {
-   "id": "linkedin-li-4494489577",
+   "id": "linkedin-li-4485507606",
    "fuente": "LinkedIn",
-   "titulo": "Analista De Datos De Producción",
-   "empresa": "Asesoramos TyS Services S.A.S",
-   "url": "https://www.linkedin.com/jobs/view/4494489577",
+   "titulo": "SAP Next Gen - Data Intelligence, Profiling & Research",
+   "empresa": "SAP",
+   "url": "https://www.linkedin.com/jobs/view/4485507606",
    "modalidad": "Presencial o híbrido",
    "remoto": false,
    "remote_modality": "no_remote",
@@ -4473,6 +6357,42 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [
+    "sap"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494674889",
+   "fuente": "LinkedIn",
+   "titulo": "Analista Workforce / Data Marshall",
+   "empresa": "QUE +",
+   "url": "https://www.linkedin.com/jobs/view/4494674889",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -4515,40 +6435,6 @@
     "Ciberseguridad / GRC"
    ],
    "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4485507606",
-   "fuente": "LinkedIn",
-   "titulo": "SAP Next Gen - Data Intelligence, Profiling & Research",
-   "empresa": "SAP",
-   "url": "https://www.linkedin.com/jobs/view/4485507606",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "claves": [],
-   "reforzar": [
-    "sap"
-   ],
-   "ingles": false,
-   "anios": null,
-   "calidad": 40,
-   "puntaje": 49,
-   "areas": [
-    "Datos / ML"
-   ],
-   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -5969,6 +7855,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "compliance"
@@ -6006,6 +7893,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [
     "etl"
@@ -6040,6 +7928,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "english"
@@ -6077,6 +7966,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "risk",
     "english"
@@ -6115,6 +8005,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "machine learning",
@@ -6156,6 +8047,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "machine learning",
@@ -6197,6 +8089,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "git",
@@ -6237,6 +8130,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "sql",
     "git",
@@ -6259,6 +8153,105 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-940EA9C531B696F061373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Estudios de Seguridad y Validación de Información",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-estudios-de-seguridad-y-validacion-de-informacion-en-bogota-dc-940EA9C531B696F061373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 48,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-ED0B035607C5200361373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista Business Partner",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-business-partner-en-bogota-dc-ED0B035607C5200361373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 48,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-625B671BF01C800B61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista entrega de productos financieros",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-entrega-de-productos-financieros-en-bogota-dc-625B671BF01C800B61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota Dc",
+   "fecha": "2026-11-22",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 48,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "jobicy-149565",
    "fuente": "Jobicy",
    "titulo": "Ubuntu Security Engineer",
@@ -6277,6 +8270,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "python",
     "java"
@@ -6314,6 +8308,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "COP 2.000.000–2.300.000",
+   "area_por_desc": false,
    "claves": [
     "analisis de datos"
    ],
@@ -6348,6 +8343,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "compliance",
     "english"
@@ -6361,6 +8357,112 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-785153BA8FAA0A5B61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de desarollo de producto",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-desarollo-de-producto-mobiliario-en-madera-en-bogota-dc-785153BA8FAA0A5B61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Madera En Bogota Dc",
+   "fecha": "2026-11-18",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 46,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-3DD813A538F406DA61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de producto - Sector autopartes",
+   "empresa": "Mundial de repuestos Colombia CI LTDA",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-producto-sector-autopartes-en-bogota-dc-3DD813A538F406DA61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-10-29",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$2.320.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 90,
+   "puntaje": 46,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá · pide excel, requerimientos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-visa-REF088964W",
+   "fuente": "Workday",
+   "titulo": "Workforce Planning Associate, Client Care Ops",
+   "empresa": "Visa",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/CO---Bogota-Colombia/Workforce-Planning-Associate--Client-Care-Ops_REF088964W",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "CO - Bogota, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel"
+   ],
+   "reforzar": [],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 45,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · presencial o híbrido en Bogotá · pide excel · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -6384,6 +8486,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -6416,6 +8519,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "english"
    ],
@@ -6430,6 +8534,47 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-1C87AE46A5699E0461373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Gestión Comercial - Seguridad Privada",
+   "empresa": "Vigilancia Santafereña",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-gestion-comercial-seguridad-privada-en-bogota-dc-1C87AE46A5699E0461373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-17",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$4.200.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "procesos"
+   ],
+   "reforzar": [
+    "inteligencia artificial",
+    "requerimientos",
+    "sarlaft",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 83,
+   "puntaje": 45,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial en Bogotá · pide sarlaft",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -6453,6 +8598,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -6486,6 +8632,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": true,
@@ -6518,6 +8665,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "procesos",
@@ -6557,6 +8705,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "risk",
@@ -6596,6 +8745,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "riesgo",
@@ -6637,6 +8787,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "english"
    ],
@@ -6673,6 +8824,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "english"
    ],
@@ -6709,6 +8861,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "english"
    ],
@@ -6745,6 +8898,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "risk",
     "english"
@@ -6809,6 +8963,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -6832,6 +8987,46 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-1E0AD41975D5BFFA61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Analista de Riesgo y Crédito Empresarial",
+   "empresa": "PRECISAGRO",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-riesgo-y-credito-empresarial-en-bogota-dc-1E0AD41975D5BFFA61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, D.C.",
+   "fecha": "2026-11-09",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [
+    "analisis de datos",
+    "politicas",
+    "riesgo",
+    "risk"
+   ],
+   "reforzar": [
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 43,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial en Bogotá · pide politicas",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "workday-salesforce-JR365218",
    "fuente": "Workday",
    "titulo": "Data Foundation Solution Engineer",
@@ -6850,6 +9045,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [
     "salesforce",
@@ -6886,6 +9082,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "java",
     "agile",
@@ -6930,6 +9127,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [],
    "ingles": false,
@@ -6940,6 +9138,43 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-sanofi-R2870993",
+   "fuente": "Workday",
+   "titulo": "Programa de Internship Colombia 2027",
+   "empresa": "Sanofi",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Bogota/Programa-de-Internship-Colombia-2027_R2870993-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota",
+   "fecha": "2026-10-28",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": true,
+   "claves": [
+    "excel",
+    "analisis de datos",
+    "ingles"
+   ],
+   "reforzar": [],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 43,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto (por la descripción; el cargo es genérico) · presencial o híbrido en Bogotá · pide excel · sector farma como en J&J · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -6962,6 +9197,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "procesos",
     "cumplimiento",
@@ -7001,6 +9237,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "excel",
     "power bi",
@@ -7024,6 +9261,47 @@
    "nueva": true
   },
   {
+   "id": "computrabajo-5062492EE209E4F861373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Ingeniero Mecanico (Data Collector), Ingles B2",
+   "empresa": "Adecco Colombia S.A.",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-mecanico-data-collector-ingles-b2-en-barranquilla-5062492EE209E4F861373E686DCF3405",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "remote_local",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Atlántico, Barranquilla",
+   "fecha": "2026-11-09",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "$3.180.000",
+   "area_por_desc": false,
+   "claves": [
+    "excel",
+    "procesos",
+    "ingles"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "sap",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": 2,
+   "calidad": 90,
+   "puntaje": 42,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494943886",
    "fuente": "LinkedIn",
    "titulo": "Especialista en análisis de datos",
@@ -7042,6 +9320,7 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "analisis de datos"
    ],
@@ -7140,6 +9419,7 @@
    "categoria": "",
    "idioma": "es",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders"
    ],
@@ -7156,6 +9436,39 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · híbrido en Bogotá · pide stakeholders, requerimientos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "computrabajo-27837D7D5D4E614D61373E686DCF3405",
+   "fuente": "Computrabajo",
+   "titulo": "Consultor Funcional / Business Analyst – Dynamics 365 Contact Center",
+   "empresa": "Empresa confidencial",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-consultor-funcional-business-analyst-dynamics-365-contact-center-desarrolladora-frontend-y-tienes-experiencia-en-cells-en-bogota-dc-27837D7D5D4E614D61373E686DCF3405",
+   "modalidad": "Presencial",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Cells En Bogota Dc",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "area_por_desc": false,
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 25,
+   "puntaje": 40,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -7178,6 +9491,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "risk",
@@ -7217,6 +9531,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "risk",
@@ -7255,6 +9570,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [],
    "reforzar": [
     "api",
@@ -7290,6 +9606,7 @@
    "categoria": "",
    "idioma": "en",
    "salario": "",
+   "area_por_desc": false,
    "claves": [
     "stakeholders",
     "risk",
