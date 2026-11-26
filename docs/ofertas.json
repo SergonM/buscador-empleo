@@ -1,40 +1,43 @@
 {
  "resumen": {
-  "actualizado": "2026-11-26T02:50+00:00",
+  "actualizado": "2026-11-26T03:02+00:00",
   "fecha": "2026-11-25",
-  "revisadas": 1647,
-  "mostradas": 148,
-  "nuevas": 148,
+  "revisadas": 2410,
+  "mostradas": 170,
+  "nuevas": 170,
   "descartes": {
-   "título senior": 719,
-   "ubicación": 172,
-   "fuera de las áreas buscadas": 100,
-   "rol no buscado": 94,
-   "pide 3 años de experiencia": 45,
-   "pide 5 años de experiencia": 30,
+   "título senior": 938,
+   "ubicación": 393,
+   "rol no buscado": 145,
+   "fuera de las áreas buscadas": 123,
+   "nivel Senior": 110,
+   "pide 3 años de experiencia": 92,
+   "pide 5 años de experiencia": 46,
+   "pide 4 años de experiencia": 16,
    "pide 7 años de experiencia": 10,
-   "nivel Senior": 8,
-   "pide 6 años de experiencia": 7,
-   "pide 4 años de experiencia": 6,
+   "pide 6 años de experiencia": 8,
    "pide 25 años de experiencia": 6,
    "pide 8 años de experiencia": 5,
    "pide 10 años de experiencia": 4,
-   "pide 12 años de experiencia": 3
+   "pide 12 años de experiencia": 3,
+   "nivel Experto": 2,
+   "pide 20 años de experiencia": 1
   },
   "fuentes": [
    "LinkedIn + Indeed",
    "Workday (multinacionales)",
    "Portales de empresas",
+   "GetOnBoard",
    "Remotive",
    "Himalayas",
    "Jobicy",
    "Remote OK"
   ],
   "por_fuente": {
-   "LinkedIn + Indeed": 64,
-   "Workday (multinacionales)": 54,
+   "LinkedIn + Indeed": 205,
+   "Workday (multinacionales)": 53,
    "Portales de empresas": 1465,
-   "GetOnBoard": 0,
+   "GetOnBoard": 623,
    "Remotive": 9,
    "Himalayas": 4,
    "Jobicy": 39,
@@ -43,24 +46,23 @@
   "estado_fuentes": {
    "LinkedIn + Indeed": {
     "ok": true,
-    "ofertas": 64,
-    "segundos": 150
+    "ofertas": 205,
+    "segundos": 439
    },
    "Workday (multinacionales)": {
     "ok": true,
-    "ofertas": 54,
-    "segundos": 196
+    "ofertas": 53,
+    "segundos": 193
    },
    "Portales de empresas": {
     "ok": true,
     "ofertas": 1465,
-    "segundos": 30
+    "segundos": 28
    },
    "GetOnBoard": {
-    "ok": false,
-    "ofertas": 0,
-    "segundos": 375,
-    "error": "no devolvió ofertas"
+    "ok": true,
+    "ofertas": 623,
+    "segundos": 33
    },
    "Remotive": {
     "ok": true,
@@ -83,13 +85,13 @@
     "segundos": 1
    }
   },
-  "duracion": 377,
+  "duracion": 442,
   "historia": [
    {
     "fecha": "2026-11-25",
-    "revisadas": 1647,
-    "mostradas": 148,
-    "nuevas": 148
+    "revisadas": 2410,
+    "mostradas": 170,
+    "nuevas": 170
    }
   ]
  },
@@ -181,7 +183,51 @@
    "areas": [
     "Datos / ML"
    ],
-   "por_que": "Datos / ML · junior/trainee · no indica en Bogotá · pide python, sql · fintech · pide inglés (lo tienes)",
+   "por_que": "Datos / ML · junior/trainee · en Bogotá · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "gob-infosec-analyst-i-lemontech-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Infosec Analyst I",
+   "empresa": "LemonTech",
+   "url": "https://www.getonbrd.com/jobs/infosec-analyst-i-lemontech-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-13",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "Cybersecurity",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "controles",
+    "politicas",
+    "auditoria",
+    "riesgo",
+    "cumplimiento",
+    "ingles"
+   ],
+   "reforzar": [
+    "inteligencia artificial",
+    "iso 27001",
+    "vulnerabilidades",
+    "incidentes"
+   ],
+   "ingles": true,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 78,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · junior · remoto · pide iso 27001, controles, politicas · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -225,52 +271,6 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · junior/trainee · híbrido en Bogotá · pide python, power bi · sector salud como en J&J · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "workday-medtronic-R70408",
-   "fuente": "Workday",
-   "titulo": "Prin IT Business Analyst - AI Data Agents.",
-   "empresa": "Medtronic",
-   "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Bogot-Bogota-Colombia/Prin-IT-Business-Analyst---AI-Data-Agents_R70408-1",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "remote_local",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, Bogota, Colombia",
-   "fecha": "2026-11-18",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "en",
-   "salario": "",
-   "claves": [
-    "sql",
-    "power bi",
-    "agile",
-    "stakeholders",
-    "healthcare"
-   ],
-   "reforzar": [
-    "tableau",
-    "databricks",
-    "snowflake",
-    "azure",
-    "kpi",
-    "user stories"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 75,
-   "puntaje": 76,
-   "areas": [
-    "Datos / ML",
-    "Negocio / Producto"
-   ],
-   "por_que": "Datos / ML + Negocio / Producto · remoto desde Colombia · pide sql, power bi, tableau · sector salud como en J&J · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -323,19 +323,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8195970003",
+   "id": "greenhouse-8009616003",
    "fuente": "Greenhouse",
    "titulo": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8195970003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8009616003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Argentina Bogota, Colombia",
+    "Peru Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Argentina Bogota, Colombia",
+   "ubicacion": "Peru Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -363,7 +363,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · pide excel · fintech · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide excel · fintech · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -381,94 +381,6 @@
     "Colombia"
    ],
    "ubicacion": "Colombia, Remote Bogota, Colombia",
-   "fecha": "2026-11-12",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "en",
-   "salario": "",
-   "claves": [
-    "sql",
-    "data analysis",
-    "agile",
-    "stakeholders",
-    "risk",
-    "compliance"
-   ],
-   "reforzar": [
-    "dashboards",
-    "product management",
-    "fintech"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 75,
-   "puntaje": 74,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · junior/trainee · remoto desde Colombia · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "greenhouse-7537957003",
-   "fuente": "Greenhouse",
-   "titulo": "Product Management Intern",
-   "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7537957003",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Colombia, Remote Bogota, Colombia",
-    "Colombia"
-   ],
-   "ubicacion": "Colombia, Remote Bogota, Colombia",
-   "fecha": "2026-11-12",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "en",
-   "salario": "",
-   "claves": [
-    "sql",
-    "data analysis",
-    "agile",
-    "stakeholders",
-    "risk",
-    "compliance"
-   ],
-   "reforzar": [
-    "dashboards",
-    "product management",
-    "fintech"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 75,
-   "puntaje": 74,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · junior/trainee · remoto desde Colombia · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "greenhouse-8044474003",
-   "fuente": "Greenhouse",
-   "titulo": "Product Manager Intern, ShopX(Rewards)",
-   "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044474003",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Brazil, Remote Bogota, Colombia",
-    "Colombia"
-   ],
-   "ubicacion": "Brazil, Remote Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -645,33 +557,6 @@
    "nueva": true
   },
   {
-   "id": "gob-infosec-analyst-i-lemontech-remote",
-   "fuente": "GetOnBoard",
-   "titulo": "Infosec Analyst I",
-   "empresa": "LemonTech",
-   "url": "https://www.getonbrd.com/jobs/infosec-analyst-i-lemontech-remote",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Remote"
-   ],
-   "ubicacion": "Remote",
-   "fecha": "2026-11-13",
-   "seniority_id": 2,
-   "seniority": "Junior",
-   "categoria": "Cybersecurity",
-   "idioma": "lang_not_specified",
-   "salario": "",
-   "puntaje": 72,
-   "areas": [
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Ciberseguridad / GRC · junior · remoto · pide iso 27001, controles, politicas",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
    "id": "greenhouse-7695762003",
    "fuente": "Greenhouse",
    "titulo": "Product Intern",
@@ -711,7 +596,94 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-7998740003",
+   "fuente": "Greenhouse",
+   "titulo": "Product Management Intern",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7998740003",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Peru Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Peru Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "sql",
+    "data analysis",
+    "agile",
+    "stakeholders",
+    "risk",
+    "compliance"
+   ],
+   "reforzar": [
+    "dashboards",
+    "product management",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 72,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8044470003",
+   "fuente": "Greenhouse",
+   "titulo": "Product Manager Intern, ShopX(Rewards)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044470003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Colombia, Remote Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "sql",
+    "data analysis",
+    "agile",
+    "stakeholders",
+    "risk"
+   ],
+   "reforzar": [
+    "dashboards",
+    "a/b testing",
+    "product management"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 70,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · remoto desde Colombia · pide stakeholders, agile · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -754,7 +726,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · pide excel · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide excel · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -797,7 +769,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · pide excel · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide excel · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -818,8 +790,23 @@
    "seniority_id": 2,
    "seniority": "Junior",
    "categoria": "Product, Innovation & Agile",
-   "idioma": "lang_not_specified",
+   "idioma": "es",
    "salario": "",
+   "claves": [
+    "analisis de datos",
+    "scrum",
+    "stakeholders"
+   ],
+   "reforzar": [
+    "api",
+    "product management",
+    "jira",
+    "requerimientos",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
    "puntaje": 69,
    "areas": [
     "Negocio / Producto"
@@ -847,6 +834,13 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [
+    "cumplimiento"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 68,
    "areas": [
     "Ciberseguridad / GRC"
@@ -1006,19 +1000,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8044541003",
+   "id": "greenhouse-8044506003",
    "fuente": "Greenhouse",
    "titulo": "Compliance Intern",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044541003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044506003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Chile Bogota, Colombia",
+    "Argentina Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Chile Bogota, Colombia",
+   "ubicacion": "Argentina Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1040,24 +1034,24 @@
    "areas": [
     "Ciberseguridad / GRC"
    ],
-   "por_que": "Ciberseguridad / GRC · junior/trainee · no indica en Bogotá · experiencia en Compliance (J&J) · pide inglés (lo tienes)",
+   "por_que": "Ciberseguridad / GRC · junior/trainee · en Bogotá · experiencia en Compliance (J&J) · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
   {
-   "id": "greenhouse-8012021003",
+   "id": "greenhouse-8011477003",
    "fuente": "Greenhouse",
    "titulo": "Chargeback Operations Intern",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012021003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8011477003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Mexico Bogota, Colombia",
+    "Brazil Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Mexico Bogota, Colombia",
+   "ubicacion": "Brazil Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1079,7 +1073,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide stakeholders · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1118,7 +1112,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide stakeholders · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1151,6 +1145,72 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · junior/trainee · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4495201817",
+   "fuente": "LinkedIn",
+   "titulo": "Analista (Junior) Evolución Digital de Capacidades Digitales",
+   "empresa": "Bancolombia",
+   "url": "https://www.linkedin.com/jobs/view/4495201817",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 64,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494420982",
+   "fuente": "LinkedIn",
+   "titulo": "Diseñador/a (Junior) de Procesos de Distribución",
+   "empresa": "Bancolombia",
+   "url": "https://www.linkedin.com/jobs/view/4494420982",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [
+    "procesos"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 64,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1209,19 +1269,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8012083003",
+   "id": "greenhouse-8012084003",
    "fuente": "Greenhouse",
    "titulo": "Product Operations Intern, Rewards",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012083003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012084003",
    "modalidad": "Remoto",
    "remoto": true,
    "remote_modality": "fully_remote",
    "paises": [
-    "Mexico, Remote Bogota, Colombia Latin America [Remote]",
+    "Chile, Remote Bogota, Colombia Latin America [Remote]",
     "Colombia"
    ],
-   "ubicacion": "Mexico, Remote Bogota, Colombia Latin America [Remote]",
+   "ubicacion": "Chile, Remote Bogota, Colombia Latin America [Remote]",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1381,24 +1441,24 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · junior/trainee · no indica en Bogotá · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
   {
-   "id": "greenhouse-8012019003",
+   "id": "greenhouse-8011669003",
    "fuente": "Greenhouse",
    "titulo": "Risk & Disputes Intern",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012019003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8011669003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Colombia Bogota, Colombia",
+    "Brazil Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Colombia Bogota, Colombia",
+   "ubicacion": "Brazil Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1420,7 +1480,7 @@
    "areas": [
     "Ciberseguridad / GRC"
    ],
-   "por_que": "Ciberseguridad / GRC · junior/trainee · no indica en Bogotá · fintech · pide inglés (lo tienes)",
+   "por_que": "Ciberseguridad / GRC · junior/trainee · en Bogotá · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1547,18 +1607,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8196898003",
+   "id": "greenhouse-7607565003",
    "fuente": "Greenhouse",
    "titulo": "Fraud Operations Analyst",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8196898003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7607565003",
    "modalidad": "Remoto",
    "remoto": true,
    "remote_modality": "fully_remote",
    "paises": [
-    "Latin America Latin America [Remote]"
+    "Bogota, Colombia Latin America [Remote]",
+    "Colombia"
    ],
-   "ubicacion": "Latin America Latin America [Remote]",
+   "ubicacion": "Bogota, Colombia Latin America [Remote]",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1583,7 +1644,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · remoto · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · remoto desde Colombia · pide stakeholders · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1947,34 +2008,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · no indica en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "gob-conversational-ai-qa-specialist-evolution-collect-llc-remote",
-   "fuente": "GetOnBoard",
-   "titulo": "Conversational AI QA Specialist",
-   "empresa": "Evolution Collect LLC",
-   "url": "https://www.getonbrd.com/jobs/conversational-ai-qa-specialist-evolution-collect-llc-remote",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Remote"
-   ],
-   "ubicacion": "Remote",
-   "fecha": "2026-11-03",
-   "seniority_id": 2,
-   "seniority": "Junior",
-   "categoria": "SysAdmin / DevOps / QA",
-   "idioma": "en",
-   "salario": "USD 2.900–3.200",
-   "puntaje": 57,
-   "areas": [
-    "Datos / ML"
-   ],
-   "por_que": "Datos / ML · junior · remoto",
+   "por_que": "Negocio / Producto · en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2022,7 +2056,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · no indica en Bogotá · pide procesos, requerimientos · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · en Bogotá · pide procesos, requerimientos · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2062,7 +2096,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · no indica en Bogotá · pide stakeholders · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · en Bogotá · pide stakeholders · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2085,6 +2119,11 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 56,
    "areas": [
     "Datos / ML",
@@ -2218,19 +2257,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8061487003",
+   "id": "greenhouse-8054164003",
    "fuente": "Greenhouse",
    "titulo": "Data Engineer II, Credit Reporting",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8061487003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8054164003",
    "modalidad": "Remoto",
    "remoto": true,
    "remote_modality": "fully_remote",
    "paises": [
-    "Chile Bogota, Colombia Latin America [Remote]",
+    "Latin America Bogota, Colombia Latin America [Remote]",
     "Colombia"
    ],
-   "ubicacion": "Chile Bogota, Colombia Latin America [Remote]",
+   "ubicacion": "Latin America Bogota, Colombia Latin America [Remote]",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -2257,6 +2296,112 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · remoto desde Colombia · pide python, sql · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "gob-conversational-ai-qa-specialist-evolution-collect-llc-remote",
+   "fuente": "GetOnBoard",
+   "titulo": "Conversational AI QA Specialist",
+   "empresa": "Evolution Collect LLC",
+   "url": "https://www.getonbrd.com/jobs/conversational-ai-qa-specialist-evolution-collect-llc-remote",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote"
+   ],
+   "ubicacion": "Remote",
+   "fecha": "2026-11-03",
+   "seniority_id": 2,
+   "seniority": "Junior",
+   "categoria": "SysAdmin / DevOps / QA",
+   "idioma": "en",
+   "salario": "USD 2.900–3.200",
+   "claves": [
+    "excel",
+    "compliance",
+    "english"
+   ],
+   "reforzar": [
+    "dashboards"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 90,
+   "puntaje": 55,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · junior · remoto · acepta poca o ninguna experiencia · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494919963",
+   "fuente": "LinkedIn",
+   "titulo": "Data Scientist, Credit Risk",
+   "empresa": "Félix",
+   "url": "https://www.linkedin.com/jobs/view/4494919963",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [
+    "risk"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 54,
+   "areas": [
+    "Datos / ML",
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Datos / ML + Ciberseguridad / GRC · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4495207033",
+   "fuente": "LinkedIn",
+   "titulo": "AI Product Builder",
+   "empresa": "Acquisition Lab",
+   "url": "https://www.linkedin.com/jobs/view/4495207033",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 54,
+   "areas": [
+    "Datos / ML",
+    "Negocio / Producto"
+   ],
+   "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2388,7 +2533,7 @@
    "areas": [
     "Datos / ML"
    ],
-   "por_que": "Datos / ML · no indica en Bogotá · pide sql · fintech · pide inglés (lo tienes)",
+   "por_que": "Datos / ML · en Bogotá · pide sql · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2742,6 +2887,172 @@
    "nueva": true
   },
   {
+   "id": "linkedin-li-4487026169",
+   "fuente": "LinkedIn",
+   "titulo": "Machine Learning Analyst - Remote Work | REF#308299",
+   "empresa": "BairesDev",
+   "url": "https://www.linkedin.com/jobs/view/4487026169",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Antioquia, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [
+    "machine learning"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4487016548",
+   "fuente": "LinkedIn",
+   "titulo": "Analista de Machine Learning - Remote Work | REF#308301",
+   "empresa": "BairesDev",
+   "url": "https://www.linkedin.com/jobs/view/4487016548",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Antioquia, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [
+    "machine learning"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4486352655",
+   "fuente": "LinkedIn",
+   "titulo": "Machine Learning Engineer | $25/hr Remote",
+   "empresa": "Crossing Hurdles",
+   "url": "https://www.linkedin.com/jobs/view/4486352655",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [
+    "machine learning"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494682450",
+   "fuente": "LinkedIn",
+   "titulo": "AI Agent Engineer (Remote, Bogota)",
+   "empresa": "Blacksmith Agency",
+   "url": "https://www.linkedin.com/jobs/view/4494682450",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494692060",
+   "fuente": "LinkedIn",
+   "titulo": "AI Agent Engineer (Remote, Pereira)",
+   "empresa": "Blacksmith Agency",
+   "url": "https://www.linkedin.com/jobs/view/4494692060",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto desde Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4487022644",
    "fuente": "LinkedIn",
    "titulo": "Analytics Engineer (dbt & Sigma) - Remote Work | REF#309170",
@@ -2989,7 +3300,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · no indica en Bogotá · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · en Bogotá · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3026,7 +3337,39 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · no indica en Bogotá · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · en Bogotá · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4495241058",
+   "fuente": "LinkedIn",
+   "titulo": "Audience Analytics Analyst",
+   "empresa": "Adastra",
+   "url": "https://www.linkedin.com/jobs/view/4495241058",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-26",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 50,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3360,56 +3703,66 @@
    "nueva": true
   },
   {
-   "id": "indeed-in-722204e6880ea79e",
-   "fuente": "Indeed",
-   "titulo": "Analista de Operaciones",
-   "empresa": "Gravity Corp SAS",
-   "url": "https://co.indeed.com/viewjob?jk=722204e6880ea79e",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, CUN, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "COP 2.605.000–2.605.000",
-   "puntaje": 49,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494943886",
+   "id": "linkedin-li-4494965066",
    "fuente": "LinkedIn",
-   "titulo": "Especialista en análisis de datos",
-   "empresa": "JAHV McGregor SAS",
-   "url": "https://www.linkedin.com/jobs/view/4494943886",
+   "titulo": "Digital Ad Operations Analyst",
+   "empresa": "Publicis Global Delivery (PGD)",
+   "url": "https://www.linkedin.com/jobs/view/4494965066",
    "modalidad": "Presencial o híbrido",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
     "Colombia"
    ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "ubicacion": "Colombia",
    "fecha": "2026-11-25",
    "seniority_id": null,
    "seniority": "",
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
-    "Datos / ML"
+    "Negocio / Producto"
    ],
-   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4495214303",
+   "fuente": "LinkedIn",
+   "titulo": "Cloud Cybersecurity Engineer",
+   "empresa": "3Y Health",
+   "url": "https://www.linkedin.com/jobs/view/4495214303",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3432,6 +3785,11 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Negocio / Producto"
@@ -3459,11 +3817,50 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [
+    "auditoria"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Ciberseguridad / GRC"
    ],
    "por_que": "Ciberseguridad / GRC · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494968478",
+   "fuente": "LinkedIn",
+   "titulo": "Analista SAC",
+   "empresa": "Ualá",
+   "url": "https://www.linkedin.com/jobs/view/4494968478",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3486,6 +3883,11 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Negocio / Producto"
@@ -3513,6 +3915,13 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [
+    "auditoria"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Ciberseguridad / GRC"
@@ -3540,6 +3949,43 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4493452774",
+   "fuente": "LinkedIn",
+   "titulo": "Analista I Operaciones Salud y  ARL",
+   "empresa": "AXA COLPATRIA",
+   "url": "https://www.linkedin.com/jobs/view/4493452774",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Negocio / Producto"
@@ -3567,11 +4013,214 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4495208700",
+   "fuente": "LinkedIn",
+   "titulo": "ANALYST I - FINANCE TRANSFORMATION - FINANCE COLOMBIA",
+   "empresa": "BBVA en Colombia",
+   "url": "https://www.linkedin.com/jobs/view/4495208700",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494962865",
+   "fuente": "LinkedIn",
+   "titulo": "Analista SysOps Azure",
+   "empresa": "Accenture Colombia",
+   "url": "https://www.linkedin.com/jobs/view/4494962865",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "azure"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4493455765",
+   "fuente": "LinkedIn",
+   "titulo": "AI Engineer I",
+   "empresa": "Rappi",
+   "url": "https://www.linkedin.com/jobs/view/4493455765",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 50,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494699729",
+   "fuente": "LinkedIn",
+   "titulo": "AI Software Engineer",
+   "empresa": "Zone & Co",
+   "url": "https://www.linkedin.com/jobs/view/4494699729",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4493446786",
+   "fuente": "LinkedIn",
+   "titulo": "Ingeniero de IA (Ingeniero de Inteligencia Artificial) – bilingüe",
+   "empresa": "SQDM",
+   "url": "https://www.linkedin.com/jobs/view/4493446786",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "inteligencia artificial"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494643684",
+   "fuente": "LinkedIn",
+   "titulo": "Ingeniero/a de Inteligencia Artificial",
+   "empresa": "Falabella",
+   "url": "https://www.linkedin.com/jobs/view/4494643684",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "inteligencia artificial"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3594,11 +4243,77 @@
    "categoria": "",
    "idioma": "",
    "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
    "puntaje": 49,
    "areas": [
     "Datos / ML"
    ],
    "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494910812",
+   "fuente": "LinkedIn",
+   "titulo": "Data Engineer (Databricks & PySpark)",
+   "empresa": "Stefanini LATAM",
+   "url": "https://www.linkedin.com/jobs/view/4494910812",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "databricks"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "indeed-in-722204e6880ea79e",
+   "fuente": "Indeed",
+   "titulo": "Analista de Operaciones",
+   "empresa": "Gravity Corp SAS",
+   "url": "https://co.indeed.com/viewjob?jk=722204e6880ea79e",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, CUN, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "COP 2.605.000–2.605.000",
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -4836,7 +5551,7 @@
    "areas": [
     "Datos / ML"
    ],
-   "por_que": "Datos / ML · no indica en Bogotá · fintech · pide inglés (lo tienes)",
+   "por_que": "Datos / ML · en Bogotá · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -4872,7 +5587,7 @@
    "areas": [
     "Datos / ML"
    ],
-   "por_que": "Datos / ML · no indica en Colombia · fintech · pide inglés (lo tienes)",
+   "por_que": "Datos / ML · en Colombia · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -4908,7 +5623,7 @@
    "areas": [
     "Datos / ML"
    ],
-   "por_que": "Datos / ML · no indica en Colombia · fintech · pide inglés (lo tienes)",
+   "por_que": "Datos / ML · en Colombia · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -5041,7 +5756,105 @@
    "areas": [
     "Datos / ML"
    ],
-   "por_que": "Datos / ML · no indica en Bogotá",
+   "por_que": "Datos / ML · en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4494943886",
+   "fuente": "LinkedIn",
+   "titulo": "Especialista en análisis de datos",
+   "empresa": "JAHV McGregor SAS",
+   "url": "https://www.linkedin.com/jobs/view/4494943886",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [
+    "analisis de datos"
+   ],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 41,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4484516317",
+   "fuente": "LinkedIn",
+   "titulo": "Especialista en Riesgos de IA",
+   "empresa": "Porvenir Pensiones y Cesantías",
+   "url": "https://www.linkedin.com/jobs/view/4484516317",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 41,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4486068535",
+   "fuente": "LinkedIn",
+   "titulo": "Technical Business Analyst Specialist",
+   "empresa": "Scotiabank",
+   "url": "https://www.linkedin.com/jobs/view/4486068535",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 41,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá",
    "visto": "2026-11-25",
    "nueva": true
   },

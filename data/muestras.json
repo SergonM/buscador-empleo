@@ -225,25 +225,6 @@
    "salario": ""
   },
   {
-   "id": "greenhouse-7980015003",
-   "fuente": "Greenhouse",
-   "titulo": "A.I. Engineering Intern",
-   "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7980015003",
-   "modalidad": "Remoto",
-   "remoto": "True",
-   "remote_modality": "fully_remote",
-   "paises": "['Brazil, Remote Bogota, Colombia', 'Colombia']",
-   "ubicacion": "Brazil, Remote Bogota, Colombia",
-   "fecha": "2026-11-18",
-   "seniority_id": "None",
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "descripcion": "&lt;p&gt;&lt;strong&gt;About Sezzle:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, ble",
-   "salario": ""
-  },
-  {
    "id": "greenhouse-7979992003",
    "fuente": "Greenhouse",
    "titulo": "A.I. Engineering Intern",
@@ -261,9 +242,379 @@
    "idioma": "",
    "descripcion": "&lt;p&gt;&lt;strong&gt;About Sezzle:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, ble",
    "salario": ""
+  },
+  {
+   "id": "greenhouse-7980003003",
+   "fuente": "Greenhouse",
+   "titulo": "A.I. Engineering Intern",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7980003003",
+   "modalidad": "Remoto",
+   "remoto": "True",
+   "remote_modality": "fully_remote",
+   "paises": "['Mexico, Remote Bogota, Colombia', 'Colombia']",
+   "ubicacion": "Mexico, Remote Bogota, Colombia",
+   "fecha": "2026-11-18",
+   "seniority_id": "None",
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "descripcion": "&lt;p&gt;&lt;strong&gt;About Sezzle:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, ble",
+   "salario": ""
   }
  ],
- "GetOnBoard": [],
+ "GetOnBoard": [
+  {
+   "id": "business-analyst-junior-apside-santiago-110f",
+   "type": "job",
+   "attributes": {
+    "title": "Business Analyst Junior",
+    "description_headline": "¿Qué requisitos básicos debe tener?",
+    "description": "<p>Buscamos un Business Analyst Junior con hasta 2 años de experiencia en análisis funcional y apoyo a equipos de desarrollo de software. Buscamos un perfil analítico, ordenado y con alta capacidad de comunicación, orientado a la calidad y al cumplimiento de compromisos.</p><h3><h3><strong>Requisitos técnicos excluyentes:</strong></h3></h3><ul><li>Experiencia inicial o conocimientos sólidos en análisis de requerimientos de software.</li><li>Capacidad para levantar, documentar y validar requerimientos con stakeholders.</li><li>Conocimiento en elaboración de casos de uso, historias de usuario y documentación funcional.</li><li>Experiencia básica en generación de planes de prueba y apoyo en pruebas funcionales.</li><li>Manejo de herramientas de gestión de tareas y proyectos como JIRA.</li><li>Conocimientos básicos de SQL para consultas y análisis de datos.</li><li>Comprensión general del ciclo de vida del desarrollo de software (SDLC).</li><li>Experiencia o conocimientos en trabajo con equipos ágiles (Scrum / Kanban).</li></ul>",
+    "projects": "<p>Con más de 10 años de experiencia en el mercado y un crecimiento constante, nos destacamos por centrarnos en el desarrollo profesional de nuestros talentos. Trabajamos en proyectos variados, abarcando sectores como seguros, retail, banca, gobierno e innovación pública.<br>Nuestro equipo está compuesto por profesionales altamente calificados en la industria, con una amplia experiencia y apasionados por la tecnología. Fomentamos una relación con profesionales autónomos que valoran la excelencia técnica y la búsqueda constante de conocimiento.<br>¡Somos una empresa <strong>100% remota</strong>, con personas en diferentes países de América Latina!</p><p><strong>¿Que ofrecemos?<br></strong>Te ofrecemos formar parte de un equipo con un <strong>muy buen ambiente de trabajo</strong>, multicultural, con personas que valoran la autonomia, el trabajo en equipo y el respeto mutuo.<strong><br></strong><br>Contamos con excelentes beneficios para nuestros Apsiders: Salud, Bienestar, Educación y diferentes bonos que se ajustan a las necesidades de nuestros talentos.</p>",
+    "functions_headline": "¿Qué funciones concretas desarrollarás?",
+    "functions": "<p>Al ser parte del equipo, el Business Analyst Junior será responsable de:</p><ul><li>Participar activamente en la gestión de la relación con los distintos stakeholders, colaborando en el cumplimiento de los tiempos de respuesta definidos por la gerencia y los acuerdos de nivel de servicio (SLA).</li><li>Levantar, analizar y documentar requerimientos funcionales, apoyando la correcta comprensión de las necesidades del negocio por parte del equipo de desarrollo.</li><li>Elaborar casos de uso, historias de usuario y documentación funcional que contribuyan a la calidad del producto y del proceso de desarrollo.</li><li>Diseñar planes de prueba y colaborar en los procesos de pruebas de aceptación y validación dentro de la célula o equipo de trabajo.</li><li>Dar seguimiento a los indicadores y métricas de desarrollo de software definidos por la gerencia, apoyando su cumplimiento y mejora continua.</li><li>Realizar consultas y análisis de información mediante SQL, asegurando la trazabilidad de los datos asociados a procesos de Venta y Post Venta.</li><li>Asegurar el uso adecuado y la correcta actualización de las herramientas de gestión de tareas y requerimientos, especialmente JIRA.</li><li>Colaborar con los distintos roles del equipo (QA, desarrollo, liderazgo) para garantizar entregables alineados a los objetivos del proyecto.</li></ul>",
+    "benefits_headline": "Condiciones",
+    "benefits": "",
+    "desirable_headline": "¿Qué te daría un plus +++?",
+    "desirable": "<ul><li>Experiencia previa en proyectos de software en contextos.</li><li>Conocimientos básicos de métricas de desarrollo de software.</li><li>Buen manejo de documentación funcional y diagramas simples (BPMN, UML básico).</li><li>Habilidades de comunicación escrita y verbal con perfiles técnicos y de negocio.</li></ul>",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "es",
+    "category_name": "Product, Innovation & Agile",
+    "perks": [
+     "internal_talks",
+     "life_insurance",
+     "health_coverage",
+     "computer_repairs",
+     "dental_insurance",
+     "education_stipend",
+     "personal_coaching",
+     "conference_stipend"
+    ],
+    "min_salary": 900,
+    "max_salary": 1200,
+    "published_at": 1795634918,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 14,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 2,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 64,
+       "type": "tag"
+      },
+      {
+       "id": 305,
+       "type": "tag"
+      },
+      {
+       "id": 1766,
+       "type": "tag"
+      },
+      {
+       "id": 37564,
+       "type": "tag"
+      },
+      {
+       "id": 37164,
+       "type": "tag"
+      },
+      {
+       "id": 37284,
+       "type": "tag"
+      },
+      {
+       "id": 34,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "apside",
+      "type": "company",
+      "attributes": {
+       "name": "Apside",
+       "description": "Valoramos profundamente el profesionalismo y compromiso en nuestro equipo, el que cuenta con amplia experiencia en el desarrollo de proyectos,  una fuerte orientación al cliente y un alto nivel técnico. ",
+       "long_description": "",
+       "projects": "<p>Con más de 10 años de experiencia en el mercado y un crecimiento constante, nos destacamos por centrarnos en el desarrollo profesional de nuestros talentos. Trabajamos en proyectos variados, abarcando sectores como seguros, retail, banca, gobierno e innovación pública.<br>Nuestro equipo está compuesto por profesionales altamente calificados en la industria, con una amplia experiencia y apasionados por la tecnología. Fomentamos una relación con profesionales autónomos que valoran la excelencia técnica y la búsqueda constante de conocimiento.<br>¡Somos una empresa <strong>100% remota</strong>, con personas en diferentes países de América Latina!<br><br></p><p><strong>¿Que ofrecemos?<br></strong>Te ofrecemos formar parte de un equipo con un <strong>muy buen ambiente de trabajo</strong>, multicultural, con personas que valoran la autonomia, el trabajo en equipo y el respeto mutuo.<strong><br></strong><br>Contamos con excelentes beneficios para nuestros Apsiders: Salud, Bienestar, Educación y diferentes bonos que se ajustan a las necesidades de nuestros talentos.<br><br></p>",
+       "benefits": "",
+       "web": "http://www.apside.cl",
+       "twitter": "apsidecl",
+       "github": "",
+       "facebook": "apsidecl",
+       "angellist": "",
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 22,
+        "max": 32
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/5190/isotipo_1024x1024.png"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/business-analyst-junior-apside-santiago-110f"
+   }
+  },
+  {
+   "id": "technical-product-analyst-sector-electrico-galilei-remote",
+   "type": "job",
+   "attributes": {
+    "title": "Technical Product Analyst – Sector Eléctrico",
+    "description_headline": "Qualifications and requirements",
+    "description": "<ul><li>Título en Ingeniería Civil Eléctrica, Ingeniería Civil Industrial, Ingeniería Comercial o una carrera afín.</li><li>Pensamiento analítico y manejo de datos: SQL, Python o Excel avanzado.</li><li>Capacidad para conversar con clientes y transformar problemas de negocio en requerimientos claros.</li><li>Autonomía, iniciativa y ganas de construir en un entorno startup.</li><li>Disponibilidad para trabajar en modalidad híbrida en Santiago.</li><li>Interés por la IA aplicada y los productos conversacionales.</li></ul>",
+    "projects": "<p>Galilei es una plataforma de inteligencia para el mercado eléctrico chileno. Reunimos datos del sector, regulación y contexto de mercado, y los entregamos a nuestros clientes por chat, WhatsApp, integraciones con IA y reportes diarios. Somos un spin-off de SPEC y trabajamos con generadoras, desarrolladores de proyectos y actores gremiales del sector, con una base de clientes recurrentes que sigue creciendo.</p><p>Somos un equipo chico, técnico y con mucha autonomía: socios con experiencia en energía y en data &amp; analytics, y un equipo de ingeniería de datos que construye los pipelines desde fuentes como el Coordinador, la CNE y la SEC. Nuestro desafío ahora es convertir lo que nos piden los clientes en producto: priorizar bien, construir rápido y que cada feature resuelva un problema real del negocio eléctrico.</p>",
+    "functions_headline": "Job functions",
+    "functions": "<p>Buscamos a alguien que sea el puente entre el negocio y el producto, una persona hands-on que entienda al cliente, traduzca sus necesidades en features y los acompañe hasta que estén en producción.</p><ul><li>Participar en reuniones con clientes y prospectos para entender sus problemas, su forma de trabajar y qué información necesitan para decidir.</li><li>Traducir esas necesidades en features concretos: definir el problema, los datos requeridos, los criterios de aceptación y su prioridad.</li><li>Trabajar codo a codo con el equipo de ingeniería de datos para llevar los features a producción y validar que funcionen como se esperaba.</li><li>Explorar datos del sector (SQL, Python o Excel avanzado) para prototipar indicadores, reportes y análisis nuevos.</li><li>Apoyar al área comercial con demos, material técnico y propuestas a la medida de cada cliente.</li><li>Medir el uso y el valor de lo que construimos, y retroalimentar el roadmap con esa evidencia.</li></ul><p>Vas a trabajar directo con los socios, con exposición real a clientes y a decisiones de producto desde el primer día.</p>",
+    "benefits_headline": "Conditions",
+    "benefits": "<ul><li>Hibrido con disponiblidad de reuniones en Santiago de Chile</li><li>Sueldo de mercado</li><li>Equity (sujeto a condiciones)</li></ul>",
+    "desirable_headline": "Desirable skills",
+    "desirable": "<ul><li>Experiencia o conocimiento del mercado eléctrico chileno (mercado spot, PPAs, licitaciones, tarifas, regulación).</li><li>Experiencia en producto, consultoría o análisis de negocio en empresas tech o del sector energía.</li><li>Familiaridad con herramientas de BI, APIs o productos de datos.</li></ul>",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "lang_not_specified",
+    "category_name": "Product, Innovation & Agile",
+    "perks": [],
+    "min_salary": 1500,
+    "max_salary": 2000,
+    "published_at": 1795527132,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 21,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 3,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 8519,
+       "type": "tag"
+      },
+      {
+       "id": 64,
+       "type": "tag"
+      },
+      {
+       "id": 18,
+       "type": "tag"
+      },
+      {
+       "id": 57,
+       "type": "tag"
+      },
+      {
+       "id": 56,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "galilei",
+      "type": "company",
+      "attributes": {
+       "name": "Galilei",
+       "description": "Galilei es una plataforma de inteligencia para el mercado eléctrico chileno: datos del sector, regulación y contexto de mercado, accesibles por chat, WhatsApp y reportes diarios. Spin-off de SPEC.",
+       "long_description": "",
+       "projects": null,
+       "benefits": "<ul><li>100% Remoto</li><li>Sueldo de mercado</li><li>Equity (sujeto a condiciones)</li></ul>",
+       "web": "http://galilei.energy",
+       "twitter": "",
+       "github": "",
+       "facebook": "",
+       "angellist": null,
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 32,
+        "max": 44
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/19298/galilei_logo_square.jpg"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/technical-product-analyst-sector-electrico-galilei-remote"
+   }
+  },
+  {
+   "id": "analista-qa-direccion-chilecompra-santiago-2e31",
+   "type": "job",
+   "attributes": {
+    "title": "Analista QA",
+    "description_headline": "Requerimientos del Cargo",
+    "description": "<p>Título profesional obtenido de una carrera de al menos 8 semestres de duración del ámbito de la Ingeniería Informática o carrera afín, de una institución reconocida por el Estado de Chile.</p><p><strong>Deseable:</strong><br>Certificación en pruebas y aseguramiento de calidad del software, automatización de pruebas, y/o pruebas de rendimiento y desempeño.</p><ul><li><strong>Experiencia laboral mínima requerida:</strong></li></ul><p>Al menos 3 años participando en equipos de desarrollo de software bajo metodologías ágiles en organizaciones públicas o privadas.</p><ul><li><strong>Experiencia laboral deseable:</strong></li></ul><p>Al menos 2 años en cargos de Analista QA, realizando funciones de aseguramiento de la calidad, en áreas de desarrollo de software en organizaciones públicas o privadas.</p>",
+    "projects": "<p>La plataforma de compras públicas que administra ChileCompra<strong>: Mercado Público, es el sitio transaccional de comercio electrónico más grande de Chile</strong>. Allí los servicios públicos efectúan sus adquisiciones a través de casi 2 millones de orden de compra al año, por más de 16 mil millones de dólares, permitiendo oportunidades de negocio a más de 120 mil proveedores. <strong>Por lo que nuestro servicio es crítico para el funcionamiento del Estado de Chile.</strong></p><p>Actualmente, estamos impulsando una estrategia de <strong>modernización para generar mayor eficiencia en las compras y gasto público</strong>, mediante la renovación de plataformas y servicios como la tienda de convenio marco en Magento y nuevos sistemas que faciliten la toma de decisiones, monitoreo y evaluación de los procesos de compra. Esta transformación incluye el paso desde una arquitectura tradicional basada en un data center físico y sistemas monolíticos, hacia una arquitectura de software multinube, con respaldos tanto físicos como en la nube.</p>",
+    "functions_headline": "Funciones del Cargo",
+    "functions": "<p>El rol se enfoca en <strong>asegurar la calidad y el correcto funcionamiento del software y de las aplicaciones asociadas a las plataformas de compras públicas, mediante la planificación, ejecución y mejora de los procesos de control de calidad, velando por el cumplimiento de los estándares y lineamientos institucionales, con el propósito de contribuir a una adecuada experiencia de las personas usuarias</strong>, en el marco del Programa de Mejora de la Calidad del Gasto en las Compras Públicas<strong>.</strong> Para ello deberá:</p><ol><li>Participar en actividades de análisis y control de la calidad del software y de las aplicaciones asociadas a las plataformas de compras públicas, en el marco del Programa de Mejora de la Calidad del Gasto en las Compras Públicas.<br>1.1. Levantar, analizar y especificar los requerimientos de software y modelar los procesos asociados a las plataformas, identificando requerimientos funcionales, técnicos y no funcionales, así como oportunidades de mejora en los procesos de control de calidad y en el ciclo de desarrollo de software.<br>1.2. Analizar los requerimientos de las personas usuarias, definiendo prioridades y elaborando planes y casos de prueba que permitan validar el correcto funcionamiento y usabilidad de las plataformas.<br>1.3. Ejecutar casos de prueba, incluyendo pruebas de seguridad, rendimiento y concurrencia, identificando y documentando errores, incidencias y oportunidades de mejora, realizando seguimiento a su resolución y generando informes de los resultados obtenidos.</li><li>Participar en equipos de trabajo multidisciplinarios internos y externos.</li><li>Incorporar aspectos tecnológicos adicionales que contribuyan a asegurar la calidad de procesos y productos desarrollados en el marco del PMCG.</li><li>Crear y proponer políticas, normas y procedimientos actualizados asociados al aseguramiento de la calidad del software y de las plataformas de compras públicas desarrollados en el marco del PMCG.</li></ol>",
+    "benefits_headline": "Condiciones",
+    "benefits": "<ul><li>La posición tiene una <strong>renta bruta mensual correspondiente a $3.397.000 .-</strong></li><li>La modalidad de contratación es a<strong> honorarios hasta el 31 de diciembre del 2027. </strong>Continuidad asociada a desempeño y duración del Programa de Mejora en la Calidad del Gasto Público <strong>(duración estimada del programa hasta 31 de diciembre del 2028)</strong>.</li><li>La modalidad de trabajo es <strong>híbrida, con mayor presencialidad al principio y luego 2 días de presencialidad a la semana.</strong></li><li>Contamos con <strong>15 días de vacaciones más 6 días de permisos</strong> administrativos con goce de sueldo, <strong>anuales (los cuales se otorgarán con proporcionalidad a la fecha de incorporación).</strong></li><li>Te ofrecemos la oportunidad de aprender y aportar tus conocimientos a la plataforma transaccional más importante y grande de Chile (Mercado Público), donde nuestro compromiso e innovación tiene impacto país.</li><li>Puedes revisar más sobre nuestros beneficios en nuestra información institucional en Get on Board!</li></ul><p><strong>POSTULA CON NOSOTROS HASTA EL 30 DE NOVIEMBRE.</strong></p>",
+    "desirable_headline": "Tecnologías y Herramientas",
+    "desirable": "<ul><li><strong>Conocimientos mínimos</strong></li></ul><p>- Herramientas de gestión de pruebas como: HP, ALM, JIRA, TestRail, Zephyr,Testlink.<br>- Gestión de APIs REST.<br> - Herramientas de pruebas automatizadas y herramientas de pruebas de carga (esfuerzo/stress): Jmeter, Loadrunner, Apache Benchmark, Gatling.<br>- Metodologías y herramientas de implementación de software.<br> - Pruebas de seguridad (OWASP ZAP, Messi, Burp Suite y Qualys) <br>- Motores de base de datos relacionales y no relacionales.</p><ul><li><strong>Conocimientos deseables</strong></li></ul><p>- Diseño y ejecución de pruebas de rendimiento y escalabilidad en entornos Cloud.<br>- Herramientas de análisis estadístico: SonarQube, Checkstyle, PMD y ESLinT.<br>- Ciberseguridad y desarrollo seguro de software.<br> - Idioma Inglés nivel intermedio B1 (MCER).</p>",
+    "remote": false,
+    "remote_modality": "hybrid",
+    "remote_zone": null,
+    "countries": [
+     "Chile"
+    ],
+    "lang": "es",
+    "category_name": "SysAdmin / DevOps / QA",
+    "perks": [
+     "flexible_hours",
+     "internal_talks",
+     "remote_partial",
+     "digital_library",
+     "computer_provided",
+     "conference_stipend"
+    ],
+    "min_salary": 3400,
+    "max_salary": 3400,
+    "published_at": 1795124832,
+    "response_time_in_days": {
+     "min": null,
+     "max": null
+    },
+    "applications_count": 151,
+    "location_regions": {
+     "data": []
+    },
+    "location_tenants": {
+     "data": []
+    },
+    "location_cities": {
+     "data": [
+      {
+       "id": 1,
+       "type": "location_city"
+      }
+     ]
+    },
+    "modality": {
+     "data": {
+      "id": 1,
+      "type": "modality"
+     }
+    },
+    "seniority": {
+     "data": {
+      "id": 3,
+      "type": "seniority"
+     }
+    },
+    "tags": {
+     "data": [
+      {
+       "id": 1448,
+       "type": "tag"
+      },
+      {
+       "id": 2128,
+       "type": "tag"
+      },
+      {
+       "id": 3873,
+       "type": "tag"
+      },
+      {
+       "id": 2106,
+       "type": "tag"
+      }
+     ]
+    },
+    "company": {
+     "data": {
+      "id": "direccion-chilecompra",
+      "type": "company",
+      "attributes": {
+       "name": "Dirección ChileCompra",
+       "description": "Innovación y Compromiso con impacto público.\n\n\n¡Sé parte de la modernización del Estado en ChileCompra!",
+       "long_description": "<p>La Dirección ChileCompra es la institución que administra la plataforma de compras públicas de Chile, <a href=\"http://www.mercadopublico.cl/\" target=\"_blank\" rel=\"nofollow noopener noreferrer external\"><strong>www.mercadopublico.cl</strong></a>, reuniendo en un solo lugar la demanda de los compradores públicos y la oferta de miles de proveedores privados.</p><p><a href=\"http://www.mercadopublico.cl/\" target=\"_blank\" rel=\"nofollow noopener noreferrer external\"><strong>www.mercadopublico.cl</strong></a><strong> es el sitio transaccional de comercio electrónico más grande de Chile</strong>. Allí los servicios públicos efectúan sus adquisiciones a través de casi 2 millones de orden de compra al año por más de 16 mil millones de dólares, permitiendo oportunidades de negocio a más de 120 mil proveedores. Por lo que nuestro servicio es crítico para el funcionamiento del Estado de Chile.</p>",
+       "projects": "<p>La plataforma de compras públicas que administra ChileCompra: <a href=\"http://www.mercadopublico.cl/\"><strong>www.mercadopublico.cl</strong></a><strong> es el sitio transaccional de comercio electrónico más grande de Chile</strong>. Allí los servicios públicos efectúan sus adquisiciones a través de casi 2 millones de orden de compra al año, por más de 16 mil millones de dólares, permitiendo oportunidades de negocio a más de 120 mil proveedores. <strong>Por lo que nuestro servicio es crítico para el funcionamiento del Estado de Chile.<br><br></strong>Actualmente, estamos impulsando una estrategia de <strong>modernización para generar mayor eficiencia en las compras y gasto público</strong>, mediante la renovación de plataformas y servicios como la tienda de convenio marco en Magento y nuevos sistemas que faciliten la toma de decisiones, monitoreo y evaluación de los procesos de compra. Esta transformación incluye el paso desde una arquitectura tradicional basada en un data center físico y sistemas monolíticos, hacia una arquitectura de software multinube, con respaldos tanto físicos como en la nube.<br><br></p>",
+       "benefits": "<ul><li>Oportunidad para aprender y aportar tus conocimientos a la plataforma transaccional más importante de Chile</li><li>Ambiente laboral respetuoso donde se anima la participación activa</li><li>Actividades de fortalecimiento de equipos</li><li>Capacitaciones</li><li>Aguinaldo de fiestas patrias (septiembre), para navidad (diciembre), y para escolaridad hijos menores de 24 años (marzo y junio)</li><li>15 días de vacaciones + 6 días de permisos administrativos anuales</li><li>Banda horaria flexible de ingreso desde 07:30hrs a 09:30hr</li><li>Caja de Compensación Los Andes</li><li>Seguro de accidentes laborales con ACHS</li><li>Beneficio de sala cuna para menores de 2 años, y de jardín infantil para niños y niñas en edad preescolar&nbsp;</li><li>Convenio con Ticket Out para obtener descuentos en diferentes parques, cine y eventos de entretenimiento</li><li>Programa de Bienestar institucional con seguro complementario de salud, vida y catastrófico, beneficio dental y bono de vacaciones</li><li>Código de vestimenta libre</li><li>Computador de trabajo</li></ul>",
+       "web": "https://www.chilecompra.cl/",
+       "twitter": "",
+       "github": "",
+       "facebook": "",
+       "angellist": "",
+       "country": "CL",
+       "response_time_in_days": {
+        "min": 25,
+        "max": 35
+       },
+       "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/11748/Logo_ChileCompra.jpg"
+      }
+     }
+    }
+   },
+   "links": {
+    "public_url": "https://www.getonbrd.com/jobs/analista-qa-direccion-chilecompra-santiago-2e31"
+   }
+  }
+ ],
  "Remotive": [
   {
    "id": "2091179",
