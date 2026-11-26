@@ -1,0 +1,12 @@
+name: Sondeo de fuentes
+on:
+  push:
+    branches: [claude/project-thread-5ghnfg]
+    paths: ["sondeo/**"]
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - run: python sondeo/html.py
