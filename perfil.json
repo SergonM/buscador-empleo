@@ -240,7 +240,11 @@
     "customer service",
     "customer success",
     "atencion al cliente",
-    "customer care"
+    "customer care",
+    "bootcamp",
+    "formate",
+    "curso de",
+    "semillero"
   ],
   "max_anios_experiencia": 2,
   "incluir_semi_senior": true,
@@ -788,6 +792,6 @@
       "ingeniero de sistemas junior",
       "machine learning"
     ],
-    "max_detalles": 45
+    "max_detalles": 60
   }
 }

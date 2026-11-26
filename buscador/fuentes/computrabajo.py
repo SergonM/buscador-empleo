@@ -12,6 +12,7 @@ import sys
 import time
 import urllib.request
 from datetime import date, timedelta
+from itertools import zip_longest
 
 from ..texto import normalizar
 from .workday import pasa_titulo
@@ -99,7 +100,7 @@ def detalle(url, titulo, pagina, hoy):
     for l in lugares:
         d = (l or {}).get("address") or {}
         if isinstance(d, dict):
-            sedes.append(", ".join(x for x in (d.get("addressLocality"), d.get("addressRegion")) if x))
+            sedes.append(", ".join(dict.fromkeys(x for x in (d.get("addressLocality"), d.get("addressRegion")) if x)))
     ubic = " · ".join(dict.fromkeys(s for s in sedes if s))
     if not ubic:
         m = re.search(r"-en-([a-z-]+)-[0-9A-F]{20,}$", url)
@@ -136,9 +137,10 @@ def buscar(cfg, perfil, hoy=None, pausa=2.0):
     """cfg: {"busquedas": [...], "max_detalles": 40}. Devuelve (ofertas, muestra)."""
     from .comun import oferta
     hoy = hoy or date.today()
-    candidatos, vistos, total = [], set(), 0
+    por_busqueda, vistos, total = [], set(), 0
     for q in cfg.get("busquedas", []):
         slug = re.sub(r"[^a-z0-9]+", "-", normalizar(q)).strip("-")
+        propios = []
         for sufijo in ("-en-bogota-dc", ""):  # Bogotá primero; sin ciudad trae también las remotas
             pagina = _get(f"{BASE}/trabajo-de-{slug}{sufijo}")
             time.sleep(pausa)
@@ -146,7 +148,10 @@ def buscar(cfg, perfil, hoy=None, pausa=2.0):
                 total += 1
                 if url not in vistos and pasa_titulo(titulo, perfil):
                     vistos.add(url)
-                    candidatos.append((url, titulo))
+                    propios.append((url, titulo))
+        por_busqueda.append(propios)
+    # Se alternan las búsquedas para que el tope de detalles no se lo coma solo la primera.
+    candidatos = [c for fila in zip_longest(*por_busqueda) for c in fila if c]
     ofertas, muestra = [], []
     for url, titulo in candidatos[: cfg.get("max_detalles", 40)]:
         pagina = _get(url)

@@ -462,7 +462,7 @@ function pintar(){
   $("#vista").innerHTML = {hoy:vistaHoy, explorar:vistaExplorar, lista:vistaLista, progreso:vistaProgreso}[vista]();
   const q = $("#q"); if (q) q.oninput = e => { F.q = e.target.value.trim(); limite = 30; repintarResultados(); };
   const lp = $("#lateral-pie"); if (lp) lp.innerHTML = `Actualizado ${new Date(R.actualizado).toLocaleString("es-CO",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})}<br>${R.mostradas} ofertas · ${fuentes.length} fuentes`;
-  $("#pie").innerHTML = `Rumbo revisa cada día ${fuentes.length} fuentes: ${fuentes.map(esc).join(", ")}. Cada oferta enlaza a su publicación original (Get on Board, Remotive, Himalayas, Jobicy, Remote OK y portales de cada empresa). <a href="https://github.com/SergonM/buscador-empleo">Código</a>`;
+  $("#pie").innerHTML = `Rumbo revisa cada día ${fuentes.length} fuentes: ${fuentes.map(esc).join(", ")}. Cada oferta enlaza a su publicación original (Computrabajo, Get on Board, Remotive, Himalayas, Jobicy, Remote OK y portales de cada empresa). <a href="https://github.com/SergonM/buscador-empleo">Código</a>`;
 }
 function repintarResultados(){
   const l = visibles().filter(pasa).sort(ORDEN[F.orden]);
