@@ -10,6 +10,7 @@ import re
 import sys
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
 from ..filtros import areas_en_titulo
@@ -62,7 +63,7 @@ def pasa_titulo(titulo, perfil):
     return bool(areas_en_titulo(t, perfil))
 
 
-def _empresa(host, tenant, site, nombre, perfil, hoy, max_detalles=15, pausa=1.5):
+def _empresa(host, tenant, site, nombre, perfil, hoy, max_detalles=12, pausa=1.5):
     base = f"https://{host}/wday/cxs/{tenant}/{site}"
     publicos = f"https://{host}/{site}"
     candidatos, offset, total = [], 0, None
@@ -108,20 +109,27 @@ def _empresa(host, tenant, site, nombre, perfil, hoy, max_detalles=15, pausa=1.5
     return salida
 
 
-def buscar(empresas, perfil, hoy=None):
+def buscar(empresas, perfil, hoy=None, hilos=5):
     """empresas: lista de "host tenant sitio Nombre". Devuelve (ofertas, muestra)."""
     hoy = hoy or date.today()
     ofertas, muestra = {}, []
-    for linea in empresas:
+
+    def una(linea):
         partes = linea.split(maxsplit=3)
         if len(partes) < 4:
-            continue
+            return []
         host, tenant, site, nombre = partes
         try:
-            for o in _empresa(host, tenant, site, nombre, perfil, hoy):
+            return _empresa(host, tenant, site, nombre, perfil, hoy)
+        except Exception as e:  # noqa: BLE001
+            print(f"  [workday] {nombre} falló: {e}", file=sys.stderr)
+            return []
+
+    # Varias empresas a la vez (cada una va despacio); hilos pocos para no provocar 429.
+    with ThreadPoolExecutor(max_workers=hilos) as ex:
+        for lista in ex.map(una, empresas):
+            for o in lista:
                 ofertas.setdefault(o["id"], o)
                 if len(muestra) < 3:
                     muestra.append({k: str(v)[:200] for k, v in o.items()})
-        except Exception as e:  # noqa: BLE001
-            print(f"  [workday] {nombre} falló: {e}", file=sys.stderr)
     return list(ofertas.values()), muestra
