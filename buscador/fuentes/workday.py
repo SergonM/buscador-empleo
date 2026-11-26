@@ -13,7 +13,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
-from ..filtros import areas_en_titulo
+from ..filtros import areas_en_titulo, es_generico
 from ..texto import encontradas, normalizar
 from .comun import UA, oferta
 
@@ -60,7 +60,7 @@ def pasa_titulo(titulo, perfil):
         return False
     if encontradas(t, perfil.get("excluir_otros_titulo", [])):
         return False
-    return bool(areas_en_titulo(t, perfil))
+    return bool(areas_en_titulo(t, perfil)) or es_generico(t, perfil)
 
 
 def _empresa(host, tenant, site, nombre, perfil, hoy, max_detalles=12, pausa=1.5):

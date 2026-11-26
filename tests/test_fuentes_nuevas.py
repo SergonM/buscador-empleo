@@ -130,3 +130,42 @@ class Ayudas(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Genericos(unittest.TestCase):
+    def test_cargo_generico_con_descripcion_de_datos(self):
+        o = dict(id="g", fuente="Workday", titulo="Profesional I", empresa="Bancolombia", url="u", remoto=False,
+                 remote_modality="hybrid", paises=["Colombia"], ubicacion="Bogotá", modalidad="Híbrido",
+                 descripcion="Construirás tableros en Power BI, consultas SQL y modelos en Python con pandas.")
+        self.assertIsNone(motivo_descarte(o, PERFIL))
+        r = puntuar(dict(o), PERFIL)
+        self.assertIn("Datos / ML", r["areas"])
+        self.assertIn("genérico", r["por_que"])
+        sin = dict(o, descripcion="Atención de caja y archivo de documentos.")
+        self.assertIn("áreas", motivo_descarte(sin, PERFIL))
+
+
+class Computrabajo(unittest.TestCase):
+    LISTA = ('<article class="box_offer"><h2><a class="js-o-link fc_base" href="/ofertas-de-trabajo/'
+             'oferta-de-trabajo-de-analista-de-datos-junior-en-bogota-dc-B476649BC200D93F61373E686DCF3405">'
+             '\n  Analista de datos junior </a></h2></article>'
+             '<a href="https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-junior-en-bogota-dc-B476649BC200D93F61373E686DCF3405">otra</a>')
+    DETALLE = ('<html><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization"},'
+               '{"@type":"JobPosting","title":"Analista de datos junior","datePosted":"2026-11-25",'
+               '"description":"<p>Modalidad h&iacute;brida. SQL y Power BI.</p>","hiringOrganization":{"name":"Acme SAS"},'
+               '"jobLocation":{"address":{"addressLocality":"Bogotá, D.C.","addressRegion":"Bogotá, D.C."}},'
+               '"baseSalary":{"value":{"value":3200000}}}]}</script></html>')
+
+    def test_listado_y_detalle(self):
+        from datetime import date
+        from buscador.fuentes import computrabajo as ct
+        l = ct.listado(self.LISTA)
+        self.assertEqual(len(l), 1)
+        self.assertEqual(l[0][1], "Analista de datos junior")
+        d = ct.detalle(l[0][0], l[0][1], self.DETALLE, date(2026, 11, 26))
+        self.assertEqual(d["empresa"], "Acme SAS")
+        self.assertEqual(d["modalidad"], "Híbrido")
+        self.assertEqual(d["fecha"], "2026-11-25")
+        self.assertIn("Bogotá", d["ubicacion"])
+        self.assertEqual(d["salario"], "$3.200.000")
+        self.assertTrue(d["id"].startswith("computrabajo-B4766"))

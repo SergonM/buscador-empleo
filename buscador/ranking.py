@@ -2,7 +2,7 @@
 import re
 from datetime import date
 
-from .filtros import areas_en_titulo
+from .filtros import areas_oferta
 from .texto import anios_experiencia, contiene, encontradas, normalizar
 
 
@@ -13,9 +13,10 @@ def puntuar(o, perfil, hoy=None):
     puntos, razones = 0, []
 
     # Área (lo más importante): título pesa más que descripción.
-    areas = areas_en_titulo(titulo, perfil)
+    areas, por_desc = areas_oferta(o, perfil, titulo, desc)
+    o["area_por_desc"] = por_desc
     if areas:
-        puntos += 35 + 5 * (len(areas) - 1)
+        puntos += (28 if por_desc else 35) + 5 * (len(areas) - 1)
     habilidades = []
     for area in areas or perfil["areas"]:
         habilidades += encontradas(desc, perfil["areas"][area]["texto"])
@@ -62,7 +63,7 @@ def puntuar(o, perfil, hoy=None):
         pass
 
     if areas:
-        razones.insert(0, " + ".join(areas))
+        razones.insert(0, " + ".join(areas) + (" (por la descripción; el cargo es genérico)" if por_desc else ""))
     if habilidades:
         razones.append("pide " + ", ".join(habilidades[:3]))
     razones += [e for e in extras if not e.startswith("pide ")][:1]

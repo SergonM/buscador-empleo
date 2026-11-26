@@ -177,6 +177,46 @@ footer a{color:var(--mut)}
 #toast{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom));transform:translate(-50%,10px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-size:14px;font-weight:600;opacity:0;transition:.2s;pointer-events:none;z-index:30}
 #toast.on{opacity:1;transform:translate(-50%,0)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* ---------- Escritorio: barra lateral, varias columnas y detalle a la derecha ---------- */
+.lateral-marca,.lateral-pie,.hero[hidden]{display:none}
+@media (min-width:1000px){
+  body{padding-bottom:0}
+  .wrap{max-width:1500px;margin:0 0 0 248px;padding:0 40px 0 36px}
+  .hero{display:grid;grid-template-columns:1fr minmax(340px,420px);gap:12px 40px;align-items:end;padding-top:36px}
+  .hero .marca{display:none}
+  .hero h1{grid-column:1;font-size:44px;margin-top:0}
+  .hero .lead{grid-column:1;font-size:16.5px;max-width:60ch}
+  .meta-sem{grid-column:2;grid-row:1/3;margin:0}
+  nav.tab{left:0;top:0;bottom:0;transform:none;width:224px;flex-direction:column;justify-content:flex-start;gap:6px;border-radius:0;padding:28px 14px;box-shadow:none;background:var(--ink)}
+  nav.tab button{flex:0 0 auto;flex-direction:row;justify-content:flex-start;gap:12px;font-size:15px;padding:12px 14px;border-radius:14px}
+  nav.tab .n{position:static;margin-left:auto}
+  .lateral-marca{display:flex;align-items:center;gap:10px;color:var(--bg);font-family:var(--serif);font-size:24px;font-weight:650;padding:0 10px 22px}
+  .lateral-marca svg{width:30px;height:30px}
+  .lateral-pie{display:block;margin-top:auto;color:color-mix(in srgb,var(--bg) 55%,transparent);font-size:12px;padding:0 10px;line-height:1.5}
+  .lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px;align-items:start}
+  .lista .card{margin:0}
+  .lista .mas,.lista .vacio{grid-column:1/-1}
+  .destacada{padding:28px 34px}
+  .destacada .why{max-width:80ch;font-size:15px}
+  .destacada h3{font-size:30px}
+  .destacada .acc{max-width:420px}
+  .barra{margin:0 -40px 0 -36px;padding:14px 40px 12px 36px}
+  .busca{max-width:760px}
+  .progreso{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+  .progreso .panel{margin:0}
+  .embudo{grid-template-columns:repeat(4,minmax(0,180px))}
+  .velo,.velo.on{opacity:0;pointer-events:none}
+  .hoja{left:auto;right:0;top:0;bottom:0;width:min(520px,42vw);max-height:none;height:100vh;margin:0;border-radius:28px 0 0 28px;padding:28px 30px 40px;transform:translateX(105%);box-shadow:-20px 0 60px -30px rgba(15,20,36,.5)}
+  .hoja .asa{display:none}
+  .hoja.on{transform:none}
+  body.con-hoja .wrap{margin-right:min(520px,42vw)}
+  body.con-hoja .hero{grid-template-columns:1fr}
+  body.con-hoja .meta-sem{grid-column:1;grid-row:auto;max-width:520px}
+  body.con-hoja .hero h1{font-size:36px}
+  #toast{bottom:28px}
+  footer{text-align:left;padding-left:0}
+}
+@media (min-width:1500px){.lista{grid-template-columns:repeat(3,minmax(0,1fr))}}
 </style>
 </head>
 <body>
@@ -195,10 +235,12 @@ footer a{color:var(--mut)}
   <footer id="pie"></footer>
 </div>
 <nav class="tab" aria-label="Secciones">
+  <div class="lateral-marca"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 6l4.5 10L16 26l-4.5-10z" fill="#ff5a36"/><circle cx="16" cy="16" r="2.2" fill="currentColor"/></svg>Rumbo</div>
   <button data-v="hoy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/><circle cx="12" cy="12" r="4"/></svg>Hoy<span class="n" id="n-hoy"></span></button>
   <button data-v="explorar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg>Explorar</button>
   <button data-v="lista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Mi lista<span class="n" id="n-lista"></span></button>
   <button data-v="progreso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progreso</button>
+  <div class="lateral-pie" id="lateral-pie"></div>
 </nav>
 <div class="velo" id="velo"></div>
 <div class="hoja" id="hoja" role="dialog" aria-modal="true"></div>
@@ -302,7 +344,7 @@ function pintarHero(){
   const s = h < 12 ? "Buenos días" : h < 19 ? "Buenas tardes" : "Buenas noches";
   $("#saludo").innerHTML = `${s}, <em>${esc((P.nombre||"Sergio").split(" ")[0])}</em>.`;
   const nuevas = visibles().filter(o=>o.nueva).length;
-  const act = new Date(R.actualizado).toLocaleString("es-CO",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"});
+  const act = new Date(R.actualizado).toLocaleString("es-CO",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}).replace(/\.$/,"");
   $("#lead").innerHTML = nuevas
     ? `Hoy encontré <b>${nuevas} ofertas nuevas</b> para ti entre ${R.revisadas.toLocaleString("es-CO")} revisadas. Actualizado ${act}.`
     : `Hoy no hay ofertas nuevas, pero tienes <b>${visibles().length} activas</b> para revisar. Actualizado ${act}.`;
@@ -400,13 +442,13 @@ function vistaProgreso(){
   const barras = hist.map(h => `<div style="height:${Math.max(4, h.nuevas/max*100)}%" title="${h.nuevas} nuevas"><span>${fmt(h.fecha).split(" ")[0]}</span></div>`).join("");
   const desc = Object.entries(R.descartes||{}).slice(0,8).map(([k,n]) => `<div class="desc"><span>${esc(k)}</span><b>${n}</b></div>`).join("");
   return `<div class="titulo-sec"><h2>Tu progreso</h2><small>meta: ${AJ.meta||5} por semana</small></div>${embudo()}
-    <div class="panel" style="margin-top:14px"><h3>Fuentes de hoy</h3>${fuentesH}
+    <div class="progreso" style="margin-top:14px"><div class="panel"><h3>Fuentes de hoy</h3>${fuentesH}
       <p style="color:var(--mut);font-size:13px;margin:10px 0 0">${R.revisadas.toLocaleString("es-CO")} revisadas → ${R.mostradas} pasan tus filtros${R.duracion?` · búsqueda de ${Math.round(R.duracion/60)} min`:""}.</p></div>
     ${hist.length>1?`<div class="panel"><h3>Ofertas nuevas por día</h3><div class="barras">${barras}</div><div style="height:18px"></div></div>`:""}
     ${desc?`<div class="panel"><h3>Por qué se descartaron</h3>${desc}</div>`:""}
     <div class="panel"><h3>Respaldo y ajustes</h3>
       <p style="color:var(--ink2);font-size:14px;margin:0">Tus marcas y notas se guardan solo en este celular. Copia el respaldo para no perderlas o pasarlas a otro equipo.</p>
-      <div class="botones"><button class="fuerte" data-acc="exportar">Copiar respaldo</button><button data-acc="importar">Pegar respaldo</button><button data-acc="meta">Cambiar meta semanal</button></div></div>`;
+      <div class="botones"><button class="fuerte" data-acc="exportar">Copiar respaldo</button><button data-acc="importar">Pegar respaldo</button><button data-acc="meta">Cambiar meta semanal</button></div></div></div>`;
 }
 
 function pintar(){
@@ -419,7 +461,8 @@ function pintar(){
   document.querySelector(".hero").hidden = vista === "explorar";
   $("#vista").innerHTML = {hoy:vistaHoy, explorar:vistaExplorar, lista:vistaLista, progreso:vistaProgreso}[vista]();
   const q = $("#q"); if (q) q.oninput = e => { F.q = e.target.value.trim(); limite = 30; repintarResultados(); };
-  $("#pie").innerHTML = `Rumbo revisa cada día ${fuentes.length} fuentes: ${fuentes.map(esc).join(", ")}. Cada oferta enlaza a su publicación original (Get on Board, Remotive, Himalayas, Jobicy, Remote OK y portales de cada empresa). <a href="https://github.com/SergonM/buscador-empleo">Código</a>`;
+  const lp = $("#lateral-pie"); if (lp) lp.innerHTML = `Actualizado ${new Date(R.actualizado).toLocaleString("es-CO",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})}<br>${R.mostradas} ofertas · ${fuentes.length} fuentes`;
+  $("#pie").innerHTML = `Rumbo revisa cada día ${fuentes.length} fuentes: ${fuentes.map(esc).join(", ")}. Cada oferta enlaza a su publicación original (Computrabajo, Get on Board, Remotive, Himalayas, Jobicy, Remote OK y portales de cada empresa). <a href="https://github.com/SergonM/buscador-empleo">Código</a>`;
 }
 function repintarResultados(){
   const l = visibles().filter(pasa).sort(ORDEN[F.orden]);
@@ -429,8 +472,9 @@ function repintarResultados(){
 
 // ---------- Hoja inferior ----------
 let abiertaId = null;
-function abrirHoja(html){ $("#hoja").innerHTML = `<div class="asa"></div>` + html; $("#hoja").scrollTop = 0; $("#hoja").classList.add("on"); $("#velo").classList.add("on"); document.body.style.overflow = "hidden"; }
-function cerrarHoja(){ $("#hoja").classList.remove("on"); $("#velo").classList.remove("on"); document.body.style.overflow = ""; if (abiertaId) { abiertaId = null; pintar(); } }
+const ESCRITORIO = matchMedia("(min-width:1000px)");
+function abrirHoja(html){ $("#hoja").innerHTML = `<div class="asa"></div>` + html; $("#hoja").scrollTop = 0; $("#hoja").classList.add("on"); $("#velo").classList.add("on"); document.body.classList.add("con-hoja"); if (!ESCRITORIO.matches) document.body.style.overflow = "hidden"; }
+function cerrarHoja(){ $("#hoja").classList.remove("on"); $("#velo").classList.remove("on"); document.body.style.overflow = ""; document.body.classList.remove("con-hoja"); if (abiertaId) { abiertaId = null; pintar(); } }
 function hojaOferta(id){
   const o = ofertaDe(id); if (!o) return;
   abiertaId = id;
@@ -476,7 +520,7 @@ let toastT;
 function toast(t){ const e=$("#toast"); e.textContent=t; e.classList.add("on"); clearTimeout(toastT); toastT=setTimeout(()=>e.classList.remove("on"),1800); }
 async function copiar(t){ try { await navigator.clipboard.writeText(t); toast("Copiado"); } catch(e) { prompt("Copia el texto:", t); } }
 
-document.querySelector("nav.tab").onclick = e => { const b=e.target.closest("button"); if(!b) return; vista=b.dataset.v; limite=30; try{localStorage.setItem(LS+"-vista",vista);}catch(_){} pintar(); scrollTo({top:0}); };
+document.querySelector("nav.tab").onclick = e => { const b=e.target.closest("button"); if(!b) return; vista=b.dataset.v; limite=30; if ($("#hoja").classList.contains("on")) { abiertaId = null; cerrarHoja(); } try{localStorage.setItem(LS+"-vista",vista);}catch(_){} pintar(); scrollTo({top:0}); };
 $("#velo").onclick = cerrarHoja;
 document.body.addEventListener("click", e => {
   const chip = e.target.closest("[data-area]"); if (chip) { F.area = chip.dataset.area; limite = 30; pintar(); return; }
