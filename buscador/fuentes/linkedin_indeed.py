@@ -78,12 +78,15 @@ def buscar(cfg):
         return [], []
     ofertas, muestra = {}, []
     sitios = [
-        ("indeed", {"location": cfg.get("ciudad", "Bogotá"), "country_indeed": "Colombia"}),
-        ("linkedin", {"location": cfg.get("pais", "Colombia")}),
+        ("indeed", {"location": cfg.get("ciudad", "Bogotá"), "country_indeed": "Colombia"}, cfg["busquedas"]),
+        ("linkedin", {"location": cfg.get("pais", "Colombia")}, cfg.get("busquedas_linkedin", cfg["busquedas"])),
+        # Remoto para LATAM: LinkedIn marca is_remote y la ubicación queda "Latin America".
+        ("linkedin", {"location": cfg.get("ubicacion_remoto", "Latin America"), "is_remote": True},
+         cfg.get("busquedas_linkedin_remoto", [])),
     ]
-    for sitio, extra in sitios:
-        fallos = 0
-        terminos = cfg["busquedas"] if sitio == "indeed" else cfg.get("busquedas_linkedin", cfg["busquedas"])
+    fallos_sitio = {}
+    for sitio, extra, terminos in sitios:
+        fallos = fallos_sitio.get(sitio, 0)
         for termino in terminos:
             if fallos >= 2:  # si el sitio nos está bloqueando, no insistir
                 print(f"  [jobspy] {sitio}: demasiados errores, se salta el resto")
@@ -110,4 +113,5 @@ def buscar(cfg):
                 fallos += 1
                 print(f"  [jobspy] {sitio} '{termino}' falló: {e}", file=sys.stderr)
             time.sleep(cfg.get("pausa", 6) if sitio == "indeed" else cfg.get("pausa_linkedin", 25))
+        fallos_sitio[sitio] = fallos
     return list(ofertas.values()), muestra
