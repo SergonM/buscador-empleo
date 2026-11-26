@@ -1,0 +1,20 @@
+name: Sondeo de fuentes
+on:
+  push:
+    branches: [claude/project-thread-5ghnfg]
+    paths: ["sondeo/**"]
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        lote: [wd_a, wd_b, wd_c, wd_d, lote_e]
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          cd sondeo
+          case ${{ matrix.lote }} in
+            wd_*) python wd_descubrir.py "$(cat ${{ matrix.lote }}.txt)" ;;
+            *) python sondeo.py "$(cat ${{ matrix.lote }}.txt)" ;;
+          esac
