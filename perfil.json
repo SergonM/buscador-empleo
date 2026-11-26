@@ -235,7 +235,12 @@
     "comercio exterior",
     "agroindustriales",
     "logistica",
-    "bodega"
+    "bodega",
+    "servicio al cliente",
+    "customer service",
+    "customer success",
+    "atencion al cliente",
+    "customer care"
   ],
   "max_anios_experiencia": 2,
   "incluir_semi_senior": true,

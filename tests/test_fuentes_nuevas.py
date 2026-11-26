@@ -122,6 +122,7 @@ class Ayudas(unittest.TestCase):
                        {"nombre": "Sergio González"})
         self.assertNotIn("Analyst </script>", html)
         self.assertIn("manifest.webmanifest", html)
+        self.assertIn("Rumbo", html)
         pwa = archivos_pwa()
         self.assertIn("icono-512.png", pwa["manifest.webmanifest"])
         self.assertIn("fetch", pwa["sw.js"])
