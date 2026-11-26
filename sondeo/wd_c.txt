@@ -1,0 +1,1 @@
+accenture,deloitte,kpmg,ey,pwc,gartner,ibm,oracle,sap,cisco,hp,hpe,dell,intel,nvidia,adobe,servicenow,workday,visa,mastercard,amex,aexp,paypal,citi,jpmc,bbva,santander,scotiabank,hsbc,itau,mapfre,allianz,axa,zurich,chubb,aig,mmc,aon,wtw,moodys,spgi,experian,equifax,transunion,nielseniq,kantar,ipsos,fis,fiserv,globalpayments
