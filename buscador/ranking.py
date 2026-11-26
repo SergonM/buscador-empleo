@@ -41,7 +41,8 @@ def puntuar(o, perfil, hoy=None):
     elif "colombia" in paises:
         puntos += 8
         donde = "Bogotá" if "bogota" in normalizar(o.get("ubicacion", "")) else "Colombia"
-        razones.append(o["modalidad"].lower() + " en " + donde)
+        mod = o["modalidad"].lower()
+        razones.append(("en " if mod in ("no indica", "") else mod + " en ") + donde)
 
     # Bonus por experiencia previa y palabras clave
     extras = []
