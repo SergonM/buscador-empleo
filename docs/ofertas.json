@@ -1,26 +1,28 @@
 {
  "resumen": {
-  "actualizado": "2026-11-26T03:02+00:00",
+  "actualizado": "2026-11-26T03:46+00:00",
   "fecha": "2026-11-25",
-  "revisadas": 2410,
-  "mostradas": 170,
-  "nuevas": 170,
+  "revisadas": 3331,
+  "mostradas": 205,
+  "nuevas": 205,
   "descartes": {
-   "título senior": 938,
-   "ubicación": 393,
-   "rol no buscado": 145,
-   "fuera de las áreas buscadas": 123,
+   "título senior": 1460,
+   "ubicación": 486,
+   "rol no buscado": 210,
+   "fuera de las áreas buscadas": 133,
    "nivel Senior": 110,
-   "pide 3 años de experiencia": 92,
-   "pide 5 años de experiencia": 46,
-   "pide 4 años de experiencia": 16,
-   "pide 7 años de experiencia": 10,
-   "pide 6 años de experiencia": 8,
+   "pide 3 años de experiencia": 109,
+   "pide 5 años de experiencia": 64,
+   "pide 4 años de experiencia": 25,
+   "pide 7 años de experiencia": 15,
+   "pide 8 años de experiencia": 12,
+   "pide 6 años de experiencia": 11,
    "pide 25 años de experiencia": 6,
-   "pide 8 años de experiencia": 5,
    "pide 10 años de experiencia": 4,
    "pide 12 años de experiencia": 3,
    "nivel Experto": 2,
+   "pide 15 años de experiencia": 1,
+   "pide 9 años de experiencia": 1,
    "pide 20 años de experiencia": 1
   },
   "fuentes": [
@@ -34,35 +36,35 @@
    "Remote OK"
   ],
   "por_fuente": {
-   "LinkedIn + Indeed": 205,
-   "Workday (multinacionales)": 53,
-   "Portales de empresas": 1465,
+   "LinkedIn + Indeed": 81,
+   "Workday (multinacionales)": 133,
+   "Portales de empresas": 2431,
    "GetOnBoard": 623,
    "Remotive": 9,
-   "Himalayas": 4,
+   "Himalayas": 3,
    "Jobicy": 39,
    "Remote OK": 12
   },
   "estado_fuentes": {
    "LinkedIn + Indeed": {
     "ok": true,
-    "ofertas": 205,
-    "segundos": 439
+    "ofertas": 81,
+    "segundos": 180
    },
    "Workday (multinacionales)": {
     "ok": true,
-    "ofertas": 53,
-    "segundos": 193
+    "ofertas": 133,
+    "segundos": 117
    },
    "Portales de empresas": {
     "ok": true,
-    "ofertas": 1465,
-    "segundos": 28
+    "ofertas": 2431,
+    "segundos": 58
    },
    "GetOnBoard": {
     "ok": true,
     "ofertas": 623,
-    "segundos": 33
+    "segundos": 29
    },
    "Remotive": {
     "ok": true,
@@ -71,8 +73,8 @@
    },
    "Himalayas": {
     "ok": true,
-    "ofertas": 4,
-    "segundos": 10
+    "ofertas": 3,
+    "segundos": 11
    },
    "Jobicy": {
     "ok": true,
@@ -85,13 +87,13 @@
     "segundos": 1
    }
   },
-  "duracion": 442,
+  "duracion": 185,
   "historia": [
    {
     "fecha": "2026-11-25",
-    "revisadas": 2410,
-    "mostradas": 170,
-    "nuevas": 170
+    "revisadas": 3331,
+    "mostradas": 205,
+    "nuevas": 205
    }
   ]
  },
@@ -323,19 +325,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8009616003",
+   "id": "greenhouse-8195970003",
    "fuente": "Greenhouse",
    "titulo": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8009616003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8195970003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Peru Bogota, Colombia",
+    "Argentina Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Peru Bogota, Colombia",
+   "ubicacion": "Argentina Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -381,6 +383,94 @@
     "Colombia"
    ],
    "ubicacion": "Colombia, Remote Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "sql",
+    "data analysis",
+    "agile",
+    "stakeholders",
+    "risk",
+    "compliance"
+   ],
+   "reforzar": [
+    "dashboards",
+    "product management",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 74,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · remoto desde Colombia · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-7537957003",
+   "fuente": "Greenhouse",
+   "titulo": "Product Management Intern",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7537957003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Colombia, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Colombia, Remote Bogota, Colombia",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "sql",
+    "data analysis",
+    "agile",
+    "stakeholders",
+    "risk",
+    "compliance"
+   ],
+   "reforzar": [
+    "dashboards",
+    "product management",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 74,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · junior/trainee · remoto desde Colombia · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8044474003",
+   "fuente": "Greenhouse",
+   "titulo": "Product Manager Intern, ShopX(Rewards)",
+   "empresa": "Sezzle",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044474003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Brazil, Remote Bogota, Colombia",
+    "Colombia"
+   ],
+   "ubicacion": "Brazil, Remote Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -601,93 +691,6 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-7998740003",
-   "fuente": "Greenhouse",
-   "titulo": "Product Management Intern",
-   "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7998740003",
-   "modalidad": "No indica",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Peru Bogota, Colombia",
-    "Colombia"
-   ],
-   "ubicacion": "Peru Bogota, Colombia",
-   "fecha": "2026-11-12",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "en",
-   "salario": "",
-   "claves": [
-    "sql",
-    "data analysis",
-    "agile",
-    "stakeholders",
-    "risk",
-    "compliance"
-   ],
-   "reforzar": [
-    "dashboards",
-    "product management",
-    "fintech"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 75,
-   "puntaje": 72,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · junior/trainee · en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "greenhouse-8044470003",
-   "fuente": "Greenhouse",
-   "titulo": "Product Manager Intern, ShopX(Rewards)",
-   "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044470003",
-   "modalidad": "Remoto",
-   "remoto": true,
-   "remote_modality": "fully_remote",
-   "paises": [
-    "Colombia, Remote Bogota, Colombia",
-    "Colombia"
-   ],
-   "ubicacion": "Colombia, Remote Bogota, Colombia",
-   "fecha": "2026-11-12",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "en",
-   "salario": "",
-   "claves": [
-    "sql",
-    "data analysis",
-    "agile",
-    "stakeholders",
-    "risk"
-   ],
-   "reforzar": [
-    "dashboards",
-    "a/b testing",
-    "product management"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 75,
-   "puntaje": 70,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · junior/trainee · remoto desde Colombia · pide stakeholders, agile · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
    "id": "greenhouse-8198862003",
    "fuente": "Greenhouse",
    "titulo": "Fraud Operations Intern",
@@ -877,45 +880,6 @@
    "nueva": true
   },
   {
-   "id": "workday-jj-R-106993",
-   "fuente": "Workday",
-   "titulo": "Analista Jr Servicio al Cliente (Oportunidad laboral exclusiva para personas con discapacidad)",
-   "empresa": "Johnson & Johnson",
-   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bogot-Distrito-Capital-Colombia/Analista-Jr-Servicio-al-Cliente--Oportunidad-laboral-exclusiva-para-personas-con-discapacidad-_R-106993",
-   "modalidad": "Híbrido",
-   "remoto": false,
-   "remote_modality": "hybrid",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, Distrito Capital, Colombia",
-   "fecha": "2026-11-18",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "es",
-   "salario": "",
-   "claves": [
-    "procesos",
-    "healthcare"
-   ],
-   "reforzar": [
-    "requerimientos",
-    "sap",
-    "salesforce"
-   ],
-   "ingles": false,
-   "anios": 2,
-   "calidad": 85,
-   "puntaje": 68,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · junior/trainee · híbrido en Bogotá · pide procesos, requerimientos · sector salud como en J&J",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
    "id": "indeed-in-9759525a40899e6d",
    "fuente": "Indeed",
    "titulo": "Analista junior de operaciones comerciales y precios",
@@ -950,6 +914,44 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · junior/trainee · presencial o híbrido en Colombia · pide excel",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-ironmountain-J0108793",
+   "fuente": "Workday",
+   "titulo": "Aprendiz Seguridad y Salud en el Trabajo",
+   "empresa": "Iron Mountain",
+   "url": "https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs/job/COL--Malambo--Calle-10-39-06/Aprendiz-Seguridad-y-Salud-en-el-Trabajo_J0108793",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "COL | Malambo | Calle 10, 39-06",
+   "fecha": "2026-11-18",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "procesos",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "privacy",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 67,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · junior/trainee · presencial o híbrido en Colombia · acepta poca o ninguna experiencia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1000,19 +1002,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8044506003",
+   "id": "greenhouse-8044541003",
    "fuente": "Greenhouse",
    "titulo": "Compliance Intern",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044506003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044541003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Argentina Bogota, Colombia",
+    "Chile Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Argentina Bogota, Colombia",
+   "ubicacion": "Chile Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1039,19 +1041,62 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8011477003",
+   "id": "workday-bbva-JR00121101",
+   "fuente": "Workday",
+   "titulo": "ANALYST I - FINANCE TRANSFORMATION - FINANCE COLOMBIA",
+   "empresa": "BBVA",
+   "url": "https://bbva.wd3.myworkdayjobs.com/BBVA/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/ANALYST-I---FINANCE-TRANSFORMATION---FINANCE-COLOMBIA_JR00121101-1",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "11001, Bogotá. D.C., Distrito Capital de Bogotá",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "sql",
+    "java",
+    "git",
+    "procesos",
+    "auditoria",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "javascript",
+    "inteligencia artificial",
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 65,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · híbrido en Bogotá · pide procesos, requerimientos · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8012021003",
    "fuente": "Greenhouse",
    "titulo": "Chargeback Operations Intern",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8011477003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012021003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Brazil Bogota, Colombia",
+    "Mexico Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Brazil Bogota, Colombia",
+   "ubicacion": "Mexico Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1269,19 +1314,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8012084003",
+   "id": "greenhouse-8012083003",
    "fuente": "Greenhouse",
    "titulo": "Product Operations Intern, Rewards",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012084003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012083003",
    "modalidad": "Remoto",
    "remoto": true,
    "remote_modality": "fully_remote",
    "paises": [
-    "Chile, Remote Bogota, Colombia Latin America [Remote]",
+    "Mexico, Remote Bogota, Colombia Latin America [Remote]",
     "Colombia"
    ],
-   "ubicacion": "Chile, Remote Bogota, Colombia Latin America [Remote]",
+   "ubicacion": "Mexico, Remote Bogota, Colombia Latin America [Remote]",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1383,6 +1428,51 @@
    "nueva": true
   },
   {
+   "id": "workday-cnx-R1772123",
+   "fuente": "Workday",
+   "titulo": "Data Scientist",
+   "empresa": "Concentrix",
+   "url": "https://cnx.wd1.myworkdayjobs.com/external_global/job/COL-Bogata---Plaza-Titan/Data-Scientist_R1772123",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "COL Bogata - Plaza Titan · NIC Work-at-Home · SLV Work-at-Home",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "python",
+    "sql",
+    "power bi",
+    "data analysis",
+    "stakeholders",
+    "english"
+   ],
+   "reforzar": [
+    "tableau",
+    "aws",
+    "statistics",
+    "data visualization",
+    "jira"
+   ],
+   "ingles": true,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 63,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia · pide python, sql, power bi · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-f8f32fc46a8dae4c",
    "fuente": "Indeed",
    "titulo": "ANALISTA DE OPERACIONES (TARJETAS DE CRÉDITO)",
@@ -1446,19 +1536,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8011669003",
+   "id": "greenhouse-8012019003",
    "fuente": "Greenhouse",
    "titulo": "Risk & Disputes Intern",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8011669003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012019003",
    "modalidad": "No indica",
    "remoto": false,
    "remote_modality": "no_remote",
    "paises": [
-    "Brazil Bogota, Colombia",
+    "Colombia Bogota, Colombia",
     "Colombia"
    ],
-   "ubicacion": "Brazil Bogota, Colombia",
+   "ubicacion": "Colombia Bogota, Colombia",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1607,19 +1697,18 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-7607565003",
+   "id": "greenhouse-8196898003",
    "fuente": "Greenhouse",
    "titulo": "Fraud Operations Analyst",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/7607565003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8196898003",
    "modalidad": "Remoto",
    "remoto": true,
    "remote_modality": "fully_remote",
    "paises": [
-    "Bogota, Colombia Latin America [Remote]",
-    "Colombia"
+    "Latin America Latin America [Remote]"
    ],
-   "ubicacion": "Bogota, Colombia Latin America [Remote]",
+   "ubicacion": "Latin America Latin America [Remote]",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -1644,7 +1733,7 @@
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · remoto desde Colombia · pide stakeholders · fintech · pide inglés (lo tienes)",
+   "por_que": "Negocio / Producto · remoto · pide stakeholders · fintech · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1864,6 +1953,43 @@
    "nueva": true
   },
   {
+   "id": "workday-iqvia-R1564951",
+   "fuente": "Workday",
+   "titulo": "Analyst, Financial Planning & Analysis (FP&A)",
+   "empresa": "IQVIA",
+   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bogota-Colombia/Senior-Analyst--Financial-Planning---Analysis--FP-A-_R1564951",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "stakeholders",
+    "compliance",
+    "healthcare"
+   ],
+   "reforzar": [],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 59,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · híbrido en Bogotá · pide stakeholders, excel · sector salud como en J&J · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-9337048bda513f9a",
    "fuente": "Indeed",
    "titulo": "Quality Assurance Analyst",
@@ -1887,6 +2013,52 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders, excel · sector farma como en J&J",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-dentsuaegis-R1133195",
+   "fuente": "Workday",
+   "titulo": "Growth & Audiences Media Strategy",
+   "empresa": "dentsu",
+   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Cudinamarca/Growth---Audiences-Media-Strategy_R1133195-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Cudinamarca",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "sql",
+    "excel",
+    "power bi",
+    "estadistica",
+    "analisis de datos",
+    "stakeholders"
+   ],
+   "reforzar": [
+    "looker",
+    "api",
+    "visualizacion de datos",
+    "dashboards",
+    "experimentacion",
+    "gdpr"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 59,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia · pide stakeholders, excel, metricas",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -1971,6 +2143,139 @@
    "nueva": true
   },
   {
+   "id": "workday-dentsuaegis-R1132291",
+   "fuente": "Workday",
+   "titulo": "Growth Media Strategy",
+   "empresa": "dentsu",
+   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Cudinamarca/Growth-Media-Strategy_R1132291-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Cudinamarca",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "excel",
+    "power bi",
+    "estadistica",
+    "analisis de datos",
+    "procesos",
+    "cumplimiento"
+   ],
+   "reforzar": [
+    "looker",
+    "api",
+    "visualizacion de datos",
+    "dashboards",
+    "experimentacion",
+    "requerimientos"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 58,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia · pide excel, procesos, requerimientos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-iqvia-R1580318",
+   "fuente": "Workday",
+   "titulo": "Especialista BI",
+   "empresa": "IQVIA",
+   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bogota-Colombia/Especialista-BI_R1580318",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-17",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "sql",
+    "excel",
+    "power bi",
+    "analisis de datos",
+    "healthcare",
+    "ingles"
+   ],
+   "reforzar": [
+    "etl",
+    "visualizacion de datos",
+    "kpi",
+    "requerimientos",
+    "salesforce",
+    "crm"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 58,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá · pide sql, power bi, etl · sector salud como en J&J · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8729517002",
+   "fuente": "Greenhouse",
+   "titulo": "Customer Experience Analyst",
+   "empresa": "Cabify",
+   "url": "https://job-boards.greenhouse.io/cabify/jobs/8729517002",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Bogotá Bogotá",
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá Bogotá",
+   "fecha": "2026-11-20",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "sql",
+    "excel",
+    "power bi",
+    "analisis de datos",
+    "procesos"
+   ],
+   "reforzar": [
+    "tableau"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 57,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · en Bogotá · pide excel, procesos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "ashby-bc84ec80-0cd6-4278-ba84-c030d5cb4455",
    "fuente": "Ashby",
    "titulo": "Collections  Analyst",
@@ -2009,6 +2314,92 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · en Bogotá · pide stakeholders, agile · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8760167002",
+   "fuente": "Greenhouse",
+   "titulo": "AI Engineer – Forward Deployed Engineering (AI FDE), U.S. Public Sector (Federal Focus)",
+   "empresa": "Databricks",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8760167002",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Maryland; Virginia; Washington, D.C. Remote - Washington D.C."
+   ],
+   "ubicacion": "Maryland; Virginia; Washington, D.C. Remote - Washington D.C.",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "pandas",
+    "machine learning",
+    "compliance"
+   ],
+   "reforzar": [
+    "scikit-learn",
+    "pytorch",
+    "databricks",
+    "aws",
+    "azure",
+    "gcp"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 57,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto · pide pandas, scikit, pytorch · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8734992002",
+   "fuente": "Greenhouse",
+   "titulo": "Marketplace Analyst",
+   "empresa": "Cabify",
+   "url": "https://job-boards.greenhouse.io/cabify/jobs/8734992002",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Bogotá Bogotá",
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá Bogotá",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "python",
+    "sql",
+    "analisis de datos",
+    "stakeholders"
+   ],
+   "reforzar": [
+    "tableau",
+    "experimentacion",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 57,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · en Bogotá · pide stakeholders, metricas",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2097,6 +2488,46 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · en Bogotá · pide stakeholders · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-davita-R0488224",
+   "fuente": "Workday",
+   "titulo": "Analista de planeación e inventarios",
+   "empresa": "DaVita",
+   "url": "https://davita.wd1.myworkdayjobs.com/Colombia_International/job/07132---Casa-Colombia-Paralelo-108-y-Krystal/Analista-de-planeacin-e-inventarios_R0488224",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "07132 - Casa Colombia (Paralelo 108 y Krystal)",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "excel",
+    "power bi",
+    "analisis de datos",
+    "procesos",
+    "sector salud"
+   ],
+   "reforzar": [
+    "sap"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 56,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia · pide excel, procesos · sector salud como en J&J",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2257,19 +2688,19 @@
    "nueva": true
   },
   {
-   "id": "greenhouse-8054164003",
+   "id": "greenhouse-8061487003",
    "fuente": "Greenhouse",
    "titulo": "Data Engineer II, Credit Reporting",
    "empresa": "Sezzle",
-   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8054164003",
+   "url": "https://job-boards.greenhouse.io/sezzle/jobs/8061487003",
    "modalidad": "Remoto",
    "remoto": true,
    "remote_modality": "fully_remote",
    "paises": [
-    "Latin America Bogota, Colombia Latin America [Remote]",
+    "Chile Bogota, Colombia Latin America [Remote]",
     "Colombia"
    ],
-   "ubicacion": "Latin America Bogota, Colombia Latin America [Remote]",
+   "ubicacion": "Chile Bogota, Colombia Latin America [Remote]",
    "fecha": "2026-11-12",
    "seniority_id": null,
    "seniority": "",
@@ -2434,6 +2865,49 @@
    "nueva": true
   },
   {
+   "id": "workday-accenture-14921657",
+   "fuente": "Workday",
+   "titulo": "Analista de administración de respaldos Cloud",
+   "empresa": "Accenture",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bogota-Carrera-7/Cloud-Backup-Administrator_14921657",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "remote_local",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Carrera 7",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "controles",
+    "politicas",
+    "ingles"
+   ],
+   "reforzar": [
+    "aws",
+    "azure",
+    "requerimientos",
+    "incidentes",
+    "iam",
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 54,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · remoto desde Colombia · pide requerimientos · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494734567",
    "fuente": "LinkedIn",
    "titulo": "Business Intelligence Engineer",
@@ -2458,6 +2932,39 @@
     "Negocio / Producto"
    ],
    "por_que": "Datos / ML + Negocio / Producto · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8950165002",
+   "fuente": "Greenhouse",
+   "titulo": "Finance Analyst",
+   "empresa": "Cabify",
+   "url": "https://job-boards.greenhouse.io/cabify/jobs/8950165002",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Bogotá Bogotá",
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá Bogotá",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 54,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · en Bogotá · acepta poca o ninguna experiencia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2538,43 +3045,6 @@
    "nueva": true
   },
   {
-   "id": "indeed-in-ebd94ff955ae0e93",
-   "fuente": "Indeed",
-   "titulo": "Analista de Servicio al Cliente",
-   "empresa": "Smith+Nephew",
-   "url": "https://co.indeed.com/viewjob?jk=ebd94ff955ae0e93",
-   "modalidad": "Híbrido",
-   "remoto": false,
-   "remote_modality": "hybrid",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogotá, CUN, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "es",
-   "salario": "",
-   "claves": [
-    "cumplimiento",
-    "ingles"
-   ],
-   "reforzar": [
-    "comunicacion"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 55,
-   "puntaje": 53,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · híbrido en Bogotá · sector salud como en J&J · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
    "id": "indeed-in-4e0a2c4b9b0de947",
    "fuente": "Indeed",
    "titulo": "Consultor Clínico (Bogotá)",
@@ -2629,6 +3099,45 @@
    "nueva": true
   },
   {
+   "id": "workday-bbva-JR00119682",
+   "fuente": "Workday",
+   "titulo": "ANALYST II -  GLOBAL MARKETS – CORPORATE & INVESTMENT BANKING",
+   "empresa": "BBVA",
+   "url": "https://bbva.wd3.myworkdayjobs.com/BBVA/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/ANALYST-II----GLOBAL-MARKETS---CORPORATE---INVESTMENT-BANKING_JR00119682",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "11001, Bogotá. D.C., Distrito Capital de Bogotá",
+   "fecha": "2026-11-23",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "python",
+    "excel",
+    "estadistica",
+    "analisis de datos"
+   ],
+   "reforzar": [
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 53,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide excel · acepta poca o ninguna experiencia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "workday-jj-R-109773",
    "fuente": "Workday",
    "titulo": "Analyst, Orthopaedics Supply Chain Procurement (Bogota, Colombia)",
@@ -2668,6 +3177,121 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · híbrido en Bogotá · pide stakeholders, excel · sector salud como en J&J · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8233945",
+   "fuente": "Greenhouse",
+   "titulo": "Enterprise Risk Management Analyst",
+   "empresa": "Coinbase",
+   "url": "https://www.coinbase.com/careers/positions/8233945?gh_jid=8233945",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote - Luxembourg Remote - Luxembourg"
+   ],
+   "ubicacion": "Remote - Luxembourg Remote - Luxembourg",
+   "fecha": "2026-10-30",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "python",
+    "sql",
+    "stakeholders",
+    "risk",
+    "compliance"
+   ],
+   "reforzar": [
+    "dashboards",
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": 1,
+   "calidad": 75,
+   "puntaje": 53,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · remoto · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-5047031101",
+   "fuente": "Greenhouse",
+   "titulo": "P2P Dispute Analyst (LATAM)",
+   "empresa": "Binance",
+   "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5047031101",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Argentina; Chile; Colombia; El Salvador Argentina Chile Colombia El Salvador"
+   ],
+   "ubicacion": "Argentina; Chile; Colombia; El Salvador Argentina Chile Colombia El Salvador",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "stakeholders",
+    "english"
+   ],
+   "reforzar": [
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": 1,
+   "calidad": 75,
+   "puntaje": 52,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · en Colombia · pide stakeholders · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-cnx-R1784932",
+   "fuente": "Workday",
+   "titulo": "Analyst, Business Operations - Unilingual",
+   "empresa": "Concentrix",
+   "url": "https://cnx.wd1.myworkdayjobs.com/external_global/job/COL-Bogota---Cra-15-77-50/Analyst--Business-Operations---Unilingual_R1784932",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "COL Bogota - Cra. 15 #77-50",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "risk"
+   ],
+   "reforzar": [
+    "dashboards",
+    "kpi"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 58,
+   "puntaje": 52,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide kpi · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -2775,6 +3399,125 @@
    "nueva": true
   },
   {
+   "id": "workday-dentsuaegis-R1137801",
+   "fuente": "Workday",
+   "titulo": "Paid Media Platforms Analyst",
+   "empresa": "dentsu",
+   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Cudinamarca/Paid-Media-Platforms-Analyst_R1137801-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Cudinamarca",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "excel",
+    "estadistica",
+    "procesos",
+    "cumplimiento",
+    "ingles"
+   ],
+   "reforzar": [
+    "comunicacion"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 52,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia · pide excel, procesos · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-diageo-JR1132285",
+   "fuente": "Workday",
+   "titulo": "Customs & Excise Analyst – LAC",
+   "empresa": "Diageo",
+   "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Mexico-City-Mexico/Customs---Excise-Analyst---LAC_JR1132285",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-18",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "power bi",
+    "data analysis",
+    "stakeholders",
+    "compliance",
+    "english"
+   ],
+   "reforzar": [
+    "sap"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 52,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders, excel · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-csgi-32442",
+   "fuente": "Workday",
+   "titulo": "Financial Analyst I",
+   "empresa": "CSG",
+   "url": "https://csgi.wd5.myworkdayjobs.com/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "remote_local",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia Remote",
+   "fecha": "2026-10-29",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "data analysis",
+    "healthcare"
+   ],
+   "reforzar": [
+    "data visualization"
+   ],
+   "ingles": true,
+   "anios": 1,
+   "calidad": 75,
+   "puntaje": 52,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · remoto desde Colombia · pide excel · sector salud como en J&J · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "workday-mastercard-R-293007",
    "fuente": "Workday",
    "titulo": "Analyst, Billing Operations",
@@ -2809,6 +3552,76 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders, roadmap, agile · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "greenhouse-8210772003",
+   "fuente": "Greenhouse",
+   "titulo": "Deal Desk Analyst",
+   "empresa": "Fivetran",
+   "url": "https://www.fivetran.com/careers/job?gh_jid=8210772003",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "CRI - Remote CRI - Remote"
+   ],
+   "ubicacion": "CRI - Remote CRI - Remote",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "dbt",
+    "salesforce",
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 51,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · remoto · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-jll-REQ550509",
+   "fuente": "Workday",
+   "titulo": "Professional, Business Operations",
+   "empresa": "JLL",
+   "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Bogota-COL/Professional--Business-Operations_REQ550509",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "remote_local",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, COL",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 51,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · remoto desde Colombia · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3134,6 +3947,43 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-8438263002",
+   "fuente": "Greenhouse",
+   "titulo": "Industry Executive- DoW (AI Transformation)",
+   "empresa": "Databricks",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438263002",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote - Washington D.C. Remote - Washington D.C."
+   ],
+   "ubicacion": "Remote - Washington D.C. Remote - Washington D.C.",
+   "fecha": "2026-11-24",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "compliance"
+   ],
+   "reforzar": [
+    "databricks"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 51,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4494394192",
    "fuente": "LinkedIn",
    "titulo": "Data Analyst - Remote Work",
@@ -3221,47 +4071,6 @@
     "Ciberseguridad / GRC"
    ],
    "por_que": "Ciberseguridad / GRC · híbrido en Bogotá · pide siem · pide inglés (lo tienes)",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "workday-mmc-R_369193",
-   "fuente": "Workday",
-   "titulo": "Analista de Placement - Seguros con Inglés",
-   "empresa": "Marsh McLennan",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Bogota---Cl-25g/Placement-Analyst_R_369193-1",
-   "modalidad": "Híbrido",
-   "remoto": false,
-   "remote_modality": "hybrid",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota - Cl. 25g",
-   "fecha": "2026-11-17",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "es",
-   "salario": "",
-   "claves": [
-    "excel",
-    "procesos",
-    "riesgo",
-    "risk",
-    "ingles"
-   ],
-   "reforzar": [
-    "inteligencia artificial",
-    "presentaciones"
-   ],
-   "ingles": true,
-   "anios": null,
-   "calidad": 65,
-   "puntaje": 51,
-   "areas": [
-    "Negocio / Producto"
-   ],
-   "por_que": "Negocio / Producto · híbrido en Bogotá · pide excel, procesos · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -3439,6 +4248,47 @@
    "nueva": true
   },
   {
+   "id": "workday-davita-R0485549",
+   "fuente": "Workday",
+   "titulo": "Analista de seguridad y salud en el trabajo",
+   "empresa": "DaVita",
+   "url": "https://davita.wd1.myworkdayjobs.com/Colombia_International/job/07132---Casa-Colombia-Paralelo-108-y-Krystal/Analista-de-seguridad-y-salud-en-el-trabajo_R0485549",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "07132 - Casa Colombia (Paralelo 108 y Krystal)",
+   "fecha": "2026-11-06",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "excel",
+    "procesos",
+    "auditoria",
+    "riesgo",
+    "sector salud"
+   ],
+   "reforzar": [
+    "incidentes",
+    "comunicacion"
+   ],
+   "ingles": false,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 50,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia · pide incidentes, auditoria · sector salud como en J&J",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-8453a188c3c1f569",
    "fuente": "Indeed",
    "titulo": "Order Management Analyst",
@@ -3541,11 +4391,11 @@
    "nueva": true
   },
   {
-   "id": "linkedin-li-4494489577",
+   "id": "linkedin-li-4494674889",
    "fuente": "LinkedIn",
-   "titulo": "Analista De Datos De Producción",
-   "empresa": "Asesoramos TyS Services S.A.S",
-   "url": "https://www.linkedin.com/jobs/view/4494489577",
+   "titulo": "Analista Workforce / Data Marshall",
+   "empresa": "QUE +",
+   "url": "https://www.linkedin.com/jobs/view/4494674889",
    "modalidad": "Presencial o híbrido",
    "remoto": false,
    "remote_modality": "no_remote",
@@ -3605,6 +4455,70 @@
    "nueva": true
   },
   {
+   "id": "linkedin-li-4494489577",
+   "fuente": "LinkedIn",
+   "titulo": "Analista De Datos De Producción",
+   "empresa": "Asesoramos TyS Services S.A.S",
+   "url": "https://www.linkedin.com/jobs/view/4494489577",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, D.C., Capital District, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "linkedin-li-4495214303",
+   "fuente": "LinkedIn",
+   "titulo": "Cloud Cybersecurity Engineer",
+   "empresa": "3Y Health",
+   "url": "https://www.linkedin.com/jobs/view/4495214303",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "",
+   "salario": "",
+   "claves": [],
+   "reforzar": [],
+   "ingles": false,
+   "anios": null,
+   "calidad": 40,
+   "puntaje": 49,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "linkedin-li-4485507606",
    "fuente": "LinkedIn",
    "titulo": "SAP Next Gen - Data Intelligence, Profiling & Research",
@@ -3627,38 +4541,6 @@
    "reforzar": [
     "sap"
    ],
-   "ingles": false,
-   "anios": null,
-   "calidad": 40,
-   "puntaje": 49,
-   "areas": [
-    "Datos / ML"
-   ],
-   "por_que": "Datos / ML · presencial o híbrido en Bogotá",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4494674889",
-   "fuente": "LinkedIn",
-   "titulo": "Analista Workforce / Data Marshall",
-   "empresa": "QUE +",
-   "url": "https://www.linkedin.com/jobs/view/4494674889",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Bogota, D.C., Capital District, Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "claves": [],
-   "reforzar": [],
    "ingles": false,
    "anios": null,
    "calidad": 40,
@@ -3731,38 +4613,6 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Colombia",
-   "visto": "2026-11-25",
-   "nueva": true
-  },
-  {
-   "id": "linkedin-li-4495214303",
-   "fuente": "LinkedIn",
-   "titulo": "Cloud Cybersecurity Engineer",
-   "empresa": "3Y Health",
-   "url": "https://www.linkedin.com/jobs/view/4495214303",
-   "modalidad": "Presencial o híbrido",
-   "remoto": false,
-   "remote_modality": "no_remote",
-   "paises": [
-    "Colombia"
-   ],
-   "ubicacion": "Colombia",
-   "fecha": "2026-11-25",
-   "seniority_id": null,
-   "seniority": "",
-   "categoria": "",
-   "idioma": "",
-   "salario": "",
-   "claves": [],
-   "reforzar": [],
-   "ingles": false,
-   "anios": null,
-   "calidad": 40,
-   "puntaje": 49,
-   "areas": [
-    "Ciberseguridad / GRC"
-   ],
-   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Colombia",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -5101,6 +5951,152 @@
    "nueva": true
   },
   {
+   "id": "greenhouse-8948986002",
+   "fuente": "Greenhouse",
+   "titulo": "Industry Executive, Intel Community (AI Transformation)",
+   "empresa": "Databricks",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8948986002",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote - Washington D.C. Remote - Virginia"
+   ],
+   "ubicacion": "Remote - Washington D.C. Remote - Virginia",
+   "fecha": "2026-11-20",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "compliance"
+   ],
+   "reforzar": [
+    "databricks"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · remoto · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-dentsuaegis-R1132281",
+   "fuente": "Workday",
+   "titulo": "Data insights analyst",
+   "empresa": "dentsu",
+   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Cudinamarca/Data-insights-analyst_R1132281-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Cudinamarca",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "etl"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 58,
+   "puntaje": 49,
+   "areas": [
+    "Datos / ML"
+   ],
+   "por_que": "Datos / ML · presencial o híbrido en Colombia · pide etl · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-diageo-JR1132122",
+   "fuente": "Workday",
+   "titulo": "Order Management Analyst",
+   "empresa": "Diageo",
+   "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Bogota-Colombia/Order-Management-Analyst_JR1132122",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-18",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "stakeholders",
+    "english"
+   ],
+   "reforzar": [
+    "sap"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "ashby-50770187-f226-468a-823e-fe193287c59f",
+   "fuente": "Ashby",
+   "titulo": "KYB/AML Analyst, Sweden",
+   "empresa": "Ramp",
+   "url": "https://jobs.ashbyhq.com/ramp/50770187-f226-468a-823e-fe193287c59f",
+   "modalidad": "Remoto",
+   "remoto": true,
+   "remote_modality": "fully_remote",
+   "paises": [
+    "Remote (Sweden)"
+   ],
+   "ubicacion": "Remote (Sweden)",
+   "fecha": "2026-10-26",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "risk",
+    "english"
+   ],
+   "reforzar": [
+    "privacy",
+    "fintech"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 49,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · remoto · fintech · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "indeed-in-2fe7b269f0e223b2",
    "fuente": "Indeed",
    "titulo": "Supply Chain Consultant",
@@ -5334,42 +6330,106 @@
    "nueva": true
   },
   {
-   "id": "workday-mmc-R_349443",
+   "id": "workday-diageo-JR1132419",
    "fuente": "Workday",
-   "titulo": "ANALISTA DE OPERACIONDES DE SEGUROS – OCIP",
-   "empresa": "Marsh McLennan",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Bogota---Cl-25g/Analista-de-Placement---Seguros-Generales--Property-_R_349443",
-   "modalidad": "Híbrido",
+   "titulo": "Tax Analyst",
+   "empresa": "Diageo",
+   "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Bogota-Colombia/Tax-Analyst_JR1132419",
+   "modalidad": "Presencial o híbrido",
    "remoto": false,
-   "remote_modality": "hybrid",
+   "remote_modality": "no_remote",
    "paises": [
     "Colombia"
    ],
-   "ubicacion": "Bogota - Cl. 25g",
-   "fecha": "2026-11-04",
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-19",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "compliance",
+    "english"
+   ],
+   "reforzar": [],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 46,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "smartrecruiters-744000162113079",
+   "fuente": "SmartRecruiters",
+   "titulo": "Accounting Analyst Colombia",
+   "empresa": "Continental",
+   "url": "https://jobs.smartrecruiters.com/Continental/744000162113079",
+   "modalidad": "No indica",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Bogotá, CO",
+    "Colombia"
+   ],
+   "ubicacion": "Bogotá, CO",
+   "fecha": "2026-11-17",
    "seniority_id": null,
    "seniority": "",
    "categoria": "",
    "idioma": "es",
    "salario": "",
-   "claves": [
-    "controles",
-    "risk",
-    "cumplimiento"
-   ],
-   "reforzar": [
-    "requerimientos",
-    "incidentes",
-    "comunicacion"
-   ],
+   "claves": [],
+   "reforzar": [],
    "ingles": false,
    "anios": null,
-   "calidad": 65,
-   "puntaje": 46,
+   "calidad": 50,
+   "puntaje": 45,
    "areas": [
     "Negocio / Producto"
    ],
-   "por_que": "Negocio / Producto · híbrido en Bogotá · pide requerimientos",
+   "por_que": "Negocio / Producto · en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-ironmountain-J0109913",
+   "fuente": "Workday",
+   "titulo": "Workday Analyst",
+   "empresa": "Iron Mountain",
+   "url": "https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs/job/MEX--Ciudad-de-Mexico--Rodolfo-Gaona-86/Workday-Analyst_J0109913",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "COL | Bogotá | Av Cra 45",
+   "fecha": "2026-11-17",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "english"
+   ],
+   "reforzar": [
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 45,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -5475,6 +6535,45 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · híbrido en Bogotá · pide excel, procesos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-visa-REF089651W",
+   "fuente": "Workday",
+   "titulo": "Client Care Consultant - Technical Solutions",
+   "empresa": "Visa",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/CO---Bogota-Colombia/Client-Care-Consultant---Technical-Solutions_REF089651W",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "CO - Bogota, Colombia",
+   "fecha": "2026-11-25",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "stakeholders",
+    "risk",
+    "english"
+   ],
+   "reforzar": [
+    "api",
+    "dashboards"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 44,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -5692,6 +6791,47 @@
    "nueva": true
   },
   {
+   "id": "workday-visa-REF089432W",
+   "fuente": "Workday",
+   "titulo": "Consultant - Acceptance Go-to-Market Services (GTMS)",
+   "empresa": "Visa",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/CO---Bogota-Colombia/Consultant---Acceptance-Go-to-Market-Services--GTMS-_REF089432W",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "CO - Bogota, Colombia",
+   "fecha": "2026-11-17",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "power bi",
+    "stakeholders",
+    "compliance",
+    "english"
+   ],
+   "reforzar": [
+    "tableau",
+    "dashboards"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 43,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders, excel · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "workday-salesforce-JR365218",
    "fuente": "Workday",
    "titulo": "Data Foundation Solution Engineer",
@@ -5728,6 +6868,49 @@
    "nueva": true
   },
   {
+   "id": "workday-rockwellautomation-R26-4057",
+   "fuente": "Workday",
+   "titulo": "IAM UI Engineer",
+   "empresa": "Rockwell Automation",
+   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Bogota-Colombia/IAM-UI-Engineer_R26-4057",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-02",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "java",
+    "agile",
+    "english"
+   ],
+   "reforzar": [
+    "javascript",
+    "azure",
+    "api",
+    "genai",
+    "crm",
+    "iam"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 43,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · híbrido en Bogotá · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "smartrecruiters-744000158565789",
    "fuente": "SmartRecruiters",
    "titulo": "ANALYTICS DATA MODELER",
@@ -5757,6 +6940,86 @@
     "Datos / ML"
    ],
    "por_que": "Datos / ML · en Bogotá",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-natura-JR40610",
+   "fuente": "Workday",
+   "titulo": "Analista de Implementación de Nuevos Productos",
+   "empresa": "Natura &Co",
+   "url": "https://natura.wd501.myworkdayjobs.com/NaturaCarreiras/job/Guarne-Natura-Colombia/Analista-de-Implementacin-de-Nuevos-Productos_JR40610-1",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Guarne (Natura, Colombia)",
+   "fecha": "2026-10-28",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "procesos",
+    "cumplimiento",
+    "ingles"
+   ],
+   "reforzar": [
+    "sap",
+    "liderazgo"
+   ],
+   "ingles": true,
+   "anios": 2,
+   "calidad": 75,
+   "puntaje": 43,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Colombia · pide procesos · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-zebra-JR104024",
+   "fuente": "Workday",
+   "titulo": "Financial Analyst, Professional II",
+   "empresa": "Zebra",
+   "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bogota-Colombia/Financial-Analyst--Professional-II_JR104024",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Colombia",
+   "fecha": "2026-11-20",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "excel",
+    "power bi",
+    "english"
+   ],
+   "reforzar": [
+    "tableau",
+    "data visualization",
+    "sap",
+    "privacy"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 42,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · híbrido en Bogotá · pide excel · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   },
@@ -5859,6 +7122,44 @@
    "nueva": true
   },
   {
+   "id": "workday-accenture-R00366667",
+   "fuente": "Workday",
+   "titulo": "Consultor SAP CPI",
+   "empresa": "Accenture",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bogota-Carrera-7/Consultor-SAP-CPI_R00366667",
+   "modalidad": "Híbrido",
+   "remoto": false,
+   "remote_modality": "hybrid",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "Bogota, Carrera 7",
+   "fecha": "2026-11-12",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "es",
+   "salario": "",
+   "claves": [
+    "stakeholders"
+   ],
+   "reforzar": [
+    "requerimientos",
+    "sap",
+    "liderazgo"
+   ],
+   "ingles": false,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 41,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · híbrido en Bogotá · pide stakeholders, requerimientos",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
    "id": "greenhouse-7509884003",
    "fuente": "Greenhouse",
    "titulo": "[Talent Pool] Business Development Specialist",
@@ -5932,6 +7233,80 @@
     "Negocio / Producto"
    ],
    "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders · sector salud como en J&J · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-cnx-R1760819",
+   "fuente": "Workday",
+   "titulo": "Specialist II, Application Security (TCF)",
+   "empresa": "Concentrix",
+   "url": "https://cnx.wd1.myworkdayjobs.com/external_global/job/COL-Bogota---Oficinas-y-terrazas-de/Specialist-II--Application-Security--TCF-_R1760819",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "COL Bogota - Oficinas y terrazas de",
+   "fecha": "2026-10-30",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [],
+   "reforzar": [
+    "api",
+    "nist"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 65,
+   "puntaje": 38,
+   "areas": [
+    "Ciberseguridad / GRC"
+   ],
+   "por_que": "Ciberseguridad / GRC · presencial o híbrido en Bogotá · pide nist · pide inglés (lo tienes)",
+   "visto": "2026-11-25",
+   "nueva": true
+  },
+  {
+   "id": "workday-visa-REF089643W",
+   "fuente": "Workday",
+   "titulo": "Trilingual Client Care Consultant -Technical Solutions (ES - ENG - PORT)",
+   "empresa": "Visa",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/CO---Bogota-Colombia/Trilingual-Client-Care-Consultant--Technical-Solutions--ES---ENG---PORT-_REF089643W",
+   "modalidad": "Presencial o híbrido",
+   "remoto": false,
+   "remote_modality": "no_remote",
+   "paises": [
+    "Colombia"
+   ],
+   "ubicacion": "CO - Bogota, Colombia",
+   "fecha": "2026-10-27",
+   "seniority_id": null,
+   "seniority": "",
+   "categoria": "",
+   "idioma": "en",
+   "salario": "",
+   "claves": [
+    "stakeholders",
+    "risk",
+    "english"
+   ],
+   "reforzar": [
+    "api",
+    "dashboards"
+   ],
+   "ingles": true,
+   "anios": null,
+   "calidad": 75,
+   "puntaje": 38,
+   "areas": [
+    "Negocio / Producto"
+   ],
+   "por_que": "Negocio / Producto · presencial o híbrido en Bogotá · pide stakeholders · pide inglés (lo tienes)",
    "visto": "2026-11-25",
    "nueva": true
   }

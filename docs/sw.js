@@ -1,4 +1,4 @@
-const C = "ofertas-v1";
+const C = "rumbo-v2";
 self.addEventListener("install", e => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil(self.clients.claim()));
 self.addEventListener("fetch", e => {
