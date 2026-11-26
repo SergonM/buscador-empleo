@@ -46,6 +46,12 @@ def ubicacion_ok(o, perfil):
     en_colombia = contiene(paises, "colombia")
     if o.get("remote_modality") == "fully_remote":
         # Remoto: sirve si no restringe país, o si incluye Colombia/LATAM/global.
+        # "Remote - US" o "Remote, Brazil" no sirven: piden vivir en otro país.
+        especificas = [p for p in perfil["paises_ok"] if p not in ("remote", "remoto")]
+        if any(contiene(paises, p) for p in especificas):
+            return True
+        if encontradas(paises, perfil.get("zonas_excluidas", [])):
+            return False
         return not paises or any(contiene(paises, p) for p in perfil["paises_ok"])
     if o.get("remoto"):
         # Remoto local: solo si el país es Colombia.

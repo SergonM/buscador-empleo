@@ -13,8 +13,8 @@ ZONAS_OK = ["worldwide", "anywhere", "global", "latam", "latin america", "americ
 
 
 def _zona_ok(texto):
-    t = (texto or "").lower()
-    return not t or any(z in t for z in ZONAS_OK)
+    t = (texto or "").lower().strip()
+    return not t or t in ("remote", "remoto") or any(z in t for z in ZONAS_OK)
 
 
 def remotive(categorias=("data", "product", "all-others"), busquedas=("security",)):
@@ -83,4 +83,59 @@ def himalayas(busquedas, paginas=1):
             if not jobs:
                 break
         print(f"  [himalayas] '{q}': acumuladas {len(ofertas)}")
+    return list(ofertas.values()), muestra
+
+
+def jobicy(geos=("latam",), tags=()):
+    """Jobicy: API pública sin clave. Pide citar a Jobicy y enlazar la oferta original."""
+    ofertas, muestra = {}, []
+    llamadas = [{"count": 50, "geo": g} for g in geos] + [{"count": 50, "geo": "latam", "tag": t} for t in tags]
+    for params in llamadas:
+        data = get_json("https://jobicy.com/api/v2/remote-jobs?" + urllib.parse.urlencode(params), etiqueta="jobicy")
+        time.sleep(1.5)
+        for j in (data or {}).get("jobs", []):
+            if len(muestra) < 2:
+                muestra.append({k: str(v)[:200] for k, v in j.items()})
+            zona = j.get("jobGeo") or ""
+            if not _zona_ok(zona):
+                continue
+            nivel = str(j.get("jobLevel") or "").lower()
+            sid, sen = {"senior": (4, "Senior"), "midweight": (3, "Semi Senior"), "junior": (2, "Junior"),
+                        "entry": (2, "Junior")}.get(nivel.split()[0] if nivel else "", (None, ""))
+            lo, hi, cur = j.get("salaryMin") or j.get("annualSalaryMin"), j.get("salaryMax") or j.get("annualSalaryMax"), j.get("salaryCurrency") or ""
+            o = oferta(
+                id=f"jobicy-{j.get('id')}", fuente="Jobicy", titulo=j.get("jobTitle"), empresa=j.get("companyName"),
+                url=j.get("url"), modalidad="Remoto", remoto=True, remote_modality="fully_remote",
+                paises=[zona or "Worldwide"], ubicacion=zona, fecha=str(j.get("pubDate") or "")[:10],
+                seniority_id=sid, seniority=sen,
+                descripcion=(j.get("jobExcerpt") or "") + " " + (j.get("jobDescription") or ""),
+                salario=f"{cur} {lo}–{hi}".strip() if lo and hi else "",
+            )
+            ofertas.setdefault(o["id"], o)
+        print(f"  [jobicy] {params}: acumuladas {len(ofertas)}")
+    return list(ofertas.values()), muestra
+
+
+def remoteok():
+    """Remote OK: una sola llamada al día (feed completo). Pide citar a Remote OK con enlace."""
+    data = get_json("https://remoteok.com/api", etiqueta="remoteok")
+    ofertas, muestra = {}, []
+    for j in data if isinstance(data, list) else []:
+        if not isinstance(j, dict) or not j.get("position"):
+            continue
+        if len(muestra) < 2:
+            muestra.append({k: str(v)[:200] for k, v in j.items()})
+        zona = j.get("location") or ""
+        if not _zona_ok(zona):
+            continue
+        lo, hi = j.get("salary_min"), j.get("salary_max")
+        o = oferta(
+            id=f"remoteok-{j.get('id')}", fuente="Remote OK", titulo=j.get("position"), empresa=j.get("company"),
+            url=j.get("url") or f"https://remoteok.com/remote-jobs/{j.get('id')}", modalidad="Remoto", remoto=True,
+            remote_modality="fully_remote", paises=[zona or "Worldwide"], ubicacion=zona or "Worldwide",
+            fecha=str(j.get("date") or "")[:10], descripcion=(j.get("description") or "") + " " + " ".join(j.get("tags") or []),
+            salario=f"USD {lo:,}–{hi:,}".replace(",", ".") if lo and hi else "",
+        )
+        ofertas.setdefault(o["id"], o)
+    print(f"  [remoteok] acumuladas {len(ofertas)}")
     return list(ofertas.values()), muestra

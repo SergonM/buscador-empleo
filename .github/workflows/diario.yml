@@ -18,10 +18,10 @@ concurrency:
 jobs:
   buscar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Instalar JobSpy (LinkedIn e Indeed)
@@ -40,9 +40,11 @@ jobs:
           git commit -m "Ofertas del $(TZ=America/Bogota date +%F)"
           git pull --rebase origin main
           git push
-      - name: Aviso por WhatsApp (opcional)
+      - name: Aviso por WhatsApp o Telegram (opcional)
         if: github.event_name != 'push'
         env:
           CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
           CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m buscador.aviso
