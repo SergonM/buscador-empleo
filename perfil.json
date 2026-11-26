@@ -268,7 +268,8 @@
     "remotive": true,
     "himalayas": true,
     "jobicy": true,
-    "remoteok": true
+    "remoteok": true,
+    "computrabajo": true
   },
   "jobspy": {
     "_nota": "LinkedIn e Indeed Colombia. Bajo volumen: solo ofertas de las últimas 'horas'.",
@@ -416,7 +417,8 @@
     "SmartRecruiters",
     "Workable",
     "Workday",
-    "GetOnBoard"
+    "GetOnBoard",
+    "Computrabajo"
   ],
   "mis_habilidades": [
     "python",
@@ -737,5 +739,55 @@
   },
   "carta": {
     "nombre": "Sergio González"
+  },
+  "titulos_genericos": [
+    "profesional",
+    "profesional i",
+    "analista",
+    "analyst",
+    "practicante",
+    "practica",
+    "pasante",
+    "pasantia",
+    "aprendiz",
+    "trainee",
+    "intern",
+    "internship",
+    "estudiante",
+    "graduate",
+    "associate",
+    "asociado",
+    "ingeniero de sistemas",
+    "ingenieria de sistemas",
+    "ingeniero de software",
+    "ingeniero junior",
+    "programa de talentos",
+    "jovenes talentos",
+    "early careers",
+    "consultor",
+    "consultant",
+    "especialista junior"
+  ],
+  "computrabajo": {
+    "_nota": "Computrabajo Colombia (bolsa local). Cada búsqueda se pide en Bogotá y en todo el país; solo se abre el detalle de los cargos que encajan.",
+    "busquedas": [
+      "analista de datos",
+      "analista de datos junior",
+      "data analyst",
+      "analista de inteligencia de negocios",
+      "analista de negocio",
+      "business analyst",
+      "analista de producto",
+      "analista de ciberseguridad",
+      "analista de seguridad de la informacion",
+      "analista de cumplimiento",
+      "oficial de cumplimiento",
+      "analista de riesgos",
+      "analista sarlaft",
+      "practicante ingenieria de sistemas",
+      "ingeniero de sistemas junior",
+      "machine learning"
+    ],
+    "max_detalles": 45
   }
 }

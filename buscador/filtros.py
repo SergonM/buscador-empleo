@@ -36,7 +36,7 @@ def motivo_descarte(o, perfil):
         return f"ubicación ({o.get('modalidad')}: {o.get('ubicacion') or 'sin país'})"
 
     # 5. Relación con las áreas buscadas
-    if not areas_en_titulo(titulo, perfil):
+    if not areas_oferta(o, perfil, titulo, desc)[0]:
         return "fuera de las áreas buscadas"
     return None
 
@@ -83,6 +83,33 @@ def areas_en_titulo(titulo_norm, perfil):
         elif hits:
             genericas.append(a)
     return especificas or genericas
+
+
+def es_generico(titulo_norm, perfil):
+    """Cargos como "Profesional I", "Practicante" o "Ingeniero de sistemas" no dicen el área."""
+    return bool(encontradas(titulo_norm, perfil.get("titulos_genericos", [])))
+
+
+def areas_por_descripcion(desc_norm, perfil, minimo=3):
+    """Áreas cuya jerga aparece al menos `minimo` veces (términos distintos) en la descripción."""
+    puntos = {a: len(encontradas(desc_norm, cfg["texto"] + cfg["titulo"])) for a, cfg in perfil["areas"].items()}
+    mejores = [a for a, n in sorted(puntos.items(), key=lambda x: -x[1]) if n >= minimo]
+    return mejores[:2]
+
+
+def areas_oferta(o, perfil, titulo=None, desc=None):
+    """(áreas, por_descripcion). Primero el cargo; si el cargo es genérico, lo que dice la descripción.
+    Una oferta conservada de otro día (sin descripción) mantiene las áreas que ya tenía."""
+    titulo = titulo if titulo is not None else normalizar(o["titulo"])
+    desc = desc if desc is not None else normalizar(o.get("descripcion", ""))
+    areas = areas_en_titulo(titulo, perfil)
+    if areas:
+        return areas, False
+    if not desc and o.get("areas"):
+        return list(o["areas"]), bool(o.get("area_por_desc"))
+    if desc and es_generico(titulo, perfil):
+        return areas_por_descripcion(desc, perfil), True
+    return [], False
 
 
 def deduplicar(ofertas):

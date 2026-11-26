@@ -7,7 +7,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .filtros import deduplicar, motivo_descarte
-from .fuentes import ats, getonboard, linkedin_indeed, remotos, workday
+from .fuentes import ats, computrabajo, getonboard, linkedin_indeed, remotos, workday
 from .pagina import archivos_pwa, generar
 from .ranking import puntuar
 
@@ -36,6 +36,7 @@ def main():
         ("LinkedIn + Indeed", "linkedin_indeed", lambda: linkedin_indeed.buscar(perfil["jobspy"])),
         ("Workday (multinacionales)", "workday", lambda: workday.buscar(perfil.get("workday", []), perfil, hoy)),
         ("Portales de empresas", "empresas", lambda: ats.buscar(perfil.get("empresas", {}))),
+        ("Computrabajo", "computrabajo", lambda: computrabajo.buscar(perfil.get("computrabajo", {}), perfil, hoy)),
         ("GetOnBoard", "getonboard", lambda: getonboard.buscar(perfil["busquedas"])),
         ("Remotive", "remotive", lambda: remotos.remotive()),
         ("Himalayas", "himalayas", lambda: remotos.himalayas(perfil.get("himalayas", []))),
