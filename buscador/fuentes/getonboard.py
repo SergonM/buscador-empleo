@@ -10,7 +10,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 BASE = "https://www.getonbrd.com/api/v0/search/jobs"
-UA = "buscador-empleo/1.0 (+https://github.com)"
+UA = "Mozilla/5.0 (compatible; buscador-empleo/1.0; +https://github.com/SergonM/buscador-empleo)"
 
 SENIORITY = {1: "Sin experiencia", 2: "Junior", 3: "Semi Senior", 4: "Senior", 5: "Experto"}
 MODALIDAD = {
@@ -113,12 +113,17 @@ def buscar(consultas, paginas=3, por_pagina=100, pausa=0.7):
     """Busca cada consulta y devuelve (ofertas, crudos). Sin duplicados por id."""
     vistos = {}
     crudos = []
+    fallidas = 0
     for q in consultas:
+        if fallidas >= 2 and not vistos:  # nos están bloqueando: no gastar minutos reintentando
+            print("  [getonboard] 2 consultas seguidas sin respuesta: se salta el resto", file=sys.stderr)
+            break
         for page in range(1, paginas + 1):
             params = {"query": q, "per_page": por_pagina, "page": page, "expand": '["company"]'}
             data = _get(f"{BASE}?{urllib.parse.urlencode(params)}")
             time.sleep(pausa)
             if not data:
+                fallidas += page == 1
                 break
             items = data.get("data") or []
             for it in items:
